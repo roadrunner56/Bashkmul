@@ -1,0 +1,16 @@
+government Bashkmul
+	swizzle 12
+	color 0 0.145 0.706
+	"player reputation" 1000
+	"attitude toward"
+		Gegno 0.1
+		Pug -1
+
+government Chemundur
+	color 0.52 0.245 0
+	"player reputation" -1
+	"attitude toward"
+		Gegno -0.1
+		Pug -1
+
+
