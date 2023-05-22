@@ -543,7 +543,6 @@ system Ina
 	minables iron 2 0.958
 	object
 		sprite star/m-dwarf
-			scale 8
 	object
 		sprite planet/rock1-b
 		distance 369
@@ -819,7 +818,6 @@ system Zapotoje
 		distance 7214.223
 	object Hema
 		sprite planet/dust4-b
-			scale 6
 		distance 3538.519
 
 system Hik
