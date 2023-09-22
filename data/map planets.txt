@@ -1,0 +1,15 @@
+planet Mernoth
+	landscape land/industrial0-iridium
+	description "This is the most populous world in Aert space outside of Valbona. As the nearest inhabited planet from the wormhole, it was the site of first contact between the Aert and Rigra. As such, it was made the capital of the Bashkmul and has been widely settled by both species. Most cities on this planet have above and below-ground components, providing suitable habitation for both the Aert and Rigra. As Frenoj is a young star, its planets have been spared the worst of the Pug destruction, and it still maintains some semblance of a normal ecosystem."
+	spaceport "The spaceport here is far busier and full of life than most other Bashkmul worlds. On the massive dome covering the mercantile section is an enormous mural, depicting the Aert on one side climbing out of the ground, and the Rigra on the other side emerging from the ocean. They both ascend what you guess is some sort of staircase, meeting each other in the stars. It is difficult to make out as the mural is so faded and poorly maintained that most details have fallen away."
+	government Bashkmul
+
+planet Lukainos
+	description "Lukainos was one of the first planets to devolve into gang rule when the central Bashkmul government could no longer maintain control."
+
+planet Hema
+	landscape land/city4
+	description "Despite being in Rigra space, you notice an abnormally large number of Aert wandering around. While the Aert are not typically adventurous, some who long for excitement and novelty come here to live with the Rigra. As such they have been strongly influenced by Rigran culture, and have even developed their own dialect as a result of their isolation from most of the Aert population."
+	spaceport "The spaceport here is "
+	government Bashkmul
+
