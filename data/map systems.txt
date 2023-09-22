@@ -62,7 +62,6 @@ system Drita
 			distance 225
 			period 104.967
 
-
 system Frenoj
 	pos 1200.278 11.11
 	government Bashkmul
@@ -187,7 +186,7 @@ system Shko
 
 system Raunai
 	pos 1113 -140.334
-	government Uninhabited
+	government Bashkmul
 	habitable 150
 	belt 1593 3
 	belt 2020 9
@@ -694,7 +693,7 @@ system Besnik
 
 system Sochje
 	pos 848.329 -84.199
-	government Uninhabited
+	government Bashkmul
 	belt 1795 5
 	belt 2403
 	belt 2429
@@ -712,7 +711,7 @@ system Sochje
 
 system Loike
 	pos 898.107 -77.088
-	government Uninhabited
+	government Bashkmul
 	habitable 2267.708
 	belt 1367 8
 	link Drita
@@ -817,7 +816,7 @@ system Zapotoje
 
 system Hik
 	pos 1014.663 -40.866
-	government Uninhabited
+	government Bashkmul
 	habitable 3430
 	belt 1059 6
 	link Zapotoje
@@ -959,7 +958,7 @@ system Siper
 
 system Qender
 	pos 782.556 -81.056
-	government Uninhabited
+	government Bashkmul
 	habitable 700
 	belt 1863 5
 	belt 2487 6
@@ -1105,7 +1104,7 @@ system Popi
 
 system Shpi
 	pos 1223.222 -92.389
-	government Uninhabited
+	government Bashkmul
 	habitable 559.017
 	belt 1642
 	link Fletka
@@ -1150,7 +1149,7 @@ system Fletka
 
 system Lezoji
 	pos 1160.618 -275.345
-	government Uninhabited
+	government Bashkmul
 	habitable 1080.567
 	belt 1265 5
 	belt 1808 2
@@ -1226,7 +1225,7 @@ system Akoma
 
 system Prapme
 	pos 1187.952 -333.345
-	government Uninhabited
+	government Bashkmul
 	habitable 6300
 	belt 1680 7
 	belt 2412 3
@@ -1303,7 +1302,7 @@ system Mosbojie
 
 system Yepi
 	pos 729.618 -231.345
-	government Uninhabited
+	government Bashkmul
 	habitable 2300
 	belt 1585 9
 	link Afer
@@ -1409,7 +1408,7 @@ system Barova
 
 system Kalle
 	pos 722.618 -131.011
-	government Uninhabited
+	government Bashkmul
 	habitable 0
 	belt 1083 2
 	link Barova
@@ -1555,10 +1554,9 @@ system Chenna
 			distance 204
 			period 110.14
 
-
 system Pasturn
 	pos 1016.778 -130.39
-	government Uninhabited
+	government Bashkmul
 	habitable 1325
 	belt 1984 9
 	link Raunai
@@ -1636,7 +1634,6 @@ system Pasturn
 			sprite planet/rock7-b
 			distance 467
 			period 477.405
-
 
 system Aika
 	pos 715.417 -323.083
