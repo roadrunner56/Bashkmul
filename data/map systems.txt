@@ -1,5 +1,5 @@
 system Drita
-	pos 894 -138.166
+	pos 892.333 -153.999
 	government Bashkmul
 	attributes b
 	habitable 383.275
@@ -114,7 +114,7 @@ system Frenoj
 			sprite planet/dust7
 			distance 447
 			period 357.241
-	object "Wormhole Barren Beta"
+	object ""
 		sprite planet/wormhole
 		distance 10159.909
 	object Mernoth
@@ -241,7 +241,7 @@ system Raunai
 		period 34663.905
 
 system Melkran
-	pos 1041.333 -195.833
+	pos 1090.5 -160
 	government Bashkmul
 	habitable 22664.785
 	belt 1992 3
@@ -410,7 +410,7 @@ system Tejana
 			period 155.74
 
 system Arbor
-	pos 876.996 -172.532
+	pos 880.329 -123.365
 	government Bashkmul
 	habitable 1080
 	belt 1161
@@ -457,7 +457,7 @@ system Arbor
 			period 154.39
 
 system Niku
-	pos 853.33 -206.532
+	pos 828.33 -182.365
 	government Bashkmul
 	habitable 5040.089
 	belt 1879 9
@@ -523,7 +523,7 @@ system Niku
 		period 1971.746
 
 system Ina
-	pos 846.507 -273.789
+	pos 799.007 -268.789
 	government Chemundur
 	habitable 7782.031
 	belt 1651 7
@@ -692,8 +692,8 @@ system Besnik
 			period 362.047
 
 system Sochje
-	pos 848.329 -84.199
-	government Bashkmul
+	pos 849.996 -68.366
+	government Uninhabited
 	belt 1795 5
 	belt 2403
 	belt 2429
@@ -815,7 +815,7 @@ system Zapotoje
 		distance 3538.519
 
 system Hik
-	pos 1014.663 -40.866
+	pos 1012.996 -38.366
 	government Bashkmul
 	habitable 3430
 	belt 1059 6
@@ -861,6 +861,9 @@ system Hik
 		sprite planet/gas3
 		distance 4164
 		period 1835.181
+	object ""
+		sprite planet/wormhole
+		distance 5000
 
 system Algei
 	pos 775.889 -200.389
@@ -957,8 +960,8 @@ system Siper
 			period 193.48
 
 system Qender
-	pos 782.556 -81.056
-	government Bashkmul
+	pos 791.723 -71.889
+	government Uninhabited
 	habitable 700
 	belt 1863 5
 	belt 2487 6
@@ -1004,7 +1007,7 @@ system Qender
 		period 7038.78
 
 system Vetem
-	pos 1138.555 -230.389
+	pos 1168.555 -209.556
 	government Bashkmul
 	habitable 625
 	belt 1589 7
@@ -1104,7 +1107,7 @@ system Popi
 
 system Shpi
 	pos 1223.222 -92.389
-	government Bashkmul
+	government Uninhabited
 	habitable 559.017
 	belt 1642
 	link Fletka
@@ -1148,8 +1151,8 @@ system Fletka
 		period 950.762
 
 system Lezoji
-	pos 1160.618 -275.345
-	government Bashkmul
+	pos 1190.618 -267.012
+	government Uninhabited
 	habitable 1080.567
 	belt 1265 5
 	belt 1808 2
@@ -1224,8 +1227,8 @@ system Akoma
 			period 102.142
 
 system Prapme
-	pos 1187.952 -333.345
-	government Bashkmul
+	pos 1247.952 -335.845
+	government Uninhabited
 	habitable 6300
 	belt 1680 7
 	belt 2412 3
@@ -1301,8 +1304,8 @@ system Mosbojie
 			period 1298.019
 
 system Yepi
-	pos 729.618 -231.345
-	government Bashkmul
+	pos 739.618 -221.345
+	government Uninhabited
 	habitable 2300
 	belt 1585 9
 	link Afer
@@ -1408,7 +1411,7 @@ system Barova
 
 system Kalle
 	pos 722.618 -131.011
-	government Bashkmul
+	government Uninhabited
 	habitable 0
 	belt 1083 2
 	link Barova
@@ -1447,7 +1450,7 @@ system Kalle
 			period 158.593
 
 system Dimrie
-	pos 923 -187.166
+	pos 942.167 -157.166
 	government Chemundur
 	habitable 950
 	belt 1084 10
@@ -1487,7 +1490,7 @@ system Dimrie
 		period 4746.126
 
 system Chenna
-	pos 954 -154.166
+	pos 961.5 -109.999
 	government Chemundur
 	habitable 950
 	belt 1101 4
