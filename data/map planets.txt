@@ -38,19 +38,28 @@ planet "Kinsli"
 	description "Industrial world"
 	spaceport test
 
+planet "Pastur"
+	description "World really bad for terraforming but is still being terraformed out of desperation anyways"
+	spaceport test
 
-planet "Prush Aert"
-	attributes quarg
-	description "Originally a fast-growing ringworld, Prush Aert was left mostly abandoned in favor of concentrating the Quarg's efforts on the construction of a ringworld in Rigra space."
-	spaceport "This ring is far emptier than you would expect for a Quarg ringworld. Only a skeleton crew of Quarg remain, along with a handful of Aert that lack the distrust most of their species feels towards the Quarg. "
-	government Quarg
+planet "Suri 3-E"
+	description "Station, built but collapsed many times"
+	spaceport test
+
+planet "Chemundur"
+	description "Lawless world"
+	spaceport test
+
+planet "Shundosh"
+	description "Most populous Rigra world"
+	spaceport test
+
+planet "Sok"
+	description "Large Rigra world"
+	spaceport test
 
 planet "Deika Rigra"
 	government Quarg
 	description "This ringworld is filled with Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
 	spaceport test
 
- wormhole "Wormhole Bashkmul"
-	mappable
-	link Hik Frenoj
-	link Frenoj Hik

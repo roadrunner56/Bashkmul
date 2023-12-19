@@ -60,61 +60,61 @@ system Raunai
 	link Melkran
 	asteroids "large metal" 1 5.07
 	object
-		sprite star/m-supergiant
+		sprite star/k-giant
 		period 500
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset -30
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset -50
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset -70
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset -90
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset -110
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset 40
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset 60
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset 80
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 812
-		period 349.820
+		distance 3000
+		period 349.82
 		offset 100
 
 system Melkran
@@ -370,7 +370,7 @@ system Afer
 		period 300
 
 system Vetem
-	pos 605.221 -287.056
+	pos 604.388 -298.723
 	government Bashkmul
 	habitable 625
 	belt 1589 7
@@ -420,10 +420,14 @@ system Vetem
 			sprite planet/dust3
 			distance 271
 			period 168.638
+	object Kinsli
+		sprite planet/rock1
+			scale 1.5
+		distance 700
 
 system Popi
 	pos 517.389 -243.888
-	government Bashkmul
+	government Uninhabited
 	habitable 625
 	belt 1752
 	link Frenoj
@@ -464,9 +468,6 @@ system Popi
 			sprite planet/lava0
 			distance 384
 			period 196.931
-	object Kinsli
-		sprite planet/rock1
-		distance 700
 
 system Shpi
 	pos 621.555 -231.556
@@ -525,7 +526,7 @@ system Shpi
 
 system Fletka
 	pos 686.452 -268.512
-	government Bashkmul
+	government Uninhabited
 	habitable 3430
 	belt 1478 10
 	belt 2186 10
