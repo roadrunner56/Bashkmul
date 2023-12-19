@@ -62,13 +62,60 @@ system Raunai
 	object
 		sprite star/m-supergiant
 		period 500
-	object "Deika Rigra"
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -30
+	object
 		sprite planet/ringworld
-		distance 3450
-	object "Deika Rigra"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -50
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -70
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -90
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset -110
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+	object
 		sprite planet/ringworld
-		distance 3450
-		offset 10
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 60
+	object
+		sprite planet/ringworld
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 80
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 100
 
 system Melkran
 	pos 568.833 -323.333
