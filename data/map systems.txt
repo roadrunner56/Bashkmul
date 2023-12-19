@@ -51,16 +51,9 @@ system Frenoj
 			sprite planet/dust7
 			distance 447
 			period 357.241
-	object ""
-		sprite planet/wormhole
-		distance 10159.909
-	object Mernoth
-		sprite planet/forest4-b
-			scale 3
-		distance 3241.785
 
 system Raunai
-	pos 525.5 -258.667
+	pos 494.667 -295.334
 	government Bashkmul
 	habitable 150
 	belt 1593 3
@@ -114,7 +107,7 @@ system Raunai
 		period 34663.905
 
 system Melkran
-	pos 575.5 -310.833
+	pos 566.333 -324.166
 	government Bashkmul
 	habitable 22664.785
 	belt 1992 3
@@ -237,7 +230,11 @@ system Niku
 		sprite planet/gas16-b
 		distance 4966
 		period 1971.746
-	object
+	object Lumop
+		sprite planet/rock1
+			scale 4
+		distance 3900
+		period 600
 
 system Ina
 	pos 841.507 -269.622
@@ -369,15 +366,21 @@ system Afer
 		sprite planet/gas14-b
 		distance 4181
 		period 1444.802
+	object Aeron
+		sprite planet/ocean7
+			scale 4
+		distance 5000
+		period 300
 
 system Vetem
-	pos 641.055 -267.889
+	pos 631.888 -297.056
 	government Bashkmul
 	habitable 625
 	belt 1589 7
 	link Lezoji
 	link Melkran
 	link Popi
+	link Shpi
 	asteroids "small rock" 34 1.702
 	asteroids "medium rock" 1 1.679
 	asteroids "large rock" 6 2.024
@@ -422,7 +425,7 @@ system Vetem
 			period 168.638
 
 system Popi
-	pos 559.889 -230.555
+	pos 517.389 -243.888
 	government Bashkmul
 	habitable 625
 	belt 1752
@@ -470,13 +473,14 @@ system Popi
 			period 196.931
 
 system Shpi
-	pos 644.055 -207.389
+	pos 621.555 -231.556
 	government Bashkmul
 	habitable 559.017
 	belt 1642
 	link Fletka
 	link Frenoj
 	link Popi
+	link Vetem
 	object
 		sprite star/coal-black-hole
 
@@ -536,66 +540,42 @@ system Lezoji
 system Akoma
 	pos 760.285 -260.345
 	government Bashkmul
-	habitable 874.643
-	belt 1281 3
+	habitable 3450
+	belt 1518 7
 	link Fletka
 	link Lezoji
 	link Prapme
-	asteroids "small rock" 7 2.495
-	asteroids "medium rock" 132 1.971
-	asteroids "large rock" 12 2.556
-	asteroids "small metal" 46 1.663
-	asteroids "medium metal" 7 2.279
-	asteroids "large metal" 1 1.94
-	minables aluminum 13 2.745
-	minables titanium 39 2.705
+	asteroids "medium rock" 10 7.204
+	asteroids "large rock" 1 5.729
+	asteroids "small metal" 11 8.072
+	asteroids "medium metal" 52 5.382
+	asteroids "large metal" 3 7.899
+	minables uranium 2 10.867
+	minables iron 3 7.546
+	minables aluminum 16 7.552
 	object
-		sprite star/a-dwarf
-		distance 138.616
-		period 87.009
-		offset 180
+		sprite star/m-supergiant
+		period 10
 	object
-		sprite star/k3
-		distance 12.884
-		period 87.009
+		sprite planet/rock14
+		distance 1044
+		period 229.721
 	object
-		sprite planet/fog0-b
-		distance 310
-		period 73.822
+		sprite planet/rock18
+		distance 1345
+		period 335.918
 	object
-		sprite planet/desert3-b
-		distance 684
-		period 241.952
+		sprite planet/gas7
+		distance 1898
+		period 563.112
 	object
-		sprite planet/vesvi
-		distance 1938
-		period 1153.919
+		sprite planet/browndwarf-t
+		distance 4218
+		period 1865.565
 		object
-			sprite planet/io-b
-			distance 467
-			period 381.484
-		object
-			sprite planet/luna
-			distance 625
-			period 590.637
-	object
-		sprite planet/dust4-b
-		distance 3266
-		period 2524.462
-	object
-		sprite planet/gas2-hot
-		distance 5309
-		period 5231.952
-		object
-			sprite planet/io
-			distance 194
-			period 102.142
-	object Mernoth
-		sprite planet/forest1
-			scale 2
-		distance 1000
-		period 50
-		offset 90
+			sprite planet/dust7-b
+			distance 306
+			period 202.34
 
 system Prapme
 	pos 757.119 -328.345
