@@ -55,56 +55,33 @@ system Frenoj
 system Raunai
 	pos 494.667 -295.334
 	government Bashkmul
-	habitable 150
-	belt 1593 3
-	belt 2020 9
+	habitable 3450
+	belt 1180 10
 	link Melkran
-	asteroids "small rock" 1 2.713
-	asteroids "medium rock" 1 3.777
-	asteroids "large rock" 5 2.979
-	asteroids "small metal" 6 4.096
-	asteroids "medium metal" 3 3.564
-	asteroids "large metal" 80 4.362
-	minables lead 15 6.837
+	asteroids "large metal" 1 5.07
 	object
-		sprite star/g-dwarf
+		sprite star/m-supergiant
 		period 10
 	object
-		sprite planet/cloud5-b
-		distance 332
-		period 197.57
+		sprite planet/gas1
+		distance 1426
+		period 366.716
 	object
-		sprite planet/dust6
-		distance 911
-		period 898.032
+		sprite planet/gas0
+		distance 2310
+		period 756.081
 	object
-		sprite planet/gas10-b
-		distance 2224
-		period 3425.441
+		sprite planet/gas12
+		distance 3788
+		period 1587.689
+	object
+		sprite planet/jupiter
+		distance 4974
+		period 2388.961
 		object
-			sprite planet/europa
-			distance 392
-			period 367.148
-	object
-		sprite planet/gas4
-		distance 3587
-		period 7016.353
-		object
-			sprite planet/ice7-b
-			distance 297
-			period 133.953
-	object
-		sprite planet/gas12-b
-		distance 7611
-		period 21685.875
-		object
-			sprite planet/desert4-b
-			distance 283
-			period 225.212
-	object
-		sprite planet/gas1-b
-		distance 10405
-		period 34663.905
+			sprite planet/tethys
+			distance 279
+			period 287.012
 
 system Melkran
 	pos 566.333 -324.166
@@ -475,14 +452,57 @@ system Popi
 system Shpi
 	pos 621.555 -231.556
 	government Bashkmul
-	habitable 559.017
-	belt 1642
+	habitable 2560
+	belt 1879 3
+	belt 2267
 	link Fletka
 	link Frenoj
 	link Popi
 	link Vetem
+	asteroids "small rock" 53 1.224
+	asteroids "medium rock" 215 1.683
+	asteroids "large rock" 108 1.02
+	asteroids "small metal" 7 0.918
+	asteroids "medium metal" 17 1.241
+	asteroids "large metal" 21 1.326
+	minables tungsten 1 2.325
+	minables copper 1 2.756
+	minables lead 4 2.166
 	object
-		sprite star/coal-black-hole
+		sprite star/f0
+		period 10
+	object
+		sprite planet/rock15
+		distance 291
+		period 39.245
+	object
+		sprite planet/gas14
+		distance 679
+		period 139.876
+	object
+		sprite planet/gas8
+		distance 1725
+		period 566.401
+		object
+			sprite "planet/yniu ena"
+			distance 363
+			period 261.433
+	object
+		sprite planet/gas15
+		distance 3610
+		period 1714.75
+		object
+			sprite planet/rock17
+			distance 227
+			period 210.636
+	object
+		sprite planet/uranus
+		distance 6315
+		period 3967.346
+	object
+		sprite planet/neptune-b
+		distance 7991
+		period 5647.311
 
 system Fletka
 	pos 694.785 -244.345
@@ -522,20 +542,93 @@ system Fletka
 system Lezoji
 	pos 673.951 -321.179
 	government Bashkmul
-	habitable 1080.567
-	belt 1265 5
-	belt 1808 2
+	habitable 3430
+	belt 1541 10
+	belt 2010 4
 	haze _menu/haze-brown
 	link Akoma
 	link Vetem
-	asteroids "small rock" 3 3.125
-	asteroids "large rock" 2 2.554
-	asteroids "small metal" 2 2.285
-	asteroids "medium metal" 5 2.218
-	asteroids "large metal" 19 3.024
-	minables iron 1 3.122
+	asteroids "small rock" 14 2.97
+	asteroids "medium rock" 105 2.07
+	asteroids "large rock" 17 1.68
+	asteroids "small metal" 3 1.83
+	asteroids "medium metal" 17 1.86
+	asteroids "large metal" 15 2.58
+	minables lead 1 2.384
+	minables iron 1 3.195
 	object
-		sprite star/nova-core
+		sprite star/f5-old
+		period 10
+	object
+		sprite planet/gas12
+		distance 623
+		period 106.205
+		object
+			sprite planet/rock14-b
+			distance 315
+			period 146.313
+	object
+		sprite planet/gas6
+		distance 1744
+		period 497.431
+		object
+			sprite planet/dust0-b
+			distance 380
+			period 456.215
+		object
+			sprite planet/luna-b
+			distance 533
+			period 465.148
+	object
+		sprite planet/gas9
+		distance 3121
+		period 1190.84
+		object
+			sprite planet/oberon-b
+			distance 253
+			period 247.842
+		object
+			sprite planet/rock17-b
+			distance 352
+			period 406.732
+	object
+		sprite planet/gas2-hot
+		distance 5658
+		period 2906.748
+		object
+			sprite planet/rock3-b
+			distance 214
+			period 118.337
+		object
+			sprite planet/io-b
+			distance 335
+			period 231.776
+		object
+			sprite planet/dust7-b
+			distance 489
+			period 408.756
+	object
+		sprite planet/asura
+		distance 12374
+		period 9401.088
+		object
+			sprite planet/miranda
+			distance 247
+			period 183.636
+		object
+			sprite planet/rock7
+			distance 357
+			period 319.091
+		object
+			sprite planet/beryl/beryl
+			distance 530
+			period 319.324
+	object Greemi
+		sprite planet/ice7
+			scale 3
+		distance 5000
+		period 500
+		offset 40
 
 system Akoma
 	pos 760.285 -260.345
@@ -662,7 +755,7 @@ system Yepi
 		period 4125.085
 
 system Kukla
-	pos 589.75 -68.25
+	pos 573.917 -110.75
 	government Uninhabited
 	habitable 370
 	belt 1280 7
@@ -717,7 +810,7 @@ system Kukla
 			period 134.63
 
 system Hapur
-	pos 542.459 -108.833
+	pos 526.626 -151.333
 	government Uninhabited
 	habitable 425
 	belt 1924 6
@@ -795,7 +888,7 @@ system Akulorruh
 			period 279.332
 
 system Lorrel
-	pos 506.834 -137.333
+	pos 491.001 -179.833
 	government Uninhabited
 	habitable 8964.374
 	belt 1850 9
@@ -860,7 +953,7 @@ system Lorrel
 			period 432.149
 
 system Pishina
-	pos 444.167 -100.667
+	pos 429.167 -119.834
 	government Uninhabited
 	habitable 5626.944
 	belt 1940 5
@@ -919,7 +1012,7 @@ system Pishina
 			period 188.614
 
 system Dashur
-	pos 437.736 -25.569
+	pos 461.069 -74.736
 	government Uninhabited
 	habitable 1325
 	belt 1084 4
@@ -1015,7 +1108,7 @@ system Vikilib
 			period 254.46
 
 system "Ik Shko"
-	pos 499.13 -69.593
+	pos 483.297 -112.093
 	government Uninhabited
 	habitable 7003.778
 	belt 1880 7
@@ -1060,7 +1153,7 @@ system "Ik Shko"
 			period 139.519
 
 system Nai
-	pos 539.13 -30.259
+	pos 523.297 -72.759
 	government Uninhabited
 	habitable 5307.297
 	belt 1216 8
@@ -1125,7 +1218,7 @@ system Nai
 			period 1030.056
 
 system Grot
-	pos 585.338 -6.801
+	pos 569.505 -49.301
 	government Uninhabited
 	habitable 7795.184
 	belt 1847 3
@@ -1178,7 +1271,7 @@ system Grot
 		period 881.986
 
 system Zogu
-	pos 499.505 4.533
+	pos 483.672 -37.967
 	government Uninhabited
 	habitable 6300.097
 	belt 1514 9
@@ -1235,7 +1328,7 @@ system Zogu
 			period 466.458
 
 system Posht
-	pos 392.339 16.699
+	pos 539.839 -8.301
 	government Uninhabited
 	habitable 1715.357
 	belt 1391 10

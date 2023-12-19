@@ -10,8 +10,8 @@
  Todo:
 - [ ] Make outfit and ship stats
 - [ ] Write descriptions for planets
-- [ ] Finalize map
+- [X] Finalize map
 - [ ] Write hails
 - [ ] Write first contact mission
 - [ ] Create fleets
-- [x] Create lore doc
+- [ ] Finalize lore doc
