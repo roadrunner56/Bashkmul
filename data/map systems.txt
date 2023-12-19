@@ -237,41 +237,71 @@ system Niku
 		sprite planet/gas16-b
 		distance 4966
 		period 1971.746
+	object
 
 system Ina
 	pos 841.507 -269.622
 	government Bashkmul
-	habitable 7782.031
-	belt 1651 7
+	habitable 7900
+	belt 1430 7
+	belt 1882 10
 	link Afer
 	link Niku
-	asteroids "small rock" 1 0.945
-	asteroids "large rock" 7 1.035
-	asteroids "medium metal" 1 0.93
-	asteroids "large metal" 4 0.765
-	minables aluminum 1 1.211
-	minables iron 2 0.958
+	asteroids "large rock" 4 2.181
+	asteroids "small metal" 2 1.968
+	asteroids "medium metal" 1 2.607
+	asteroids "large metal" 9 2.421
+	minables lead 1 4.002
+	minables aluminum 1 3.159
+	minables neodymium 3 3.291
 	object
-		sprite star/m-dwarf
+		sprite star/a-giant
+		period 10
 	object
-		sprite planet/rock1-b
-		distance 369
-		period 32.141
+		sprite planet/lava7-b
+		distance 396
+		period 35.464
 	object
-		sprite planet/forest5
-		distance 698
-		period 83.617
+		sprite planet/rock0-b
+		distance 811
+		period 103.939
 	object
-		sprite planet/rock4
-		distance 1062
-		period 156.928
+		sprite planet/desert3-b
+		distance 1489
+		period 258.576
 	object
-		sprite planet/rock14-b
-		distance 1494
-		period 261.842
+		sprite planet/gas10-b
+		distance 2549
+		period 579.164
+		object
+			sprite planet/ice0
+			distance 231
+			period 132.715
+		object
+			sprite planet/rock3-b
+			distance 356
+			period 253.908
+		object
+			sprite planet/io
+			distance 496
+			period 417.564
+	object
+		sprite planet/gas8
+		distance 4037
+		period 1154.342
+		object
+			sprite planet/rock17
+			distance 356
+			period 413.685
+	object
+		sprite planet/vesvi
+		distance 14171
+		period 7591.843
 	object Lukainos
-		sprite planet/forest5-b
-		distance 1782.697
+		sprite planet/forest2
+			scale 4
+		distance 8000
+		period 200
 
 system Afer
 	pos 805.34 -237.622
@@ -560,6 +590,12 @@ system Akoma
 			sprite planet/io
 			distance 194
 			period 102.142
+	object Mernoth
+		sprite planet/forest1
+			scale 2
+		distance 1000
+		period 50
+		offset 90
 
 system Prapme
 	pos 757.119 -328.345

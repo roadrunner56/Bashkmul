@@ -5,7 +5,7 @@ planet Mernoth
 	government Bashkmul
 
 planet Lukainos
-	description "Lukainos was one of the first planets to devolve into gang rule when the central Bashkmul government could no longer maintain control. Such planets are known as Chemundur."
+	description "Aert world #1."
 	spaceport "The aliens here are mostly Rigra, though you spot an Aert or two. No matter the species, they all seem to be focused on you and your jump-drive equipped ship. Perhaps it it best if you don't spend too long here."
 
 planet Hema
@@ -13,6 +13,14 @@ planet Hema
 	description "Despite being in Rigra space, you notice an abnormally large number of Aert wandering around. While the Aert are not typically adventurous, some who long for excitement and novelty come here to live with the Rigra. As such they have been strongly influenced by Rigran culture, and have even developed their own dialect as a result of their isolation from most of the Aert population."
 	spaceport "The spaceport here is "
 	government Bashkmul
+
+planet "Aeron"
+	description "Aert world #2"
+	spaceport test
+
+planet "Lumop"
+	description "Aert world #3"
+	spaceport test
 
 planet "Prush Aert"
 	attributes quarg
