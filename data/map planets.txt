@@ -46,7 +46,7 @@ planet "Prush Aert"
 	government Quarg
 
 planet "Deika Rigra"
-	description "This ringworld is filled with Rigra desparate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
+	description "This ringworld is filled with Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
 	spaceport test
 
  wormhole "Wormhole Bashkmul"

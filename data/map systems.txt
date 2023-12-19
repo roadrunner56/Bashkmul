@@ -54,94 +54,67 @@ system Frenoj
 
 system Raunai
 	pos 494.667 -295.334
-	government Bashkmul
+	government Quarg
 	habitable 3450
 	belt 1180 10
 	link Melkran
 	asteroids "large metal" 1 5.07
 	object
 		sprite star/m-supergiant
-		period 10
-	object
-		sprite planet/gas1
-		distance 1426
-		period 366.716
-	object
-		sprite planet/gas0
-		distance 2310
-		period 756.081
-	object
-		sprite planet/gas12
-		distance 3788
-		period 1587.689
-	object
-		sprite planet/jupiter
-		distance 4974
-		period 2388.961
-		object
-			sprite planet/tethys
-			distance 279
-			period 287.012
+		period 500
+	object "Deika Rigra"
+		sprite planet/ringworld
+		distance 3450
+	object "Deika Rigra"
+		sprite planet/ringworld
+		distance 3450
+		offset 10
 
 system Melkran
-	pos 566.333 -324.166
+	pos 568.833 -323.333
 	government Bashkmul
-	habitable 22664.785
-	belt 1992 3
-	belt 2349 10
+	habitable 4050
+	belt 1726 8
+	belt 2362 7
+	belt 2617 3
 	link Popi
 	link Raunai
 	link Vetem
-	asteroids "small rock" 4 2.839
-	asteroids "medium rock" 19 1.595
-	asteroids "large rock" 3 2.871
-	asteroids "small metal" 2 2.807
-	asteroids "medium metal" 19 1.85
-	asteroids "large metal" 8 2.871
-	minables uranium 1 2.309
-	minables copper 3 2.732
-	minables silicon 3 3.851
+	asteroids "small rock" 8 1.523
+	asteroids "medium rock" 91 1.975
+	asteroids "large rock" 20 2.166
+	asteroids "small metal" 6 2.19
+	asteroids "large metal" 2 2.071
+	minables aluminum 10 2.692
+	minables titanium 43 3.81
 	object
 		sprite star/g-giant
-		distance 251.5
-		period 199.424
+		period 10
 	object
-		sprite star/k-giant
-		distance 251.5
-		period 199.424
-		offset 180
+		sprite planet/rock11
+		distance 500
+		period 70.273
 	object
-		sprite planet/uranus-b
-		distance 974
-		period 80.765
+		sprite planet/desert1-b
+		distance 1305
+		period 296.311
 		object
-			sprite planet/lava0
-			distance 275
-			period 119.348
+			sprite planet/dust4-b
+			distance 196
+			period 85.342
 	object
-		sprite planet/gas10-hot
-		distance 1698
-		period 185.905
+		sprite planet/io-b
+		distance 1906
+		period 523.018
 	object
-		sprite planet/uranus
-		distance 2909
-		period 416.869
-		object
-			sprite "planet/asteroid base"
-			distance 244
-			period 99.748
-		object
-			sprite planet/luna-b
-			distance 364
-			period 262.514
-		object
-			sprite planet/ice0-b
-			distance 549
-			period 486.249
-	object
-		sprite planet/browndwarf-t
-		distance 4279
-		period 743.7
+		sprite "planet/asteroid base"
+		distance 3614
+		period 1365.572
+	object Nkal
+		sprite planet/forest6
+			scale 5
+		distance 2500
+		period 400
 
 system Niku
 	pos 861.663 -212.365
@@ -350,7 +323,7 @@ system Afer
 		period 300
 
 system Vetem
-	pos 631.888 -297.056
+	pos 605.221 -287.056
 	government Bashkmul
 	habitable 625
 	belt 1589 7
@@ -425,10 +398,6 @@ system Popi
 		distance 338
 		period 99.425
 	object
-		sprite planet/rock12-b
-		distance 859
-		period 402.819
-	object
 		sprite planet/dust3
 		distance 1837
 		period 1259.748
@@ -448,6 +417,9 @@ system Popi
 			sprite planet/lava0
 			distance 384
 			period 196.931
+	object Kinsli
+		sprite planet/rock1
+		distance 700
 
 system Shpi
 	pos 621.555 -231.556
@@ -505,7 +477,7 @@ system Shpi
 		period 5647.311
 
 system Fletka
-	pos 694.785 -244.345
+	pos 686.452 -268.512
 	government Bashkmul
 	habitable 3430
 	belt 1478 10
@@ -755,7 +727,7 @@ system Yepi
 		period 4125.085
 
 system Kukla
-	pos 573.917 -110.75
+	pos 543.917 -132.417
 	government Uninhabited
 	habitable 370
 	belt 1280 7
@@ -810,7 +782,7 @@ system Kukla
 			period 134.63
 
 system Hapur
-	pos 526.626 -151.333
+	pos 484.126 -168
 	government Uninhabited
 	habitable 425
 	belt 1924 6
@@ -888,7 +860,7 @@ system Akulorruh
 			period 279.332
 
 system Lorrel
-	pos 491.001 -179.833
+	pos 487.668 -217.333
 	government Uninhabited
 	habitable 8964.374
 	belt 1850 9
@@ -1053,7 +1025,7 @@ system Dashur
 		period 2801.903
 
 system Vikilib
-	pos 411.07 -65.125
+	pos 396.07 -53.458
 	government Uninhabited
 	habitable 1715
 	belt 1397 8
@@ -1394,7 +1366,7 @@ system Posht
 			period 876.111
 
 system "Lepuri e Vitur"
-	pos 313.561 -13.385
+	pos 312.728 -25.885
 	government Uninhabited
 	habitable 3208.255
 	belt 1647 3
