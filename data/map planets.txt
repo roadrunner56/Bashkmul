@@ -22,6 +22,23 @@ planet "Lumop"
 	description "Aert world #3"
 	spaceport test
 
+planet "Greemi"
+	description "Rigra testing world"
+	spaceport test
+
+planet "Nkal"
+	description "Rigra homeworld"
+	spaceport test
+
+planet "Mikos"
+	description "Mining world"
+	spaceport test
+
+planet "Kinsli"
+	description "Industrial world"
+	spaceport test
+
+
 planet "Prush Aert"
 	attributes quarg
 	description "Originally a fast-growing ringworld, Prush Aert was left mostly abandoned in favor of concentrating the Quarg's efforts on the construction of a ringworld in Rigra space."
