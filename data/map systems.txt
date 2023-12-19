@@ -1,69 +1,6 @@
-system Drita
-	pos 892.333 -153.999
-	government Bashkmul
-	attributes b
-	habitable 383.275
-	belt 1916 9
-	belt 2309 9
-	haze _menu/haze
-	link Arbor
-	link Dimrie
-	link Loike
-	link Zapotoje
-	asteroids "small rock" 2 2.024
-	asteroids "medium rock" 69 2.302
-	asteroids "large rock" 1 1.796
-	asteroids "small metal" 56 2.429
-	asteroids "medium metal" 61 2.176
-	asteroids "large metal" 22 2.53
-	minables neodymium 30 4.17
-	minables copper 90 3.843
-	trade Clothing 258
-	trade Electronics 843
-	trade Equipment 524
-	trade Food 347
-	trade "Heavy Metals" 998
-	trade Industrial 667
-	trade "Luxury Goods" 1115
-	trade Medical 867
-	trade Metal 366
-	trade Plastic 440
-	object
-		sprite star/k-dwarf
-		distance 117.404
-		period 64.247
-		offset 180
-	object
-		sprite star/k8
-		distance 8.596
-		period 64.247
-	object
-		sprite planet/tethys-b
-		distance 222
-		period 67.582
-	object
-		sprite planet/rock8-b
-		distance 574
-		period 280.978
-	object
-		sprite planet/gas17
-		distance 1356
-		period 1020.221
-		object
-			sprite planet/rock3-b
-			distance 246
-			period 145.849
-	object
-		sprite planet/gas16-b
-		distance 2854
-		period 3115.197
-		object
-			sprite planet/dust4-b
-			distance 225
-			period 104.967
 
 system Frenoj
-	pos 1200.278 11.11
+	pos 570.278 -171.39
 	government Bashkmul
 	habitable 17287.297
 	belt 1129 7
@@ -123,7 +60,7 @@ system Frenoj
 		distance 3241.785
 
 system Shko
-	pos 1167.388 -69.556
+	pos 574.055 -216.223
 	government Bashkmul
 	habitable 930.054
 	belt 1451 4
@@ -185,7 +122,7 @@ system Shko
 			period 364.458
 
 system Raunai
-	pos 1113 -140.334
+	pos 553 -257.001
 	government Bashkmul
 	habitable 150
 	belt 1593 3
@@ -241,7 +178,7 @@ system Raunai
 		period 34663.905
 
 system Melkran
-	pos 1090.5 -160
+	pos 575.5 -310.833
 	government Bashkmul
 	habitable 22664.785
 	belt 1992 3
@@ -300,170 +237,15 @@ system Melkran
 		distance 4279
 		period 743.7
 
-system Besa
-	pos 779.507 -291.122
-	government Uninhabited
-	habitable 22300.002
-	belt 1438 5
-	link Mnashyu
-	link Tejana
-	asteroids "small rock" 1 3.049
-	asteroids "medium rock" 5 2.42
-	asteroids "large rock" 44 3.727
-	asteroids "large metal" 2 3.388
-	minables lead 10 4.826
-	minables neodymium 8 3.918
-	object
-		sprite planet/browndwarf-l-rouge
-		distance 256.5
-		period 205.4
-	object
-		sprite star/o-giant
-		distance 256.5
-		period 205.4
-		offset 180
-	object
-		sprite planet/mars-b
-		distance 845
-		period 65.795
-		object
-			sprite planet/dust1-b
-			distance 146
-			period 54.867
-	object
-		sprite planet/gas8
-		distance 1512
-		period 157.484
-	object
-		sprite planet/gas6
-		distance 2228
-		period 281.696
-	object
-		sprite planet/gas9
-		distance 3337
-		period 516.347
-		object
-			sprite planet/miranda-b
-			distance 247
-			period 183.636
-		object
-			sprite planet/lava0
-			distance 383
-			period 196.162
-	object
-		sprite planet/gas9-b
-		distance 4194
-		period 727.529
 
-system Tejana
-	pos 755.174 -331.789
-	government Uninhabited
-	habitable 320
-	belt 1599 4
-	link Aika
-	link Besa
-	link Proikano
-	asteroids "small rock" 98 1.825
-	asteroids "medium rock" 132 3.335
-	asteroids "large rock" 9 1.895
-	asteroids "small metal" 35 2.527
-	asteroids "medium metal" 8 1.86
-	asteroids "large metal" 4 2.387
-	minables titanium 27 4.947
-	minables aluminum 48 4.195
-	object
-		sprite star/m0
-		distance 187.967
-		period 79.347
-	object
-		sprite star/giant
-		distance 43.533
-		period 79.347
-		offset 180
-	object
-		sprite planet/desert4-b
-		distance 345
-		period 143.289
-	object
-		sprite planet/forest4-b
-		distance 651
-		period 371.412
-	object
-		sprite planet/cloud5-b
-		distance 1229
-		period 963.414
-	object
-		sprite planet/browndwarf-t
-		distance 2407
-		period 2640.579
-		object
-			sprite planet/dust0
-			distance 284
-			period 294.762
-	object
-		sprite planet/neptune-b
-		distance 3720
-		period 5073.404
-		object
-			sprite planet/dust7-b
-			distance 257
-			period 155.74
-
-system Arbor
-	pos 880.329 -123.365
-	government Bashkmul
-	habitable 1080
-	belt 1161
-	link Besnik
-	link Drita
-	asteroids "small rock" 3 3.654
-	asteroids "medium rock" 1 4.002
-	asteroids "large rock" 2 4.307
-	asteroids "small metal" 1 2.349
-	asteroids "medium metal" 22 2.436
-	asteroids "large metal" 2 4.176
-	object
-		sprite star/m4
-		distance 72.9
-		period 44.398
-	object
-		sprite star/g0
-		distance 44.1
-		period 44.398
-		offset 180
-	object
-		sprite planet/dust2
-		distance 286
-		period 58.87
-	object
-		sprite planet/vesvi
-		distance 1073
-		period 427.807
-		object
-			sprite planet/rock20
-			distance 437
-			period 345.321
-	object
-		sprite planet/tethys
-		distance 1783
-		period 916.379
-	object
-		sprite planet/saturn
-		distance 2493
-		period 1515.066
-		object
-			sprite planet/dust1
-			distance 291
-			period 154.39
 
 system Niku
-	pos 828.33 -182.365
+	pos 861.663 -212.365
 	government Bashkmul
 	habitable 5040.089
 	belt 1879 9
 	belt 1879 8
 	link Afer
-	link Besnik
 	link Ina
 	asteroids "small rock" 32 1.705
 	asteroids "medium rock" 49 1.403
@@ -523,7 +305,7 @@ system Niku
 		period 1971.746
 
 system Ina
-	pos 799.007 -268.789
+	pos 841.507 -269.622
 	government Chemundur
 	habitable 7782.031
 	belt 1651 7
@@ -558,11 +340,10 @@ system Ina
 		distance 1782.697
 
 system Afer
-	pos 789.507 -236.789
+	pos 805.34 -237.622
 	government Bashkmul
 	habitable 5602.009
 	belt 1082 7
-	link Algei
 	link Ina
 	link Niku
 	link Yepi
@@ -625,389 +406,13 @@ system Afer
 		distance 4181
 		period 1444.802
 
-system Besnik
-	pos 829.952 -116.678
-	government Bashkmul
-	habitable 1325.34
-	belt 1003 4
-	link Arbor
-	link Niku
-	link Qender
-	link Siper
-	link Sochje
-	asteroids "small rock" 12 4.602
-	asteroids "medium rock" 2 3.809
-	asteroids "large rock" 1 3.915
-	asteroids "small metal" 2 4.073
-	asteroids "medium metal" 5 2.909
-	asteroids "large metal" 21 4.02
-	minables gold 3 6.595
-	minables aluminum 9 7.481
-	minables silver 9 7.655
-	object
-		sprite star/m5
-	object
-		sprite planet/rock11-b
-		distance 238
-		period 40.342
-	object
-		sprite planet/lava2-b
-		distance 539
-		period 137.493
-	object
-		sprite planet/gas6-hot
-		distance 1075
-		period 387.266
-	object
-		sprite planet/gas2-b
-		distance 2506
-		period 1378.377
-		object
-			sprite planet/ice7-b
-			distance 307
-			period 140.775
-	object
-		sprite planet/vesvi
-		distance 3823
-		period 2597.185
-		object
-			sprite planet/rock14-b
-			distance 450
-			period 249.825
-		object
-			sprite planet/rock0-b
-			distance 586
-			period 536.225
-	object
-		sprite planet/gas5
-		distance 6131
-		period 5274.647
-		object
-			sprite planet/callisto
-			distance 284
-			period 125.255
-		object
-			sprite planet/rock20
-			distance 451
-			period 362.047
 
-system Sochje
-	pos 849.996 -68.366
-	government Uninhabited
-	belt 1795 5
-	belt 2403
-	belt 2429
-	link Besnik
-	asteroids "small rock" 14 1.258
-	asteroids "medium rock" 49 2.009
-	asteroids "large rock" 64 2.057
-	asteroids "small metal" 2 2.226
-	asteroids "medium metal" 6 2.009
-	asteroids "large metal" 1 2.42
-	minables aluminum 4 3.354
-	minables titanium 8 3.342
-	object
-		sprite star/nova-small
 
-system Loike
-	pos 898.107 -77.088
-	government Bashkmul
-	habitable 2267.708
-	belt 1367 8
-	link Drita
-	link Zapotoje
-	asteroids "small rock" 2 2.883
-	asteroids "medium rock" 7 4.06
-	asteroids "large rock" 1 3.816
-	asteroids "small metal" 10 2.436
-	asteroids "medium metal" 15 3.573
-	asteroids "large metal" 2 4.019
-	minables neodymium 2 4.501
-	minables aluminum 4 6.702
-	object
-		sprite star/g8
-		distance 73.113
-		period 50.932
-	object
-		sprite star/f3
-		distance 63.887
-		period 50.932
-		offset 180
-	object
-		sprite planet/desert0-b
-		distance 331
-		period 50.583
-	object
-		sprite planet/rock13-b
-		distance 660
-		period 142.424
-	object
-		sprite planet/ocean4-b
-		distance 1043
-		period 282.939
-	object
-		sprite planet/gas10-b
-		distance 1710
-		period 593.965
-		object
-			sprite planet/ice0-b
-			distance 238
-			period 138.793
 
-system Zapotoje
-	pos 959.329 -70.199
-	government Bashkmul
-	habitable 4050
-	belt 1520 9
-	link Drita
-	link Hik
-	link Loike
-	asteroids "small rock" 11 3.558
-	asteroids "medium rock" 5 2.893
-	asteroids "large rock" 3 1.955
-	asteroids "medium metal" 17 3.754
-	asteroids "large metal" 4 2.307
-	minables aluminum 2 4.399
-	minables lead 8 3.846
-	object
-		sprite star/g-giant
-	object
-		sprite planet/cloud7
-		distance 634
-		period 100.338
-		object
-			sprite planet/rock3
-			distance 172
-			period 85.269
-	object
-		sprite planet/gas0
-		distance 1463
-		period 351.722
-		object
-			sprite planet/rhea
-			distance 293
-			period 155.984
-	object
-		sprite planet/gas2-hot
-		distance 3006
-		period 1035.895
-		object
-			sprite planet/dust5
-			distance 210
-			period 79.643
-		object
-			sprite planet/europa
-			distance 322
-			period 273.335
-	object
-		sprite planet/uranus-b
-		distance 5448
-		period 2527.482
-	object
-		sprite planet/gas6-b
-		distance 6366
-		period 3192.511
-	object "Wormhole Barren Beta"
-		sprite planet/wormhole
-		distance 7214.223
-	object Hema
-		sprite planet/dust4-b
-		distance 3538.519
 
-system Hik
-	pos 1012.996 -38.366
-	government Bashkmul
-	habitable 3430
-	belt 1059 6
-	link Zapotoje
-	asteroids "small rock" 3 3.51
-	asteroids "medium rock" 68 3.194
-	asteroids "large rock" 16 3.475
-	asteroids "small metal" 1 2.141
-	asteroids "medium metal" 26 3.299
-	asteroids "large metal" 19 2.036
-	minables tungsten 10 4.821
-	minables lead 16 3.153
-	object
-		sprite star/f5-old
-		distance 121
-		period 66.55
-	object
-		sprite star/giant
-		distance 121
-		period 66.55
-		offset 180
-	object
-		sprite planet/gas15
-		distance 528
-		period 82.864
-	object
-		sprite planet/rock9-b
-		distance 934
-		period 194.954
-	object
-		sprite planet/cloud1
-		distance 1623
-		period 446.571
-	object
-		sprite planet/gas16-b
-		distance 2794
-		period 1008.678
-		object
-			sprite planet/tethys-b
-			distance 227
-			period 210.636
-	object
-		sprite planet/gas3
-		distance 4164
-		period 1835.181
-	object ""
-		sprite planet/wormhole
-		distance 5000
-
-system Algei
-	pos 775.889 -200.389
-	government Bashkmul
-	habitable 12328.118
-	belt 1677 2
-	link Afer
-	link Barova
-	link Siper
-	asteroids "large metal" 1 2.112
-	object
-		sprite star/k-supergiant
-	object
-		sprite planet/desert6-b
-		distance 2426.081
-		period 76.077
-		object
-			sprite planet/rock20
-			distance 188
-			period 97.44
-	object
-		sprite planet/gas2
-		distance 1428
-		period 194.403
-	object
-		sprite planet/ice2-b
-		distance 1894
-		period 296.949
-	object
-		sprite planet/gas5-b
-		distance 3459
-		period 732.888
-		object
-			sprite planet/dust0
-			distance 434
-			period 556.838
-	object
-		sprite planet/gas4-b
-		distance 5810
-		period 1595.423
-		object
-			sprite planet/europa-b
-			distance 266
-			period 205.227
-	object
-		sprite planet/gas7-hot
-		distance 11056
-		period 4188.019
-		object
-			sprite planet/miranda
-			distance 190
-			period 123.892
-
-system Siper
-	pos 783 -137.056
-	government Bashkmul
-	habitable 1715
-	belt 1354 7
-	belt 1931 4
-	link Algei
-	link Besnik
-	link Kalle
-	asteroids "small rock" 31 2.13
-	asteroids "medium rock" 18 1.331
-	asteroids "large rock" 7 1.718
-	asteroids "small metal" 40 1.815
-	asteroids "medium metal" 4 2.057
-	asteroids "large metal" 13 1.742
-	minables lead 1 3.231
-	minables aluminum 4 2.126
-	minables silver 8 3.302
-	object
-		sprite star/f5
-		period 10
-	object
-		sprite planet/ganymede
-		distance 248
-		period 37.723
-	object
-		sprite planet/ice5
-		distance 828
-		period 230.13
-	object
-		sprite planet/rock19-b
-		distance 1332
-		period 469.553
-	object
-		sprite planet/gas0
-		distance 3378
-		period 1896.345
-		object
-			sprite planet/ice8
-			distance 297
-			period 193.48
-
-system Qender
-	pos 791.723 -71.889
-	government Uninhabited
-	habitable 700
-	belt 1863 5
-	belt 2487 6
-	belt 2681 9
-	link Besnik
-	link Mosbojie
-	asteroids "large rock" 1 3.036
-	asteroids "small metal" 10 4.356
-	asteroids "medium metal" 15 2.64
-	asteroids "large metal" 9 2.552
-	minables lead 2 4.519
-	minables titanium 14 6.191
-	object
-		sprite star/g3
-		period 10
-	object
-		sprite planet/desert1-b
-		distance 303
-		period 79.74
-	object
-		sprite planet/titan
-		distance 993
-		period 473.08
-	object
-		sprite planet/gas10-hot
-		distance 1801
-		period 1155.531
-	object
-		sprite planet/gas5-b
-		distance 3243
-		period 2792.103
-		object
-			sprite planet/ice7
-			distance 291
-			period 129.914
-	object
-		sprite planet/gas12-b
-		distance 4522
-		period 4597.342
-	object
-		sprite planet/gas4
-		distance 6007
-		period 7038.78
 
 system Vetem
-	pos 1168.555 -209.556
+	pos 650.222 -247.889
 	government Bashkmul
 	habitable 625
 	belt 1589 7
@@ -1058,7 +463,7 @@ system Vetem
 			period 168.638
 
 system Popi
-	pos 1158.222 -171.389
+	pos 604.889 -232.222
 	government Bashkmul
 	habitable 625
 	belt 1752
@@ -1106,7 +511,7 @@ system Popi
 			period 196.931
 
 system Shpi
-	pos 1223.222 -92.389
+	pos 650.722 -178.222
 	government Uninhabited
 	habitable 559.017
 	belt 1642
@@ -1116,7 +521,7 @@ system Shpi
 		sprite star/coal-black-hole
 
 system Fletka
-	pos 1239.785 -140.178
+	pos 700.618 -225.178
 	government Bashkmul
 	habitable 3430
 	belt 1478 10
@@ -1151,7 +556,7 @@ system Fletka
 		period 950.762
 
 system Lezoji
-	pos 1190.618 -267.012
+	pos 673.951 -321.179
 	government Uninhabited
 	habitable 1080.567
 	belt 1265 5
@@ -1169,7 +574,7 @@ system Lezoji
 		sprite star/nova-core
 
 system Akoma
-	pos 1201.952 -202.011
+	pos 742.785 -253.678
 	government Bashkmul
 	habitable 874.643
 	belt 1281 3
@@ -1227,7 +632,7 @@ system Akoma
 			period 102.142
 
 system Prapme
-	pos 1247.952 -335.845
+	pos 757.119 -328.345
 	government Uninhabited
 	habitable 6300
 	belt 1680 7
@@ -1246,70 +651,13 @@ system Prapme
 		sprite star/nova
 			scale 5
 
-system Mosbojie
-	pos 768.285 -110.011
-	government Chemundur
-	habitable 5600
-	belt 1903 4
-	link Kalle
-	link Qender
-	asteroids "medium rock" 1 2.318
-	asteroids "large rock" 1 2.512
-	asteroids "small metal" 2 1.739
-	asteroids "medium metal" 3 1.904
-	asteroids "large metal" 12 1.794
-	object
-		sprite star/g0-old
-			scale 3
-		period 10
-	object
-		sprite planet/forest4
-		distance 507
-		period 61.021
-		object
-			sprite planet/rock7-b
-			distance 200
-			period 133.8
-	object
-		sprite planet/water1
-		distance 1372
-		period 271.642
-	object
-		sprite planet/gas5-b
-		distance 2741
-		period 767.06
-		object
-			sprite planet/callisto-b
-			distance 301
-			period 136.668
-	object
-		sprite planet/gas14-b
-		distance 4017
-		period 1360.877
-	object
-		sprite planet/gas1-b
-		distance 5236
-		period 2025.188
-		object
-			sprite planet/desert4
-			distance 483
-			period 502.149
-		object
-			sprite planet/dust0-b
-			distance 599
-			period 902.889
-		object
-			sprite planet/rock17-b
-			distance 763
-			period 1298.019
 
 system Yepi
-	pos 739.618 -221.345
+	pos 807.951 -176.345
 	government Uninhabited
 	habitable 2300
 	belt 1585 9
 	link Afer
-	link Barova
 	asteroids "small rock" 65 3.427
 	asteroids "medium rock" 161 3.226
 	asteroids "large rock" 34 4.586
@@ -1336,229 +684,10 @@ system Yepi
 		distance 6254
 		period 4125.085
 
-system Barova
-	pos 734.618 -174.011
-	government Chemundur
-	habitable 490
-	belt 1519 7
-	link Algei
-	link Kalle
-	link Yepi
-	asteroids "small rock" 23 3.942
-	asteroids "medium rock" 89 3.226
-	asteroids "large rock" 30 3.674
-	asteroids "small metal" 2 2.957
-	asteroids "medium metal" 7 2.733
-	asteroids "large metal" 3 2.509
-	minables lead 5 6.219
-	minables titanium 8 3.928
-	minables neodymium 8 3.847
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/ocean3-b
-		distance 290
-		period 89.24
-	object
-		sprite planet/earth-b
-		distance 756
-		period 375.616
-	object
-		sprite planet/gas0-hot
-		distance 2344
-		period 2050.682
-		object
-			sprite planet/dust3-b
-			distance 219
-			period 122.509
-		object
-			sprite planet/ice7
-			distance 337
-			period 161.906
-	object
-		sprite planet/gas17-b
-		distance 3497
-		period 3736.848
-		object
-			sprite planet/dust4-b
-			distance 237
-			period 113.475
-		object
-			sprite planet/tethys
-			distance 343
-			period 391.233
-		object
-			sprite planet/oberon-b
-			distance 435
-			period 558.764
-	object
-		sprite planet/gas3
-		distance 8108
-		period 13192.666
-		object
-			sprite planet/dust5
-			distance 321
-			period 150.513
-	object
-		sprite planet/neptune
-		distance 11208
-		period 21441.449
-		object
-			sprite planet/ice0
-			distance 237
-			period 137.919
 
-system Kalle
-	pos 722.618 -131.011
-	government Uninhabited
-	habitable 0
-	belt 1083 2
-	link Barova
-	link Mosbojie
-	link Siper
-	asteroids "small rock" 4 4.563
-	asteroids "medium rock" 2 3.65
-	asteroids "large rock" 29 5.054
-	asteroids "small metal" 1 5.686
-	asteroids "medium metal" 8 6.95
-	asteroids "large metal" 7 5.476
-	minables gold 1 7.406
-	minables titanium 7 10.15
-	minables lead 9 9.751
-	object
-		sprite star/m-supergiant
-	object
-		sprite planet/forest3-b
-		distance 4599.325
-	object
-		sprite planet/rock9
-		distance 842
-	object
-		sprite planet/gas3
-		distance 1995
-		object
-			sprite planet/dust0
-			distance 315
-			period 344.318
-	object
-		sprite planet/uranus
-		distance 3174
-		object
-			sprite planet/rock7-b
-			distance 224
-			period 158.593
-
-system Dimrie
-	pos 942.167 -157.166
-	government Chemundur
-	habitable 950
-	belt 1084 10
-	link Chenna
-	link Drita
-	asteroids "large metal" 1 2.746
-	object
-		sprite star/k5-old
-		period 10
-	object
-		sprite planet/rock19-b
-		distance 371
-		period 92.738
-	object
-		sprite planet/rock9
-		distance 672
-		period 226.075
-	object
-		sprite planet/gas8
-		distance 1170
-		period 519.37
-	object
-		sprite planet/browndwarf-y
-		distance 3998
-		period 3280.669
-		object
-			sprite planet/dust4
-			distance 312
-			period 171.4
-		object
-			sprite planet/dust3
-			distance 479
-			period 396.282
-	object
-		sprite planet/gas9
-		distance 5114
-		period 4746.126
-
-system Chenna
-	pos 961.5 -109.999
-	government Chemundur
-	habitable 950
-	belt 1101 4
-	belt 2483 2
-	belt 2507 10
-	link Dimrie
-	asteroids "small rock" 33 2.477
-	asteroids "medium rock" 21 3.37
-	asteroids "large rock" 9 3.086
-	asteroids "small metal" 52 2.923
-	asteroids "medium metal" 133 2.68
-	asteroids "large metal" 33 2.192
-	minables iron 8 5.376
-	minables aluminum 62 5.062
-	object
-		sprite star/k5-old
-		period 10
-	object
-		sprite planet/cloud8
-		distance 374
-		period 93.865
-	object
-		sprite planet/gas3
-		distance 1329
-		period 628.761
-		object
-			sprite planet/ice0-b
-			distance 292
-			period 188.614
-	object
-		sprite planet/gas6-b
-		distance 3043
-		period 2178.468
-		object
-			sprite planet/dust1
-			distance 383
-			period 233.119
-		object
-			sprite planet/dust3
-			distance 490
-			period 410.01
-		object
-			sprite planet/rock14
-			distance 650
-			period 433.698
-	object
-		sprite planet/gas1-b
-		distance 4769
-		period 4274.046
-		object
-			sprite planet/europa
-			distance 478
-			period 494.372
-		object
-			sprite planet/tethys
-			distance 597
-			period 898.371
-	object
-		sprite planet/gas16
-		distance 6558
-		period 6892.159
-		object
-			sprite planet/io
-			distance 204
-			period 110.14
 
 system Pasturn
-	pos 1016.778 -130.39
+	pos 498.445 -168.723
 	government Bashkmul
 	habitable 1325
 	belt 1984 9
@@ -1638,108 +767,16 @@ system Pasturn
 			distance 467
 			period 477.405
 
-system Aika
-	pos 715.417 -323.083
-	government Uninhabited
-	habitable 3000
-	belt 1434
-	belt 1571
-	link Hapur
-	link "Mork Reik"
-	link Tejana
-	asteroids "small rock" 46 4.047
-	asteroids "medium rock" 6 3.705
-	asteroids "large rock" 50 5.073
-	asteroids "small metal" 15 5.13
-	asteroids "medium metal" 2 4.902
-	asteroids "large metal" 12 2.85
-	minables neodymium 4 5.198
-	minables lead 38 5.087
-	object
-		sprite star/a8
-		period 10
-	object
-		sprite planet/rhea-b
-		distance 338
-		period 45.381
-	object
-		sprite planet/forest4-b
-		distance 657
-		period 122.984
-	object
-		sprite planet/gas0-hot
-		distance 1588
-		period 462.142
-		object
-			sprite planet/rock17
-			distance 217
-			period 196.872
-	object
-		sprite planet/jupiter-b
-		distance 2355
-		period 834.614
-		object
-			sprite planet/dust1-b
-			distance 308
-			period 168.114
-	object
-		sprite planet/tethys-b
-		distance 7624
-		period 4861.538
-	object
-		sprite planet/neptune
-		distance 18997
-		period 19121.718
 
-system Proikano
-	pos 721.083 -292.75
-	government Uninhabited
-	habitable 7000
-	belt 1255 9
-	link Kukla
-	link Tejana
-	asteroids "small rock" 1 2.304
-	asteroids "medium rock" 2 1.944
-	asteroids "large rock" 1 2.772
-	asteroids "large metal" 2 2.664
-	minables aluminum 1 4.533
-	object
-		sprite star/b0
-		period 10
-	object
-		sprite planet/oberon
-		distance 262
-		period 20.275
-	object
-		sprite planet/lava4-b
-		distance 548
-		period 61.331
-	object
-		sprite planet/gas1
-		distance 1690
-		period 332.155
-	object
-		sprite planet/gas13-b
-		distance 4082
-		period 1246.868
-		object
-			sprite planet/europa-b
-			distance 291
-			period 234.829
-	object
-		sprite planet/gas0-hot
-		distance 6105
-		period 2280.549
 
 system Kukla
-	pos 693.083 -243.25
+	pos 589.75 -68.25
 	government Uninhabited
 	habitable 370
 	belt 1280 7
 	link Grot
 	link Hapur
 	link Nai
-	link Proikano
 	asteroids "small rock" 7 5.034
 	asteroids "medium rock" 1 6.163
 	asteroids "large rock" 30 6.944
@@ -1788,11 +825,10 @@ system Kukla
 			period 134.63
 
 system Hapur
-	pos 645.792 -283.833
+	pos 542.459 -108.833
 	government Uninhabited
 	habitable 425
 	belt 1924 6
-	link Aika
 	link Kukla
 	link Lorrel
 	link Nai
@@ -1826,114 +862,10 @@ system Hapur
 			distance 319
 			period 215.371
 
-system Flutura
-	pos 445.458 -108.833
-	government Uninhabited
-	habitable 7001.828
-	belt 1036 7
-	belt 1995 7
-	link Emerike
-	asteroids "medium rock" 9 2.044
-	asteroids "large rock" 2 1.82
-	asteroids "medium metal" 10 2.128
-	asteroids "large metal" 1 2.268
-	minables lead 2 2.273
-	minables tungsten 5 3.236
-	minables copper 5 3.22
-	object
-		sprite star/m5
-		distance 131.897
-		period 43.929
-		offset 180
-	object
-		sprite star/b0
-		distance 21.103
-		period 43.929
-	object
-		sprite planet/rock11-b
-		distance 303
-		period 25.213
-	object
-		sprite planet/dust4-b
-		distance 550
-		period 61.659
-	object
-		sprite planet/gas5
-		distance 1084
-		period 170.608
-	object
-		sprite planet/gas16-b
-		distance 1746
-		period 348.755
-	object
-		sprite planet/gas15
-		distance 4129
-		period 1268.299
-	object
-		sprite planet/gas5-b
-		distance 8125
-		period 3500.977
-		object
-			sprite planet/rock0
-			distance 269
-			period 166.774
-		object
-			sprite planet/ice0
-			distance 410
-			period 313.817
 
-system Mik
-	pos 455.125 -157.167
-	government Uninhabited
-	habitable 2560
-	belt 1882 4
-	link Emerike
-	asteroids "small rock" 6 3.511
-	asteroids "medium rock" 41 2.793
-	asteroids "large rock" 44 1.995
-	asteroids "small metal" 2 2.913
-	asteroids "medium metal" 11 3.671
-	asteroids "large metal" 2 2.554
-	minables tungsten 3 3.164
-	minables aluminum 7 5.048
-	object
-		sprite star/f0
-		period 10
-	object
-		sprite planet/ocean1
-		distance 348
-		period 51.323
-	object
-		sprite planet/ice5-b
-		distance 851
-		period 196.261
-		object
-			sprite planet/desert4
-			distance 180
-			period 114.241
-	object
-		sprite planet/cloud8-b
-		distance 1604
-		period 507.863
-	object
-		sprite planet/gas4
-		distance 3051
-		period 1332.304
-		object
-			sprite planet/miranda-b
-			distance 255
-			period 192.629
-		object
-			sprite planet/tethys
-			distance 403
-			period 498.255
-		object
-			sprite planet/dust7-b
-			distance 578
-			period 525.282
 
 system Akulorruh
-	pos 457.792 -247.611
+	pos 354.459 -72.611
 	government Uninhabited
 	habitable 500.1
 	belt 1220 9
@@ -1972,95 +904,10 @@ system Akulorruh
 			distance 274
 			period 279.332
 
-system Effanal
-	pos 508.167 -309.667
-	government Uninhabited
-	habitable 3000
-	belt 1374 2
-	belt 2261 6
-	link "Mak Torow"
-	asteroids "large metal" 1 4.894
-	object
-		sprite star/k-giant
-		period 10
-	object
-		sprite planet/forest2
-		distance 559
-		period 96.52
-	object
-		sprite planet/dust2
-		distance 1040
-		period 244.934
-	object
-		sprite planet/desert0-b
-		distance 1832
-		period 572.648
-	object
-		sprite planet/gas4-b
-		distance 4335
-		period 2084.409
-		object
-			sprite planet/ice8
-			distance 271
-			period 168.638
 
-system "Mak Torow"
-	pos 558.167 -332.333
-	government Uninhabited
-	habitable 11850
-	belt 1068
-	belt 1966 9
-	link Effanal
-	link Pishina
-	asteroids "large rock" 8 1.4
-	asteroids "small metal" 1 2.52
-	asteroids "medium metal" 56 1.512
-	asteroids "large metal" 11 2.688
-	minables copper 4 2.665
-	minables gold 15 2.514
-	minables neodymium 19 2.345
-	object
-		sprite star/a-supergiant
-		period 10
-	object
-		sprite planet/neptune-b
-		distance 644
-		period 60.052
-	object
-		sprite planet/dust4
-		distance 1020
-		period 119.702
-	object
-		sprite planet/gas11
-		distance 2155
-		period 367.597
-	object
-		sprite planet/jupiter
-		distance 3043
-		period 616.813
-		object
-			sprite planet/dust7-b
-			distance 289
-			period 185.715
-	object
-		sprite planet/gas15-b
-		distance 4432
-		period 1084.178
-		object
-			sprite planet/rhea-b
-			distance 227
-			period 106.37
-		object
-			sprite planet/rock20
-			distance 378
-			period 277.804
-		object
-			sprite planet/miranda
-			distance 504
-			period 535.251
 
 system Lorrel
-	pos 610.167 -312.333
+	pos 506.834 -137.333
 	government Uninhabited
 	habitable 8964.374
 	belt 1850 9
@@ -2125,13 +972,12 @@ system Lorrel
 			period 432.149
 
 system Pishina
-	pos 547.5 -275.667
+	pos 444.167 -100.667
 	government Uninhabited
 	habitable 5626.944
 	belt 1940 5
 	link Dashur
 	link Hapur
-	link "Mak Torow"
 	link Vikilib
 	asteroids "large metal" 1 5.616
 	object
@@ -2184,59 +1030,13 @@ system Pishina
 			distance 292
 			period 188.614
 
-system "Mork Reik"
-	pos 675.417 -332.625
-	government Uninhabited
-	habitable 1391.492
-	belt 1578 6
-	belt 1788
-	link Aika
-	asteroids "small rock" 2 1.17
-	asteroids "large rock" 4 1.839
-	asteroids "medium metal" 10 1.275
-	asteroids "large metal" 1 1.588
-	minables iron 2 1.784
-	object
-		sprite star/o-dwarf
-		distance 111.562
-		period 60.64
-		offset 180
-	object
-		sprite star/k5
-		distance 10.438
-		period 60.64
-	object
-		sprite planet/forest0-b
-		distance 294
-		period 54.056
-	object
-		sprite planet/cloud2-b
-		distance 662
-		period 182.645
-	object
-		sprite planet/saturn
-		distance 1428
-		period 578.645
-		object
-			sprite planet/rock17
-			distance 277
-			period 283.932
-		object
-			sprite "planet/asteroid base"
-			distance 425
-			period 229.298
-	object
-		sprite planet/ice0-b
-		distance 2849
-		period 1630.641
 
 system Dashur
-	pos 541.069 -200.569
+	pos 437.736 -25.569
 	government Uninhabited
 	habitable 1325
 	belt 1084 4
 	link Pishina
-	link Pupa
 	asteroids "small rock" 1 1.917
 	asteroids "medium rock" 47 1.686
 	asteroids "large rock" 4 1.894
@@ -2273,7 +1073,7 @@ system Dashur
 		period 2801.903
 
 system Vikilib
-	pos 514.403 -240.125
+	pos 411.07 -65.125
 	government Uninhabited
 	habitable 1715
 	belt 1397 8
@@ -2327,169 +1127,15 @@ system Vikilib
 			distance 307
 			period 254.46
 
-system Pupa
-	pos 568.653 -170.236
-	government Uninhabited
-	habitable 11350
-	belt 1984 4
-	link Dashur
-	link Emerike
-	link "Ik Shko"
-	link Zogu
-	asteroids "small rock" 17 2.352
-	asteroids "medium rock" 17 2.256
-	asteroids "large rock" 13 1.344
-	asteroids "small metal" 2 1.632
-	asteroids "medium metal" 20 1.344
-	asteroids "large metal" 31 1.92
-	minables silver 1 2.168
-	minables lead 13 3.322
-	minables copper 17 3.413
-	object
-		sprite star/b-giant
-			scale 5
-		period 10
-	object
-		sprite planet/luna-b
-		distance 446
-		period 35.364
-	object
-		sprite planet/rock4-b
-		distance 957
-		period 111.155
-		object
-			sprite planet/rock14-b
-			distance 205
-			period 76.815
-	object
-		sprite planet/browndwarf-l
-		distance 1683
-		period 259.232
-	object
-		sprite planet/jupiter-b
-		distance 3617
-		period 816.742
 
-system Emerike
-	pos 516.361 -156.819
-	government Uninhabited
-	habitable 11850
-	belt 1514 5
-	belt 2308 3
-	belt 2573 10
-	link Flutura
-	link Mik
-	link Pupa
-	asteroids "small rock" 1 1.346
-	asteroids "medium rock" 2 2.482
-	asteroids "large rock" 1 1.769
-	asteroids "small metal" 3 2.64
-	asteroids "medium metal" 119 2.112
-	asteroids "large metal" 1 2.191
-	minables lead 31 3.234
-	object
-		sprite star/a-supergiant
-	object
-		sprite planet/water1-b
-		distance 629
-		period 57.966
-	object
-		sprite planet/cloud8
-		distance 1091
-		period 132.415
-	object
-		sprite planet/gas2
-		distance 2934
-		period 583.971
-		object
-			sprite planet/rhea
-			distance 320
-			period 178.034
-		object
-			sprite planet/dust7-b
-			distance 429
-			period 335.882
-		object
-			sprite planet/desert4-b
-			distance 597
-			period 690.039
-	object
-		sprite planet/gas10-b
-		distance 6154
-		period 1773.932
-		object
-			sprite planet/dust1-b
-			distance 236
-			period 112.758
-	object
-		sprite planet/gas9
-		distance 10496
-		period 3951.269
-	object
-		sprite planet/gas6-b
-		distance 13301
-		period 5636.73
-		object
-			sprite planet/callisto-b
-			distance 376
-			period 190.809
 
-system Kemi
-	pos 673.25 -132.375
-	government Uninhabited
-	habitable 4050
-	belt 1923 9
-	belt 2500 8
-	link Zogu
-	asteroids "small rock" 10 2.797
-	asteroids "medium rock" 26 2.25
-	asteroids "large rock" 5 2.523
-	asteroids "small metal" 21 2.219
-	asteroids "medium metal" 53 2.554
-	asteroids "large metal" 62 2.584
-	object
-		sprite star/g-giant
-		period 10
-	object
-		sprite planet/titan
-		distance 388
-		period 48.037
-	object
-		sprite planet/ice5
-		distance 841
-		period 153.294
-	object
-		sprite planet/gas7-hot
-		distance 1738
-		period 455.415
-		object
-			sprite planet/europa-b
-			distance 185
-			period 119.034
-		object
-			sprite planet/lava0-b
-			distance 338
-			period 162.627
-	object
-		sprite planet/vesvi
-		distance 3930
-		period 1548.536
-		object
-			sprite planet/dust3-b
-			distance 472
-			period 387.627
-		object
-			sprite planet/europa
-			distance 571
-			period 645.455
 
 system "Ik Shko"
-	pos 602.463 -244.593
+	pos 499.13 -69.593
 	government Uninhabited
 	habitable 7003.778
 	belt 1880 7
 	link Nai
-	link Pupa
 	asteroids "small rock" 78 3.72
 	asteroids "medium rock" 61 3.968
 	asteroids "large rock" 47 3.67
@@ -2530,7 +1176,7 @@ system "Ik Shko"
 			period 139.519
 
 system Nai
-	pos 642.463 -205.259
+	pos 539.13 -30.259
 	government Uninhabited
 	habitable 5307.297
 	belt 1216 8
@@ -2595,7 +1241,7 @@ system Nai
 			period 1030.056
 
 system Grot
-	pos 688.671 -181.801
+	pos 585.338 -6.801
 	government Uninhabited
 	habitable 7795.184
 	belt 1847 3
@@ -2648,14 +1294,12 @@ system Grot
 		period 881.986
 
 system Zogu
-	pos 628.671 -157.134
+	pos 499.505 4.533
 	government Uninhabited
 	habitable 6300.097
 	belt 1514 9
-	link Kemi
 	link Nai
 	link Posht
-	link Pupa
 	asteroids "medium rock" 1 4.495
 	asteroids "large rock" 1 7.13
 	asteroids "small metal" 18 5.812
@@ -2707,7 +1351,7 @@ system Zogu
 			period 466.458
 
 system Posht
-	pos 574.005 -119.134
+	pos 392.339 16.699
 	government Uninhabited
 	habitable 1715.357
 	belt 1391 10
@@ -2773,7 +1417,7 @@ system Posht
 			period 876.111
 
 system "Lepuri e Vitur"
-	pos 440.227 -211.718
+	pos 313.561 -13.385
 	government Uninhabited
 	habitable 3208.255
 	belt 1647 3

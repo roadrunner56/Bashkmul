@@ -1,0 +1,5 @@
+system Mnashyu
+
+system Anbrim
+	pos 728.2 -363.7
+
