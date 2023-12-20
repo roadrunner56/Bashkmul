@@ -1,5 +1,5 @@
 system Frenoj
-	pos 572.778 -169.723
+	pos 576.111 -168.89
 	government Bashkmul
 	habitable 17287.297
 	belt 1129 7
@@ -39,18 +39,10 @@ system Frenoj
 		sprite planet/io-b
 		distance 2226
 		period 319.51
-	object
-		sprite planet/jupiter
-		distance 4293
-		period 855.732
-		object
-			sprite planet/ice7
-			distance 272
-			period 117.401
-		object
-			sprite planet/dust7
-			distance 447
-			period 357.241
+	object Pastur
+		sprite planet/dust4
+			scale 2
+		distance 15127.027
 
 system Raunai
 	pos 494.667 -295.334
@@ -60,62 +52,26 @@ system Raunai
 	link Melkran
 	asteroids "large metal" 1 5.07
 	object
-		sprite star/k-giant
+		sprite star/g5-old
 		period 500
-	object
+	object "Deika Rigra"
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 3000
+		distance 812
 		period 349.82
 		offset -30
-	object
+	object "Deika Rigra"
 		sprite planet/ringworld
 			scale 0.5
-		distance 3000
+		distance 812
 		period 349.82
 		offset -50
-	object
+	object "Deika Rigra"
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 3000
+		distance 812
 		period 349.82
 		offset -70
-	object
-		sprite "planet/ringworld left"
-			scale 0.5
-		distance 3000
-		period 349.82
-		offset -90
-	object
-		sprite "planet/ringworld right"
-			scale 0.5
-		distance 3000
-		period 349.82
-		offset -110
-	object
-		sprite "planet/ringworld right"
-			scale 0.5
-		distance 3000
-		period 349.82
-		offset 40
-	object
-		sprite planet/ringworld
-			scale 0.5
-		distance 3000
-		period 349.82
-		offset 60
-	object
-		sprite planet/ringworld
-			scale 0.5
-		distance 3000
-		period 349.82
-		offset 80
-	object
-		sprite "planet/ringworld left"
-			scale 0.5
-		distance 3000
-		period 349.82
-		offset 100
 
 system Melkran
 	pos 568.833 -323.333
@@ -523,6 +479,11 @@ system Shpi
 		sprite planet/neptune-b
 		distance 7991
 		period 5647.311
+	object Chemundur
+		sprite planet/dust7
+			scale 3
+		distance 2660
+		period 350
 
 system Fletka
 	pos 686.452 -268.512
@@ -601,7 +562,7 @@ system Lezoji
 			period 465.148
 	object
 		sprite planet/gas9
-		distance 3121
+		distance 3800.39
 		period 1190.84
 		object
 			sprite planet/oberon-b
@@ -613,7 +574,7 @@ system Lezoji
 			period 406.732
 	object
 		sprite planet/gas2-hot
-		distance 5658
+		distance 5987.373
 		period 2906.748
 		object
 			sprite planet/rock3-b
@@ -649,6 +610,10 @@ system Lezoji
 		distance 5000
 		period 500
 		offset 40
+	object Sok
+		sprite planet/rock12-b
+			scale 3
+		distance 2500
 
 system Akoma
 	pos 760.285 -260.345
@@ -689,6 +654,9 @@ system Akoma
 			sprite planet/dust7-b
 			distance 306
 			period 202.34
+	object "Suri 3-E"
+		sprite planet/station1b
+		distance 2767.729
 
 system Prapme
 	pos 757.119 -328.345
@@ -741,6 +709,10 @@ system Prapme
 			sprite planet/rock3
 			distance 311
 			period 207.32
+	object Shundosh
+		sprite planet/fog0-b
+			scale 2
+		distance 3035
 
 system Yepi
 	pos 778.784 -173.845
