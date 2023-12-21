@@ -1,12 +1,12 @@
 planet Mernoth
 	landscape land/industrial0-iridium
-	description "This is the most populous world in Aert space outside of Valbona. As the nearest inhabited planet from the wormhole, it was the site of first contact between the Aert and Rigra. As such, it was made the capital of the Bashkmul and has been widely settled by both species. Most cities on this planet have above and below-ground components, providing suitable habitation for both the Aert and Rigra. As Frenoj is a young star, its planets have been spared the worst of the Pug destruction, and it still maintains some semblance of a normal ecosystem."
+	description "As the nearest inhabited planet from the wormhole, it was the site of first contact between the Aert and Rigra. As such, it was made the capital of the Bashkmul and has been widely settled by both species. Most cities on this planet have above and below-ground components, providing suitable habitation for both the Aert and Rigra.
 	spaceport "The spaceport here is far busier and full of life than most other Bashkmul worlds. On the massive dome covering the mercantile section is an enormous mural, depicting the Aert on one side climbing out of the ground, and the Rigra on the other side emerging from the ocean. They both ascend what you guess is some sort of staircase, meeting each other in the stars. It is difficult to make out as the mural is so faded and poorly maintained that most details have fallen away."
 	government Bashkmul
 
-planet Lukainos
-	description "Aert world #1."
-	spaceport "The aliens here are mostly Rigra, though you spot an Aert or two. No matter the species, they all seem to be focused on you and your jump-drive equipped ship. Perhaps it it best if you don't spend too long here."
+planet Shundosh
+	description "This is the homeworld of the Aert, although looking at it from space you wouldn't realize it. The vast majority of the surface has been dedicated to farming, with most of the population living below ground. However, in the aftermath of the Pug war, the "
+	spaceport "Test."
 
 planet Hema
 	landscape land/city4
@@ -50,7 +50,7 @@ planet "Chemundur"
 	description "Lawless world"
 	spaceport test
 
-planet "Shundosh"
+planet "Lukainos"
 	description "Most populous Rigra world"
 	spaceport test
 
@@ -60,6 +60,6 @@ planet "Sok"
 
 planet "Deika Rigra"
 	government Quarg
-	description "This ringworld is filled with Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
+	description "This ringworld is filled with Aert desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
 	spaceport test
 
