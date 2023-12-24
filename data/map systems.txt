@@ -1,12 +1,17 @@
 system Frenoj
 	pos 576.111 -168.89
 	government Bashkmul
-	habitable 17287.297
-	belt 1129 7
-	belt 2084 6
+	habitable 5600
+	belt 1280 6
 	link Popi
 	link Shpi
-	asteroids "large metal" 1 5.702
+	asteroids "small rock" 14 2.252
+	asteroids "medium rock" 48 2.933
+	asteroids "large rock" 2 3.485
+	asteroids "small metal" 16 3.783
+	asteroids "medium metal" 10 2.72
+	asteroids "large metal" 7 3.613
+	minables aluminum 2 5.393
 	trade Clothing 245
 	trade Electronics 756
 	trade Equipment 562
@@ -18,31 +23,37 @@ system Frenoj
 	trade Metal 421
 	trade Plastic 280
 	object
-		sprite star/k-giant
+		sprite star/f-giant
+		period 10
 	object
-		sprite planet/rock16-b
-		distance 734
-		period 60.498
+		sprite planet/ocean8
+		distance 449
+		period 50.855
 	object
-		sprite planet/rock18
-		distance 1157
-		period 119.728
+		sprite planet/rock11-b
+		distance 838
+		period 129.668
+	object
+		sprite planet/neptune-b
+		distance 1243
+		period 234.246
+	object
+		sprite planet/gas4-b
+		distance 3276
+		period 1002.263
 		object
-			sprite planet/miranda-b
-			distance 171
-			period 105.781
+			sprite planet/dust1
+			distance 275
+			period 141.833
 	object
-		sprite planet/tethys
-		distance 1604
-		period 195.435
-	object
-		sprite planet/io-b
-		distance 2226
-		period 319.51
-	object Pastur
-		sprite planet/dust4
+		sprite planet/gas4
+		distance 8147
+		period 3930.634
+	object Lukainos
+		sprite planet/desert1
 			scale 2
-		distance 15127.027
+		distance 5000
+		period 200
 
 system Raunai
 	pos 494.667 -295.334
@@ -117,7 +128,12 @@ system Melkran
 		sprite planet/forest6
 			scale 5
 		distance 2500
-		period 400
+		period 320
+	object Pastur
+		sprite planet/rock11
+			scale 2
+		distance 5951.596
+		period 500
 
 system Niku
 	pos 861.663 -212.365
@@ -247,11 +263,10 @@ system Ina
 		sprite planet/vesvi
 		distance 14171
 		period 7591.843
-	object Lukainos
-		sprite planet/forest2
+	object Shundosh
+		sprite planet/cloud3
 			scale 4
-		distance 8000
-		period 200
+		distance 7150.116
 
 system Afer
 	pos 805.34 -237.622
@@ -607,7 +622,7 @@ system Lezoji
 	object Greemi
 		sprite planet/ice7
 			scale 3
-		distance 5000
+		distance 4766.312
 		period 500
 		offset 40
 	object Sok
@@ -654,9 +669,11 @@ system Akoma
 			sprite planet/dust7-b
 			distance 306
 			period 202.34
-	object "Suri 3-E"
-		sprite planet/station1b
-		distance 2767.729
+	object Mernoth
+		sprite planet/forest1-b
+			scale 3
+		distance 3037.664
+		period 216
 
 system Prapme
 	pos 757.119 -328.345
@@ -672,7 +689,6 @@ system Prapme
 	minables lead 1 10.747
 	object
 		sprite star/k-giant
-		period 10
 	object
 		sprite planet/cloud8
 		distance 557
@@ -709,10 +725,16 @@ system Prapme
 			sprite planet/rock3
 			distance 311
 			period 207.32
-	object Shundosh
-		sprite planet/fog0-b
-			scale 2
-		distance 3035
+	object "Suri 3-E"
+		sprite planet/station12
+			scale 4
+		distance 4004.493
+		period 400
+	object Hema
+		sprite planet/forest6-b
+			scale 5
+		distance 2833.027
+		period 340
 
 system Yepi
 	pos 778.784 -173.845
