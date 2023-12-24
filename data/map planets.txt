@@ -1,4 +1,4 @@
-planet Mernoth
+	planet Mernoth
 	landscape land/industrial0-iridium
 	description "As the nearest inhabited planet from the wormhole, it was the site of first contact between the Aert and Rigra. As such, it was made the capital of the Bashkmul and has been widely settled by both species. Most cities on this planet have above and below-ground components, providing suitable habitation for both the Aert and Rigra.
 	spaceport "The spaceport here is far busier and full of life than most other Bashkmul worlds. On the massive dome covering the mercantile section is an enormous mural, depicting the Aert on one side climbing out of the ground, and the Rigra on the other side emerging from the ocean. They both ascend what you guess is some sort of staircase, meeting each other in the stars. It is difficult to make out as the mural is so faded and poorly maintained that most details have fallen away."
@@ -43,7 +43,7 @@ planet "Pastur"
 	spaceport test
 
 planet "Suri 3-E"
-	description "Station, built but collapsed many times"
+	description "Station, built but collapsed many times. Originally built during the Bashkmul civil war as a military base."
 	spaceport test
 
 planet "Chemundur"

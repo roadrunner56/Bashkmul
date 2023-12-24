@@ -24,6 +24,7 @@ system Frenoj
 	trade Plastic 280
 	object
 		sprite star/f-giant
+		distance 71.181
 		period 10
 	object
 		sprite planet/ocean8
@@ -54,6 +55,10 @@ system Frenoj
 			scale 2
 		distance 5000
 		period 200
+	object Mikos
+		sprite planet/rock15
+		distance 2596.573
+		period 204
 
 system Raunai
 	pos 494.667 -295.334
@@ -676,7 +681,7 @@ system Akoma
 		period 216
 
 system Prapme
-	pos 757.119 -328.345
+	pos 757.119 -327.512
 	government Bashkmul
 	habitable 3000
 	belt 1410 6
