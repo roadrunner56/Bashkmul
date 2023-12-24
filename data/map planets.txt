@@ -1,11 +1,11 @@
-	planet Mernoth
+planet Mernoth
 	landscape land/industrial0-iridium
-	description "As the nearest inhabited planet from the wormhole, it was the site of first contact between the Aert and Rigra. As such, it was made the capital of the Bashkmul and has been widely settled by both species. Most cities on this planet have above and below-ground components, providing suitable habitation for both the Aert and Rigra.
-	spaceport "The spaceport here is far busier and full of life than most other Bashkmul worlds. On the massive dome covering the mercantile section is an enormous mural, depicting the Aert on one side climbing out of the ground, and the Rigra on the other side emerging from the ocean. They both ascend what you guess is some sort of staircase, meeting each other in the stars. It is difficult to make out as the mural is so faded and poorly maintained that most details have fallen away."
+	description "As the nearest inhabited planet from Aert space, Mernoth was the site of first contact between the Aert and Rigra. As such, it was made the capital of the Bashkmul and has been widely settled by both species. Most cities on this planet have above and below-ground components, providing suitable habitation for both the Aert and Rigra. Like most Rigra planets, the vast majority of its surface area is inhabited; very little remains untouched."
+	spaceport "The spaceport here is packed, even by Rigra standards. On the massive dome covering the spaceport's market is an enormous mural, depicting the Aert on one side climbing out of the ground, and the Rigra on the other side emerging from the ocean. They both ascend what you guess is some sort of staircase, meeting each other in the stars. It is difficult to make out as the mural is so faded and poorly maintained that most details have fallen away."
 	government Bashkmul
 
 planet Shundosh
-	description "This is the homeworld of the Aert, although looking at it from space you wouldn't realize it. The vast majority of the surface has been dedicated to farming, with most of the population living below ground. However, in the aftermath of the Pug war, the "
+	description "This is the homeworld of the Aert, although looking at it from space you wouldn't realize it. The vast majority of the surface has been dedicated to farming, with most of the population living below ground. However, in the aftermath of the Pug war, the planet's ecosystem has been getting drier as Shundosh's star has expanded and aged. Farming has since moved to the poles, leaving the equator mostly barren. Desert life forms have begun to take over the abandoned farms there."
 	spaceport "Test."
 
 planet Hema
@@ -15,11 +15,11 @@ planet Hema
 	government Bashkmul
 
 planet "Aeron"
-	description "Aert world #2"
-	spaceport test
+	description "Aeron was the first world the Aert colonized outside of their home planet. Due to their rather underdeveloped terraforming capabilities at the time, the Aert chose Aeron as a"
+	spaceport "The spaceport seems to be in the middle of a
 
 planet "Lumop"
-	description "Aert world #3"
+	description "The handful of Aert who have moved here Lumop has remained relatively untouched as its"
 	spaceport test
 
 planet "Greemi"
@@ -60,6 +60,6 @@ planet "Sok"
 
 planet "Deika Rigra"
 	government Quarg
-	description "This ringworld is filled with Aert desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
+	description "The first thing you notice about this ringworld is that the Quarg seem to be a minority here. This ringworld is filled with both Aert and Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
 	spaceport test
 
