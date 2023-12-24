@@ -14,4 +14,4 @@
 - [ ] Write hails
 - [ ] Write first contact mission
 - [ ] Create fleets
-- [ ] Finalize lore doc
+- [X] Finalize lore doc
