@@ -6,25 +6,26 @@ planet Mernoth
 
 planet Shundosh
 	description "This is the homeworld of the Aert, although looking at it from space you wouldn't realize it. The vast majority of the surface has been dedicated to farming, with most of the population living below ground. However, in the aftermath of the Pug war, the planet's ecosystem has been getting drier as Shundosh's star has expanded and aged. Farming has since moved to the poles, leaving the equator mostly barren. Desert life forms have begun to take over the abandoned farms there."
-	spaceport "Test."
+	spaceport "Even now, you can still see signs of the Aert-Rigra war. Many parts of the spaceport are still in ruins, and apparently no one has had either the desire or the resources to fix them."
+	spaceport "The spaceport seems strangely empty for a homeworld. A few Aert turn to look at you, but you cannot read their expressions."
 
 planet Hema
 	landscape land/city4
 	description "Despite being in Rigra space, you notice an abnormally large number of Aert wandering around. While the Aert are not typically adventurous, some who long for excitement and novelty come here to live with the Rigra. As such they have been strongly influenced by Rigran culture, and have even developed their own dialect as a result of their isolation from most of the Aert population."
-	spaceport "The spaceport here is "
+	spaceport "The Aert here do not seem to meander at the languid pace common to other spaceports where Aert are found; instead, their movements are sharper, more hasty and purposeful. It is an odd combination when taking into account their large size and almost immovable appearance."
 	government Bashkmul
 
 planet "Aeron"
-	description "Aeron was the first world the Aert colonized outside of their home planet. Due to their rather underdeveloped terraforming capabilities at the time, the Aert chose Aeron as a"
+	description "Aeron was the first world the Aert colonized outside of their home planet. Due to their rather underdeveloped terraforming capabilities at the time, the Aert chose Aeron as it was already mostly suitable for life. "
 	spaceport "The spaceport seems to be in the middle of a
 
 planet "Lumop"
-	description "The handful of Aert who have moved here Lumop has remained relatively untouched as its"
+	description "The handful of Aert who have moved here. Lumop has remained relatively untouched as its"
 	spaceport test
 
 planet "Greemi"
-	description "Rigra testing world"
-	spaceport test
+	description "Greemi is a world primarily used as a testing ground for the Rigra's more dangerous and risky scientific experiments. The planet's surface is sharply divided. One half of the planet is covered in pockmarked, desolate scrubland, presumably used for the testing of weapons and heavy machinery, while the other half remains a pristine wilderness suitable for biological and ecological research. Warehouse-like buildings spread throughout the planet contain laboratories, some of which host research into deadly diseases that require complete isolation from any population centers."
+	spaceport "The spaceport is perfectly placed between the planet's two divisions. The few Rigra here regard you with unease and more than a little suspision. This is clearly not a planet where civilians are typically welcome. However, you also notice many curious glances your way, from those who are no doubt eager to learn about a strange new species in their midst."
 
 planet "Nkal"
 	description "Rigra homeworld"
@@ -35,8 +36,8 @@ planet "Mikos"
 	spaceport test
 
 planet "Kinsli"
-	description "Industrial world"
-	spaceport test
+	description "The entire planet seems to be blanketed in a thick haze that you almost choke on when leaving your ship. As you come in for a landing, you notice that a majority of Kinsli's land area appears to be covered by sprawling cities and factories, which support the planet's gargantuan industrial output. There is precious little untouched wilderness to be seen, and you suspect that was intentional on the part of the Rigra."
+	spaceport "Crowds of Rigra, most of them wearing ventilation masks, hurry to and fro. It's hard to tell what they're thinking; while their faces are much more human than the Aert, they are mostly covered by their masks. Judging by their body language, however, they seem confident and almost jovial in their walk. You even see some Rigra who appear to play pranks on each other in between shifts."
 
 planet "Pastur"
 	description "World really bad for terraforming but is still being terraformed out of desperation anyways"
@@ -51,8 +52,8 @@ planet "Chemundur"
 	spaceport test
 
 planet "Lukainos"
-	description "Most populous Rigra world"
-	spaceport test
+	description "The cities of Lukanios cover a significant portion of the planet's land area. In the deepest depths of Lukanios' cities lie untold millions of Rigra, whose link to the rest of their society is tenuous at best. What goes on at the centers of these cities is unknown even to the authorities on this planet; "
+	spaceport "Even by Rigra standards, this planet is packed with people. You can hardly find standing room in the spaceport"
 
 planet "Sok"
 	description "Large Rigra world"
@@ -60,6 +61,7 @@ planet "Sok"
 
 planet "Deika Rigra"
 	government Quarg
-	description "The first thing you notice about this ringworld is that the Quarg seem to be a minority here. This ringworld is filled with both Aert and Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
+	description "The first thing you notice about this ringworld is that the Quarg seem to be a minority here. Instead, Deika Rigra is filled with both Aert and Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
 	spaceport test
 
+# Still need to make planets for the southwestern region.
