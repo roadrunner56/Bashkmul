@@ -10,7 +10,7 @@
  Todo:
 - [X] Finalize lore doc
 - [X] Finalize map
-- [ ] Write descriptions for planets
+- [X] Write descriptions for planets
 - [ ] Make outfit and ship stats
 - [ ] Create fleets
 - [ ] Write hails
