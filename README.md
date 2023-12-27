@@ -8,10 +8,11 @@
  NOT CURRENTLY PLAYABLE: WIP
  
  Todo:
-- [ ] Make outfit and ship stats
-- [ ] Write descriptions for planets
+- [X] Finalize lore doc
 - [X] Finalize map
+- [ ] Write descriptions for planets
+- [ ] Make outfit and ship stats
+- [ ] Create fleets
 - [ ] Write hails
 - [ ] Write first contact mission
-- [ ] Create fleets
-- [X] Finalize lore doc
+
