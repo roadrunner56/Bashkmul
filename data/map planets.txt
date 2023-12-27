@@ -16,8 +16,8 @@ planet Hema
 	government Bashkmul
 
 planet "Aeron"
-	description "Aeron was the first world the Aert colonized outside of their home planet. Due to their rather underdeveloped terraforming capabilities at the time, the Aert chose Aeron as it was already mostly suitable for life. "
-	spaceport "The spaceport seems to be in the middle of a
+	description "Aeron was the first world the Aert colonized outside of their home planet. Due to their rather underdeveloped terraforming capabilities at the time, the Aert chose Aeron as it was already mostly suitable for habitation. "
+	spaceport "While it is hard to tell, the few Aert present in the spaceport appear to pointedly ignore you as you go about your business.
 
 planet "Lumop"
 	description "The handful of Aert who have moved here. Lumop has remained relatively untouched as its"
@@ -28,8 +28,8 @@ planet "Greemi"
 	spaceport "The spaceport is perfectly placed between the planet's two divisions. The few Rigra here regard you with unease and more than a little suspision. This is clearly not a planet where civilians are typically welcome. However, you also notice many curious glances your way, from those who are no doubt eager to learn about a strange new species in their midst."
 
 planet "Nkal"
-	description "Rigra homeworld"
-	spaceport test
+	description "Nkal is the homeworld of the Rigra, and the planet reflect that in the. Upon landing you are struck by the thick humidity of this planet. Its power is almost suffocating, but the Rigra around you appear to have no problem in this environment."
+	spaceport "The spaceport is the definition of sensory overload. The "
 
 planet "Mikos"
 	description "Mining world"
@@ -40,11 +40,11 @@ planet "Kinsli"
 	spaceport "Crowds of Rigra, most of them wearing ventilation masks, hurry to and fro. It's hard to tell what they're thinking; while their faces are much more human than the Aert, they are mostly covered by their masks. Judging by their body language, however, they seem confident and almost jovial in their walk. You even see some Rigra who appear to play pranks on each other in between shifts."
 
 planet "Pastur"
-	description "World really bad for terraforming but is still being terraformed out of desperation anyways"
+	description "While far away from its star, Pastur is the subject of intense terraforming efforts aiming to produce a livable environment out of what was once a barren rock. Despite the skill the Rigra have in bending their planets to their will, Pastur still seems more of a desperate attempt at gaining more livable planets rather than something that will be successful in the long-term."
 	spaceport test
 
 planet "Suri 3-E"
-	description "Station, built but collapsed many times. Originally built during the Bashkmul civil war as a military base."
+	description "Station, built but collapsed many times. Originally built during the Bashkmul civil war as a military base, Suri 3-E is now the home of thousands of civilians. Its name refers to the amount of times that it has been rebuilt."
 	spaceport test
 
 planet "Chemundur"
@@ -52,11 +52,11 @@ planet "Chemundur"
 	spaceport test
 
 planet "Lukainos"
-	description "The cities of Lukanios cover a significant portion of the planet's land area. In the deepest depths of Lukanios' cities lie untold millions of Rigra, whose link to the rest of their society is tenuous at best. What goes on at the centers of these cities is unknown even to the authorities on this planet; "
-	spaceport "Even by Rigra standards, this planet is packed with people. You can hardly find standing room in the spaceport"
+	description "In the deepest depths of Lukanios' cities lie untold millions of Rigra, whose link to the rest of their society is tenuous at best. What goes on at the centers of these cities is unknown even to the authorities on this planet; rumors and stories abound of the lawless nature of life in Lukanios' slums."
+	spaceport "Even by Rigra standards, this planet is packed with people. You can hardly find standing room in the spaceport, and the din rattles your skull."
 
 planet "Sok"
-	description "Large Rigra world"
+	description "Sok was settled relatively recently in the Rigra's history. This, combined with the large surface area of the planet, means that Sok has a much lower population density than most other Rigra worlds. What prevents a large movement to this planet is the dry, inhospitable weather, anathemic to Rigran life. Instead of terraforming the planet, however, the Bashkmul collectively decided to relocate the Aert here, who are much more comfortable with Sok's dry environment and lack of large cities."
 	spaceport test
 
 planet "Deika Rigra"
