@@ -52,7 +52,6 @@ system Frenoj
 		period 3930.634
 	object Lukainos
 		sprite planet/desert1
-			scale 2
 		distance 5000
 		period 200
 	object Mikos
@@ -131,12 +130,10 @@ system Melkran
 		period 1365.572
 	object Nkal
 		sprite planet/forest6
-			scale 5
 		distance 2500
 		period 320
 	object Pastur
 		sprite planet/rock11
-			scale 2
 		distance 5951.596
 		period 500
 
@@ -206,7 +203,6 @@ system Niku
 		period 1971.746
 	object Lumop
 		sprite planet/rock1
-			scale 4
 		distance 3900
 		period 600
 
@@ -270,7 +266,6 @@ system Ina
 		period 7591.843
 	object Shundosh
 		sprite planet/cloud3
-			scale 4
 		distance 7150.116
 
 system Afer
@@ -341,7 +336,6 @@ system Afer
 		period 1444.802
 	object Aeron
 		sprite planet/ocean7
-			scale 4
 		distance 5000
 		period 300
 
@@ -398,7 +392,6 @@ system Vetem
 			period 168.638
 	object Kinsli
 		sprite planet/rock1
-			scale 1.5
 		distance 700
 
 system Popi
@@ -501,7 +494,6 @@ system Shpi
 		period 5647.311
 	object Chemundur
 		sprite planet/dust7
-			scale 3
 		distance 2660
 		period 350
 
@@ -626,13 +618,11 @@ system Lezoji
 			period 319.324
 	object Greemi
 		sprite planet/ice7
-			scale 3
 		distance 4766.312
 		period 500
 		offset 40
 	object Sok
 		sprite planet/rock12-b
-			scale 3
 		distance 2500
 
 system Akoma
@@ -676,7 +666,6 @@ system Akoma
 			period 202.34
 	object Mernoth
 		sprite planet/forest1-b
-			scale 3
 		distance 3037.664
 		period 216
 
@@ -732,14 +721,8 @@ system Prapme
 			period 207.32
 	object "Suri 3-E"
 		sprite planet/station12
-			scale 4
 		distance 4004.493
 		period 400
-	object Hema
-		sprite planet/forest6-b
-			scale 5
-		distance 2833.027
-		period 340
 
 system Yepi
 	pos 778.784 -173.845
