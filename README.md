@@ -7,12 +7,10 @@
  
  NOT CURRENTLY PLAYABLE: WIP
  
- Todo:
+ To do before being PRed to vanilla ES:
 - [X] Finalize lore doc
 - [X] Finalize map
-- [ ] Write descriptions for planets
+- [X] Write descriptions for planets
 - [ ] Make outfit and ship stats
-- [ ] Create fleets
-- [ ] Write hails
 - [ ] Write first contact mission
 
