@@ -1,0 +1,9 @@
+outfit "Iron Shield Generator"
+	category "Systems"
+	cost 59000
+	thumbnail "outfit/shield booster"
+	"mass" 12
+	"outfit space" -12
+	"shield generation" 0.4
+	"shield energy" 1.0
+	description "Rigra don't care much for shields."
