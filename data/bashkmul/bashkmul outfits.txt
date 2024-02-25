@@ -7,3 +7,35 @@ outfit "Iron Shield Generator"
 	"shield generation" 0.4
 	"shield energy" 1.0
 	description "Rigra don't care much for shields."
+
+
+outfit "Steel Shield Generator"
+	category "Systems"
+	cost 59000
+	thumbnail "outfit/shield booster"
+	"mass" 20
+	"outfit space" -20
+	"shield generation" 0.8
+	"shield energy" 1.8
+	description "Rigra-Aert design."
+
+
+outfit "Mountain Hull Regenerator"
+	category "Systems"
+	cost 1940000
+	thumbnail "outfit/large nanite fabricator"
+	"mass" 40
+	"outfit space" -40
+	"hull repair rate" 1,5
+	"hull energy" 3
+	description "Aert design. New."
+
+
+outfit "??? Bazooka"
+	category "Hand to Hand"
+	cost 47000
+	thumbnail "outfit/lasher pistol"
+	"capture attack" 2
+	"capture defense" 0.5
+	"unplunderable" 1
+	description "Big bazooka."
