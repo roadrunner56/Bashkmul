@@ -1,0 +1,131 @@
+outfit "Thunderstrike Beam"
+	category "Guns"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 13
+	"outfit space" -13
+	"weapon capacity" -13
+	"gun ports" -1
+	weapon
+		"inaccuracy" 1.5
+		"velocity" 20
+		"lifetime" 40
+		"reload" 25
+		"firing energy" 40
+		"firing heat" 120
+		"shield damage" 70
+		"hull damage" 40
+	description "Powerful but inaccurate and unreliable. Rigra design."
+
+
+
+outfit "Thunderstrike Turret"
+	category "Turrets"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 19
+	"outfit space" -19
+	"weapon capacity" -19
+	"turret mounts" -1
+	weapon
+		"inaccuracy" 1.9
+		"velocity" 20
+		"lifetime" 40
+		"reload" 25
+		"firing energy" 50
+		"firing heat" 135
+		"shield damage" 90
+		"hull damage" 50
+	description "Powerful but inaccurate and unreliable. Rigra design."
+
+
+
+outfit "Gadfly Blaster"
+	category "Guns"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		"inaccuracy" 1.5
+		"velocity" 20
+		"lifetime" 40
+		"reload" 25
+		"firing energy" 40
+		"firing heat" 120
+		"shield damage" 70
+		"hull damage" 40
+	description "Weak but fast. Rigra design."
+
+
+
+outfit "Plague Cannon"
+	ccategory "Secondary Weapons"
+	cost 80000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 18
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"barrel capacity" 20
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "torpedo"
+		ammo "Plague Barrel"
+		icon "icon/torpedo"
+		"fire effect" "torpedo fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 3
+		"velocity" 0
+		"velocity override" 7
+		"lifetime" 900
+		"range override" 6300
+		"reload" 80
+		"firing energy" 3
+		"firing heat" 50
+		"acceleration" .8
+		"drag" .015
+		"turn" 1.5
+		"homing" 3
+		"optical tracking" .8
+		"shield damage" 700
+		"hull damage" 920
+		"hit force" 200
+		"missile strength" 30
+	description "Fires toxic waste. Rigra design."
+
+
+
+outfit "Plague Barrel"
+	category "Ammunition"
+	cost 1400
+	thumbnail "outfit/torpedo"
+	"mass" .4
+	"torpedo capacity" -1
+	description "Plague barrels are ammunition for the Plague Cannon. Each Plague Cannon can hold 20 of them. You cannot install barrels unless you have also installed a launcher to fire them from."
+
+
+
+outfit "Turtle Anti-Missle"
+	category "Turrets"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 17
+	"outfit space" -17
+	"weapon capacity" -17
+	"turret mounts" -1
+	weapon
+		"inaccuracy" 2.2
+		"velocity" 20
+		"lifetime" 40
+		"reload" 25
+		"firing energy" 50
+		"firing heat" 135
+		"shield damage" 90
+		"hull damage" 50
+	description "Poor stats. Aert design."
