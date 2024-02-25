@@ -11,6 +11,8 @@
 - [X] Finalize lore doc
 - [X] Finalize map
 - [X] Write descriptions for planets
-- [ ] Make outfit and ship stats
+- [X] Make draft weapons stats
+- [ ] Make draft outfit stats
+- [ ] Make draft ship stats
 - [ ] Write first contact mission
 
