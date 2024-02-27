@@ -22,7 +22,7 @@ outfit "Steel Shield Generator"
 
 outfit "Mountain Hull Regenerator"
 	category "Systems"
-	cost 1940000
+	cost 940000
 	thumbnail "outfit/large nanite fabricator"
 	"mass" 40
 	"outfit space" -40
@@ -74,7 +74,7 @@ outfit "Madith Thrusters"
 	"mass" 38
 	"outfit space" -38
 	"engine capacity" -38
-	"thrust" 17.8
+	"thrust" 23.8
 	"thrusting energy" 2.80
 	"thrusting heat" 2.2
 	"flare sprite" "effect/bunrodea flare/large"
@@ -92,7 +92,7 @@ outfit "Shum Thrusters"
 	"mass" 49
 	"outfit space" -49
 	"engine capacity" -49
-	"thrust" 24.3
+	"thrust" 34.3
 	"thrusting energy" 2.80
 	"thrusting heat" 2.2
 	"flare sprite" "effect/bunrodea flare/large"
@@ -102,6 +102,102 @@ outfit "Shum Thrusters"
 	"flare sound" "ion tiny"
 	description "Extra-large thrusters."
 
+
+outfit "Oerth Thrusters"
+	category "Engines"
+	cost 100000
+	thumbnail "outfit/chiisana rift thruster"
+	"mass" 53
+	"outfit space" -53
+	"engine capacity" -53
+	"thrust" 19.3
+	"thrusting energy" 0.8
+	"thrusting heat" 0.3
+	"flare sprite" "effect/bunrodea flare/large"
+		"frame rate" 1
+		"rewind"
+		"scale" 0.3
+	"flare sound" "ion tiny"
+	description "Aert thrusters. Large, slow, but uses very little power."
+
+
+outfit "Oerth Steering"
+	category "Engines"
+	"cost" 75000
+	thumbnail "outfit/small korath steering"
+	"mass" 47
+	"outfit space" -47
+	"engine capacity" -47
+	"turn" 134.5
+	"turning energy" 0.4
+	"turning heat" 0.3
+	"steering flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "plasma small"
+	description "Aert steering. Large, slow, but uses very little power."
+
+
+outfit "Vogul Steering"
+	category "Engines"
+	"cost" 75000
+	thumbnail "outfit/small korath steering"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"turn" 308.8
+	"turning energy" 1.1
+	"turning heat" 2.1
+	"steering flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "plasma small"
+	description "Small Rigra steering."
+
+
+outfit "Kaich Steering"
+	category "Engines"
+	"cost" 90000
+	thumbnail "outfit/small korath steering"
+	"mass" 26
+	"outfit space" -26
+	"engine capacity" -26
+	"turn" 472.4
+	"turning energy" 1.4
+	"turning heat" 3.2
+	"steering flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "plasma small"
+	description "Medium Rigra steering."
+
+
+outfit "Madith Steering"
+	category "Engines"
+	"cost" 123000
+	thumbnail "outfit/small korath steering"
+	"mass" 37
+	"outfit space" -37
+	"engine capacity" -37
+	"turn" 522.7
+	"turning energy" 1.7
+	"turning heat" 3.6
+	"steering flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "plasma small"
+	description "Large Rigra steering."
+
+outfit "Shume Steering"
+	category "Engines"
+	"cost" 123000
+	thumbnail "outfit/small korath steering"
+	"mass" 37
+	"outfit space" -37
+	"engine capacity" -37
+	"turn" 600.3
+	"turning energy" 2.3
+	"turning heat" 4.2
+	"steering flare sprite" "effect/korath flare/small"
+		"frame rate" 7.5
+	"steering flare sound" "plasma small"
+	description "Extra-large Rigra steering."
 
 
 outfit "Bazooka Blaster"

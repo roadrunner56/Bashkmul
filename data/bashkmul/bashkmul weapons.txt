@@ -1,4 +1,4 @@
-outfit "Thunderstrike Beam"
+outfit "Thunderstrike Blaster"
 	category "Guns"
 	cost 130000
 	thumbnail "outfit/pulse cannon"
@@ -16,7 +16,6 @@ outfit "Thunderstrike Beam"
 		"shield damage" 70
 		"hull damage" 40
 	description "Powerful but inaccurate and unreliable. Rigra design."
-
 
 
 outfit "Thunderstrike Turret"
@@ -39,7 +38,6 @@ outfit "Thunderstrike Turret"
 	description "Powerful but inaccurate and unreliable. Rigra design."
 
 
-
 outfit "Gadfly Blaster"
 	category "Guns"
 	cost 130000
@@ -59,6 +57,29 @@ outfit "Gadfly Blaster"
 		"hull damage" 40
 	description "Weak but fast. Rigra design."
 
+
+outfit "Thiik Laser"
+	category "Guns"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" .5
+		"velocity" 300
+		"lifetime" 1
+		"reload" 1
+		"firing energy" .67
+		"firing heat" 1.6
+		"shield damage" 2.2
+		"hull damage" 3.9
+	description "New laser weapon. Rigra design."
 
 
 outfit "Plague Cannon"
@@ -100,7 +121,6 @@ outfit "Plague Cannon"
 	description "Fires toxic waste. Rigra design."
 
 
-
 outfit "Plague Barrel"
 	category "Ammunition"
 	cost 1400
@@ -108,7 +128,6 @@ outfit "Plague Barrel"
 	"mass" .4
 	"torpedo capacity" -1
 	description "Plague barrels are ammunition for the Plague Cannon. Each Plague Cannon can hold 20 of them. You cannot install barrels unless you have also installed a launcher to fire them from."
-
 
 
 outfit "Turtle Anti-Missle"
