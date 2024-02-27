@@ -10,9 +10,13 @@
  To do before being PRed to vanilla ES:
 - [X] Finalize lore doc
 - [X] Finalize map
-- [X] Write descriptions for planets
+- [X] Write descriptions for inhabited planets
 - [X] Make draft weapons stats
 - [ ] Make draft outfit stats
 - [ ] Make draft ship stats
+- [ ] Write descriptions for weapons, outfits, and ships
+- [ ] Make shipyards and outfitters
+- [ ] Create fleets
+- [ ] Create hails
 - [ ] Write first contact mission
 
