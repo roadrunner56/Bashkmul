@@ -31,6 +31,39 @@ outfit "Mountain Hull Regenerator"
 	description "Aert design. New."
 
 
+outfit "Factory Reactor"
+	category "Power"
+	cost 5300000
+	thumbnail "outfit/hai boulder"
+	"mass" 90
+	"outfit space" -90
+	"energy generation" 17.3
+	"heat generation" 34
+	description "Large reactor. Uses fusion."
+
+
+outfit "Engine Reactor"
+	category "Power"
+	cost 5750000
+	thumbnail "outfit/hai boulder"
+	"mass" 60
+	"outfit space" -60
+	"energy generation" 12.1
+	"heat generation" 25
+	description "Medium reactor."
+
+
+outfit "Piston Reactor"
+	category "Power"
+	cost 5750000
+	thumbnail "outfit/hai boulder"
+	"mass" 25
+	"outfit space" -25
+	"energy generation" 9.6
+	"heat generation" 13
+	description "Small reactor."
+
+
 outfit "Vogul Thrusters"
 	category "Engines"
 	cost 80000
@@ -183,6 +216,7 @@ outfit "Madith Steering"
 		"frame rate" 7.5
 	"steering flare sound" "plasma small"
 	description "Large Rigra steering."
+
 
 outfit "Shume Steering"
 	category "Engines"
