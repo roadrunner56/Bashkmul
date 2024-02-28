@@ -1,6 +1,7 @@
-mission "First Contact: Bashkmul (Ringworld)"
+mission "First Contact: Bashkmul (Ringworld) [1]"
 	landing
-	name "An Intriguing Invitation"
+	name "Jump Drives for Peace"
+	deadline 10
 	description "An alien species known as the Rigra has requested your presence at their capital."
 	source "Deika Rigra"
 	destination "Mernoth"
@@ -39,6 +40,60 @@ mission "First Contact: Bashkmul (Ringworld)"
 				`	"What if I leave and bring back more jump drives?"`
 					goto negotiation
 			`	The Quarg sighs. "We will not allow any harm to come to you as long as you reside on our ringworld." It places a particular emphasis on 'our', and you wonder if the Bashkmul picks up on this. "However, we cannot interfere with the decisions of the Bashkmul government. Our relations with them are precarious as is. We are unable to guarantee your safety if you leave our space.`
+			choice
+				`	"What if I leave and bring back more jump drives?"`
+					goto negotiation
+				`	"Okay, I'll give up my jump drive."`
+					die
+				`	"I'm not giving up my jump drive!"`
+			`	"The Bashkmul, due to their... unique situation, value jump drives very highly. Simply put, traveling here with a jump drive makes you a target. I would advise leaving as soon as possible, unless you are somehow able to come to an agreement with the Bashkmul." The small alien looks at you, its teeth slightly bared.`
+			choice
+				`	"What if I leave and bring back more jump drives?"`
+					goto negotiation
+				`	"Okay, I'll give up my jump drive."`
+					die
+				`	"I'm getting out of here. No one's getting their hands on my jump drive."`
+					goto nuhuh
 			label negotiation
 			`	The Quarg narrows its eyes. "This may perhaps put you in a more favorable light with the Bashk-"`
-			`	"More? More jump drives?" the small alien interrupts. A gleam in their yellow eyes becomes clearer. "If bring you more jump drives, then we can make peace."`
+			`	"More? Have you more jump drives?" the small alien interrupts. A gleam in their yellow eyes becomes clearer. "If bring you more jump drives, then maybe we can make peace. Come to Mernoth by <date>, and we will talk with leaders."`
+			choice
+				`	"And what if I refuse?"`
+					goto refuse
+				`	"Leaders?"`
+					goto leaders
+				`	"Alright, I'll go."
+					####put a more in-depth response here
+					accept
+				`	"No, I won't go."
+			label nuhuh
+			`	The Bashkmul squints and mutters something in their own language. They then take out some sort of communications device. "You are not welcome in our space."`
+			#####This should send a fleet after you and make you permanently hostile to the Bashkmul
+				decline
+			label refuse
+			`	"Then your ship, we disable and board," they say simply."`
+			choice
+				`	"Leaders?"`
+					goto leaders
+				`	"Alright, I'll go."`
+					accept
+				`	"No, I won't go."`
+					goto nuhuh
+			label leaders
+			`	"With Bashkmul..." they struggle to find an adequate word. "With group of voted people." You sense that this is the best explanation that you'll be able to get until you go to Mernoth.`
+			choice
+				`	"And what if I refuse?"`
+					goto refuse
+				`	"Alright, I'll go."`
+					accept
+				`	"No, I won't go."`
+					goto nuhuh
+	on complete
+		conversation
+			`It is an unusally rainy day at <planet>'s spaceport. You struggle to find a place to land, but that is not only due to the cloud cover. A sizable crowd has formed; most of them appear to be of the same species as the alien who you talked to on <source>. Upon landing, your ship is quickly surrounded.`
+			`	"For the Rigra and Aert which make up the Bashkmul, we demand you exit from your ship."`
+			choice
+				`	(Leave your ship.)`
+				`	(Take off now.)`
+					flee
+			`	You leave your ship and are quickly brought by the
