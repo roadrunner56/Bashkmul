@@ -32,7 +32,7 @@ mission "First Contact: Bashkmul (Ringworld)"
 				`	"No, I don't have a jump drive."`
 				`	"Can I speak to a Quarg?"`
 			`	Almost the second you finish talking you hear a deep voice next to you. "Salutations, visitor." You look over to find a Quarg observing you both.`
-			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg. It slowly blinks its eyes, and turns to you.
+			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg. It slowly blinks its eyes.
 			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you  give up your jump drive if you wish to leave their space alive," it says, apparently unpertrubed by this information.
 			choice
 				`	"Are you going to just let them do that?"`
@@ -40,4 +40,5 @@ mission "First Contact: Bashkmul (Ringworld)"
 					goto negotiation
 			`	The Quarg sighs. "We will not allow any harm to come to you as long as you reside on our ringworld." It places a particular emphasis on 'our', and you wonder if the Bashkmul picks up on this. "However, we cannot interfere with the decisions of the Bashkmul government. Our relations with them are precarious as is. We are unable to guarantee your safety if you leave our space.`
 			label negotiation
-			`	The Quarg narrows its eyes.
+			`	The Quarg narrows its eyes. "This may perhaps put you in a more favorable light with the Bashk-"`
+			`	"More? More jump drives?" the small alien interrupts. A gleam in their yellow eyes becomes clearer. "If bring you more jump drives, then we can make peace."`
