@@ -1,1 +1,33 @@
- 
+mission "First Contact: Bashkmul (Ringworld)"
+	landing
+	name "An Intriguing Invitation"
+	description "An alien species known as the Rigra has requested your presence at their capital."
+	source "Deika Rigra"
+	destination "Mernoth"
+	on offer
+		conversation
+			`The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the part of this ringworld open to visitors. Many, if not most of the inhabitants here are aliens you have not seen before: large, four-legged creatures with shaggy brown fur and large paws. Despite the less-than-warm welcome you recieved when you entered this space, you do not sense any hostility from these aliens; in fact, they do not seem to even notice your presence. They move at a languid pace, and the scene is almost peaceful until you hear a loud shout.`
+			`	"Aigh! Po ku ye ti!"`
+			`	You turn around to see a small, green alien sprint towards you on all fours. Once it approaches you, it stands up on its hind legs, reaching no higher than your chest. "You are human, yes?" it says in a heavily accented voice.`
+			choice
+				`	"Yes."`
+					goto yes
+				`	"I don't understand what you're saying."`
+					goto annoyed
+				`	"How do you know my language?"`
+			label language
+			`	The creature looks clearly irritated. "Not important. You... fly in our space with jump drive?"`
+				goto choice
+			label annoyed
+				`	The creature scrunches up its face in frustration. "You... are... human... yes?" it says, louder and slower this time.`
+			choice
+				`	"Yes."`
+				`	"How do you know my language?"`
+					goto language
+			label yes
+			`	"You... fly in our space with jump drive?"
+			label choice
+			choice
+				`	"Yes, that's how I got here."`
+				`	"Can I speak to a Quarg?"`
+			`	Almost the second you finish talking you hear a deep voice next to you. "Salutations, visitor." You look over to find a Quarg observing you both.`
