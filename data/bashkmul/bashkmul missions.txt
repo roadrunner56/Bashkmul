@@ -8,7 +8,7 @@ mission "First Contact: Bashkmul (Ringworld)"
 		conversation
 			`The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the part of this ringworld open to visitors. Many, if not most of the inhabitants here are aliens you have not seen before: large, four-legged creatures with shaggy brown fur and large paws. Despite the less-than-warm welcome you recieved when you entered this space, you do not sense any hostility from these aliens; in fact, they do not seem to even notice your presence. They move at a languid pace, and the scene is almost peaceful until you hear a loud shout.`
 			`	"Aigh! Po ku ye ti!"`
-			`	You turn around to see a small, green alien sprint towards you on all fours. Once it approaches you, it stands up on its hind legs, reaching no higher than your chest. "You are human, yes?" it says in a heavily accented voice.`
+			`	You turn around to see a small, green alien sprint towards you on all fours. Once it approaches you, they stand up on its hind legs, reaching no higher than your chest. "You are human, yes?" they say in a heavily accented voice.`
 			choice
 				`	"Yes."`
 					goto yes
@@ -16,7 +16,7 @@ mission "First Contact: Bashkmul (Ringworld)"
 					goto annoyed
 				`	"How do you know my language?"`
 			label language
-			`	The creature looks clearly irritated. "Not important. You... fly in our space with jump drive?"`
+			`	The creature waves your query away. You can see that their hands are webbed. "Not important. You... fly in our space with jump drive?"`
 				goto choice
 			label annoyed
 				`	The creature scrunches up its face in frustration. "You... are... human... yes?" it says, louder and slower this time.`
@@ -29,5 +29,15 @@ mission "First Contact: Bashkmul (Ringworld)"
 			label choice
 			choice
 				`	"Yes, that's how I got here."`
+				`	"No, I don't have a jump drive."`
 				`	"Can I speak to a Quarg?"`
 			`	Almost the second you finish talking you hear a deep voice next to you. "Salutations, visitor." You look over to find a Quarg observing you both.`
+			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg. It slowly blinks its eyes, and turns to you.
+			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you  give up your jump drive if you wish to leave their space alive," it says, apparently unpertrubed by this information.
+			choice
+				`	"Are you going to just let them do that?"`
+				`	"What if I leave and bring back more jump drives?"`
+					goto negotiation
+			`	The Quarg sighs. "We will not allow any harm to come to you as long as you reside on our ringworld." It places a particular emphasis on 'our', and you wonder if the Bashkmul picks up on this. "However, we cannot interfere with the decisions of the Bashkmul government. Our relations with them are precarious as is. We are unable to guarantee your safety if you leave our space.`
+			label negotiation
+			`	The Quarg narrows its eyes.
