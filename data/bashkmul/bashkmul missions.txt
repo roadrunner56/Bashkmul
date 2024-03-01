@@ -1,4 +1,4 @@
-mission "First Contact: Bashkmul (Ringworld) [1]"
+mission "First Contact: Bashkmul"
 	landing
 	name "Jump Drives for Peace"
 	deadline 10
@@ -9,7 +9,7 @@ mission "First Contact: Bashkmul (Ringworld) [1]"
 		conversation
 			`The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the part of this ringworld open to visitors. Many, if not most of the inhabitants here are aliens you have not seen before: large, four-legged creatures with shaggy brown fur and large paws. Despite the less-than-warm welcome you recieved when you entered this space, you do not sense any hostility from these aliens; in fact, they do not seem to even notice your presence. They move at a languid pace, and the scene is almost peaceful until you hear a loud shout.`
 			`	"Aigh! Po ku ye ti!"`
-			`	You turn around to see a small, green alien sprint towards you on all fours. Once it approaches you, they stand up on its hind legs, reaching no higher than your chest. "You are human, yes?" they say in a heavily accented voice.`
+			`	You turn around to see a small, greenish blur sprint towards you on all fours. Once it approaches you, they stand up on their hind legs, reaching no higher than your chest. They are quite lanky in appearance, with thin limbs covered in tough scales. Their large eyes bulge out of either side of their gilled head, which itself is crowned by fins reaching along the spine and down their tail. "You are human, yes?" they say in a heavily accented voice.`
 			choice
 				`	"Yes."`
 					goto yes
@@ -33,7 +33,7 @@ mission "First Contact: Bashkmul (Ringworld) [1]"
 				`	"No, I don't have a jump drive."`
 				`	"Can I speak to a Quarg?"`
 			`	Almost the second you finish talking you hear a deep voice next to you. "Salutations, visitor." You look over to find a Quarg observing you both.`
-			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg. It slowly blinks its eyes.
+			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace and slouch. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg. It slowly blinks its eyes.
 			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you  give up your jump drive if you wish to leave their space alive," it says, apparently unpertrubed by this information.
 			choice
 				`	"Are you going to just let them do that?"`
@@ -67,7 +67,7 @@ mission "First Contact: Bashkmul (Ringworld) [1]"
 					accept
 				`	"No, I won't go."
 			label nuhuh
-			`	The Bashkmul squints and mutters something in their own language. They then take out some sort of communications device. "You are not welcome in our space."`
+			`	The Bashkmul squints and mutters something in their own language. They then take out some sort of communications device. "You are not welcome in our space." They give a bitter smirk as they walk away.`
 			#####This should send a fleet after you and make you permanently hostile to the Bashkmul
 				decline
 			label refuse
@@ -88,12 +88,59 @@ mission "First Contact: Bashkmul (Ringworld) [1]"
 					accept
 				`	"No, I won't go."`
 					goto nuhuh
-	on complete
+
+
+
+mission "First Contact: Bashkmul 2"
+	landing
+	name "Jump Drives for Peace"
+	deadline 50
+	description "Bring 5 jump drives to <destination> by <date> in order to make peace with the Bashkmul."
+	source "Mernoth"
+	destination "Mernoth"
+	to offer
+		has "First Contact: Bashkmul: accepted"
+	on offer
 		conversation
-			`It is an unusally rainy day at <planet>'s spaceport. You struggle to find a place to land, but that is not only due to the cloud cover. A sizable crowd has formed; most of them appear to be of the same species as the alien who you talked to on <source>. Upon landing, your ship is quickly surrounded.`
+			`It is an unusally rainy day at <planet>'s spaceport. You struggle to find a place to land, but that is not only due to the cloud cover. A sizable crowd has formed; most of them appear to be of the same species as the alien who you talked to on <source>. Upon landing, your ship is quickly surrounded by guards in uniforms, who appear to be from both species you saw on the ringworld. A booming voice rattles the inside of your ship.`
 			`	"For the Rigra and Aert which make up the Bashkmul, we demand you exit from your ship."`
 			choice
 				`	(Leave your ship.)`
 				`	(Take off now.)`
 					flee
-			`	You leave your ship and are quickly brought by the
+			`	Upon leaving your ship, you are taken by the guards towards a building that you imagine was more impressive in its heyday. For now though, you walk through the creaking hallways and warped doors to a	large atrium filled with what are presumably representatives of the Bashkmul government. Most of them are the fish-like aliens, but the one who speaks to you is the large, four-legged creature you recognize from the ringworld.`
+			`	"I must apologize for the less than warm welcome you have recieved. Our more... able diplomats were not prepared for your sudden visit." Their voice has a deep baritone quality, and their speech is slow and almost labored. Neither its tone nor its stony expression betrays any sort of emotion, at least not any that you can discern. "We have been told that you can give us multiple jump drives in exchange for safe passage through our space."`
+			choice
+				`	"Who are you?"`
+				`	"Why do you want jump drives so badly?"`
+				`	"Yes, I can bring more jump drives to you."`
+					goto yes
+			`The creature sighs. "I am an Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But our stars remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."
+			`	A Rigran beside him speaks up. "But this is not the time for stories. Our ultimatum is this: come back here with 5 jump drives in 50 days, or forfeit your one jump drive now."`
+			choice
+				`	"Why the deadline?"`
+					goto deadline
+				`	"Yes, I can bring more jump drives to you."`
+					goto yes
+				`	"I'm sorry, but I can't do that."`
+					goto sorry
+			label deadline
+			`	"Do you not realize the massive risk we are taking by letting you leave here with your jump drive? If you do not return in 50 days, we will assume that you betrayed our trust."`
+			choice
+				`	"Yes, I can bring more jump drives to you."`
+					goto yes
+				`	"I'm sorry, but I can't do that."`
+			label sorry
+			`	With a wave of the hands, the Rigra motions for the guards surrounding you to take you away. You spend the rest of your days on Mernoth, never seeing your ship again. ###FIX###`
+				die
+			label yes
+			`"Excellent. We will see you by <date> here." The Rigra waves to dismiss you."`
+				accept
+	to complete
+		has outfit "Jump Drive" 5
+		has "First Contact: Bashkmul 3: accepted"
+	on complete
+		outfit "Jump Drive" -5
+		"reputation: Bashkmul" >=0
+		conversation
+			`Almost as soon as you hit the tarmac, you are mobbed by
