@@ -18,5 +18,5 @@
 - [ ] Make shipyards and outfitters
 - [ ] Create fleets
 - [ ] Create hails
-- [ ] Write first contact mission
+- [X] Write first contact mission
 
