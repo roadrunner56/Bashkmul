@@ -15,7 +15,7 @@
 - [ ] Make draft outfit stats
 - [ ] Make draft ship stats
 - [ ] Write basic descriptions for weapons, outfits, and ships, to get an idea of what their purpose and niche are
-- [ ] Beg someone to make sprites for me
+- [ ] Beg someone to make ship sprites for me
 - [ ] Make shipyards and outfitters
 - [ ] Create fleets
 - [X] Write first contact mission
@@ -23,5 +23,8 @@
 To do once PRed to vanilla ES:
 - [ ] Edit and expand on first contact mission
 - [ ] Edit descriptions
+- [ ] Outfit and flare sprites
+- [ ] Unique sounds
+- [ ] Unique landing images
 - [ ] Balance :(
 - [ ] Create hails
