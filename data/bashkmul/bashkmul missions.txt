@@ -34,7 +34,7 @@ mission "First Contact: Bashkmul"
 				`	"Can I speak to a Quarg?"`
 			`	Almost the second you finish talking you hear a deep voice next to you. "Salutations, visitor." You look over to find a Quarg observing you both.`
 			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace and slouch. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg. It slowly blinks its eyes.
-			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you  give up your jump drive if you wish to leave their space alive," it says, apparently unpertrubed by this information.
+			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you give up your jump drive if you wish to leave their space alive," it says, apparently unperturbed by this information.
 			choice
 				`	"Are you going to just let them do that?"`
 				`	"What if I leave and bring back more jump drives?"`
@@ -117,7 +117,10 @@ mission "First Contact: Bashkmul 2"
 					goto yes
 			`The creature sighs. "I am an Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But our stars remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."
 			`	A Rigran beside him speaks up. "But this is not the time for stories. Our ultimatum is this: come back here with 5 jump drives in 50 days, or forfeit your one jump drive now."`
+			label choice2
 			choice
+				`	"Wait, you fought the Pug?"`
+					goto pug
 				`	"Why the deadline?"`
 					goto deadline
 				`	"Yes, I can bring more jump drives to you."`
@@ -133,6 +136,9 @@ mission "First Contact: Bashkmul 2"
 			label sorry
 			`	With a wave of the hands, the Rigra motions for the guards surrounding you to take you away. You spend the rest of your days on Mernoth, never seeing your ship again. ###FIX###`
 				die
+			label pug
+			`	The Rigra grits his teeth. "There will be time for discussion on this later. Now answer the question."`
+				goto choice2
 			label yes
 			`"Excellent. We will see you by <date> here." The Rigra waves to dismiss you."`
 				accept
@@ -143,4 +149,26 @@ mission "First Contact: Bashkmul 2"
 		outfit "Jump Drive" -5
 		"reputation: Bashkmul" >=0
 		conversation
-			`Almost as soon as you hit the tarmac, you are mobbed by
+			`Almost as soon as you hit the tarmac, you are surrounded with ships and guards - most of them seem preoccupied with keeping a large crowd of civilians at bay. You direct an Aert towards your hold, and 5 jump drives are carted off your ship. You wonder if that's the end of it when you feel a tapping on your back.`
+			`	"Frankly, I did not expect you to come back." You turn around to see the Rigra you met upon first visiting Mernoth. "I was against letting you go, personally. I now see that I was wrong." He sighs. "You have done a great service to the Aert, more than you can understand."`
+			choice
+				`	"Does that mean the Bashkmul will stop shooting at me?"`
+					goto shoot
+				`	"Do you want me to bring you more jump drives?"`
+					goto morejd
+				`	"Did your species really fight the Pug?"`
+				`	"Where are the Aert trying to get to?"`
+				`	"Who are you?"
+				`	"How do you know my language?"`
+			`	"This place, it is perhaps not best for discussion," he says, looking towards the large crowd. "Meet me in the spaceport, and I will answer questions."
+					accept
+			label shoot
+			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must still be careful here. If you have more questions, meet me in the spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion." `
+				accept
+			label morejd
+			`	The fins on the side of the Rigra's head perk up, like ears on a dog. "Are you joking me?"` ### error is intentional!
+			choice
+				`	"I'm serious."`
+				`	"...never mind."`
+			`	The Rigra snorts and looks away. "That is not funny," he says. "If you are done playing, you can meet me in the spaceport and I will tell you more about the Bashkmul." He looks towards the large crowd. "This place, it is perhaps not best for discussion."`
+				accept
