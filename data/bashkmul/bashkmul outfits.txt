@@ -234,6 +234,34 @@ outfit "Shume Steering"
 	description "Extra-large Rigra steering."
 
 
+outfit "Spout Batteries"
+	category "Power"
+	cost 11000
+	thumbnail "outfit/small battery hai"
+	"mass" 15
+	"outfit space" -15
+	"energy capacity" 5836
+	description "Small batteries. Aert design. Originally developed for storing electricity generated through solar power in Aert worlds, adapted for spaceships."
+
+outfit "Well Batteries"
+	category "Power"
+	cost 25000
+	thumbnail "outfit/medium battery hai"
+	"mass" 30
+	"outfit space" -30
+	"energy capacity" 13044
+	description "Medium batteries. Aert design."
+
+outfit "Fountain Batteries"
+	category "Power"
+	cost 47000
+	thumbnail "outfit/large battery hai"
+	"mass" 40
+	"outfit space" -40
+	"energy capacity" 23350
+	description "Large batteries. Aert design."
+
+
 outfit "Bazooka Blaster"
 	category "Hand to Hand"
 	cost 47000
