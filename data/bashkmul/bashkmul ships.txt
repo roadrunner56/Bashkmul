@@ -1,1 +1,37 @@
- 
+ship "Detoh"
+	attributes
+		category "Heavy Freighter"
+		"cost" 130000
+		"hull" 25500
+		"required crew" 16
+		"bunks" 18
+		"mass" 650
+		"drag" 9.4
+		"heat dissipation" .6
+		"fuel capacity" 300
+		"cargo space" 590
+		"outfit space" 363
+		"engine capacity" 83
+		weapon
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
+	outfits
+
+		"Fountain Batteries"
+		"Mountain Hull Regenerator"
+
+		"Type 2 Radiant Thruster"
+		"Type 3 Radiant Steering"
+		"Hyperdrive"
+
+	engine 53 345 .7
+	engine 0 345
+	engine -53 345 .7
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Detoh is a reflection of the former goal."
