@@ -12,16 +12,19 @@
 - [X] Finalize map
 - [X] Write descriptions for inhabited planets
 - [X] Make draft weapons stats
-- [ ] Make draft outfit stats
+- [X] Make draft outfit stats
 - [ ] Make draft ship stats
-- [ ] Write basic descriptions for weapons, outfits, and ships, to get an idea of what their purpose and niche are
-- [ ] Beg someone to make sprites for me
+- [ ] Write *very* basic descriptions for weapons, outfits, and ships, to get an idea of what their purpose and niche are
+- [ ] Beg someone to make ship sprites for me
 - [ ] Make shipyards and outfitters
-- [ ] Create fleets
 - [X] Write first contact mission
 
 To do once PRed to vanilla ES:
 - [ ] Edit and expand on first contact mission
-- [ ] Edit descriptions
+- [ ] Flesh out and edit descriptions
+- [ ] Outfit and flare sprites
+- [ ] Unique sounds
+- [ ] Unique landing images
+- [ ] Create fleets
 - [ ] Balance :(
 - [ ] Create hails
