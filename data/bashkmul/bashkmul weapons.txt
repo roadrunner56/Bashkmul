@@ -130,7 +130,7 @@ outfit "Plague Barrel"
 	description "Plague barrels are ammunition for the Plague Cannon. Each Plague Cannon can hold 20 of them. You cannot install barrels unless you have also installed a launcher to fire them from."
 
 
-outfit "Turtle Anti-Missle"
+outfit "Turtle Anti-Missile"
 	category "Turrets"
 	cost 130000
 	thumbnail "outfit/pulse cannon"

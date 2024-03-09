@@ -11,7 +11,7 @@ ship "Detoh"
 		"fuel capacity" 300
 		"cargo space" 590
 		"outfit space" 363
-		"engine capacity" 83
+		"engine capacity" 100
 		weapon
 			"blast radius" 280
 			"shield damage" 2800
@@ -22,16 +22,146 @@ ship "Detoh"
 		"Fountain Batteries"
 		"Mountain Hull Regenerator"
 
-		"Type 2 Radiant Thruster"
-		"Type 3 Radiant Steering"
+		"Oerth Thrusters"
+		"Oerth Steering"
+		"Hyperdrive"
+	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Detoh is a reflection of the former goal."
+
+
+ship "Neri"
+	attributes
+		category "Heavy Freighter"
+		"cost" 130000
+		"hull" 25500
+		"required crew" 16
+		"bunks" 180
+		"mass" 650
+		"drag" 9.4
+		"heat dissipation" .6
+		"fuel capacity" 300
+		"cargo space" 40
+		"outfit space" 363
+		"engine capacity" 100
+		weapon
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
+	outfits
+
+		"Fountain Batteries"
+		"Mountain Hull Regenerator"
+
+		"Oerth Thrusters"
+		"Oerth Steering"
+		"Hyperdrive"
+	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Neri is a reflection of the latter goal."
+
+
+### Ideas for Rigra ships:
+### Hit and run attack ship
+### More durable governmental ships
+### Heavily armed merchant ship
+### Possible Aert-Rigra joint design?
+
+
+ship "Hydra"
+	attributes
+		category "Medium Warship"
+		"cost" 1685000
+		"shields" 13400
+		"hull" 7200
+		"required crew" 16
+		"bunks" 32
+		"mass" 320
+		"drag" 5.1
+		"heat dissipation" 0.7
+		"fuel capacity" 600
+		"cargo space" 103
+		"outfit space" 427
+		"weapon capacity" 147
+		"engine capacity" 109
+		"shield energy" 3.1
+		"hull energy" 0.95
+		weapon
+			"blast radius" 240
+			"shield damage" 2400
+			"hull damage" 1200
+			"hit force" 3000
+	outfits
+		"Turtle Anti-Missile" 2
+
+		"Engine Reactor"
+		"Iron Shield Generator"
+		"Bazooka Blaster" 10
+
+		"Kaich Thrusters"
+		"Kaich Steering"
 		"Hyperdrive"
 
-	engine 53 345 .7
-	engine 0 345
-	engine -53 345 .7
-	explode "small explosion" 80
-	explode "medium explosion" 60
-	explode "large explosion" 30
-	explode "huge explosion" 20
-	"final explode" "final explosion large"
-	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Detoh is a reflection of the former goal."
+	bay "Fighter" 0 30 over
+		"launch effect"
+	bay "Fighter" -34 68 over
+		"launch effect"
+	bay "Fighter" 0 81 over
+		"launch effect"
+	bay "Fighter" 34 68 over
+		"launch effect"
+	bay "Fighter" -25 10 under
+		"launch effect"
+	bay "Fighter" 25 10 under
+		"launch effect"
+	bay "Fighter" 25 10 under
+		"launch effect"
+	engine -16.5 120 0.7
+	engine 0 116.5 1
+	engine 16.5 120 0.7
+	turret 0 -62
+	turret 0 -20.5 "Turtle Anti-Missile"
+	turret 0 58.5 "Turtle Anti-Missile"
+	description "True to its name, the Hydra is a platform for a dizzying number of fighters. Carrier that carries a lot of small, cheap fighters"
+
+
+ship "Thorn"
+	sprite "ship/petrel"
+	thumbnail "thumbnail/petrel"
+	attributes
+		category "Fighter"
+		"cost" 111000
+		"shields" 400
+		"hull" 1000
+		"cargo space" 15
+		"fuel capacity" 100
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1.55
+		"heat dissipation" .8
+		"outfit space" 133
+		"weapon capacity" 20
+		"engine capacity" 34
+		"shield generation" 0.36
+		"shield energy" 0.24
+		"hull repair rate" 0.82
+		"hull energy" 0.54
+		weapon
+			"blast radius" 15
+			"shield damage" 150
+			"hull damage" 200
+			"hit force" 350
+	outfits
+		"Gadfly Blaster" 2
+
+		"Piston Reactor"
+		"Spout Batteries"
+
+		"Vogul Thrusters"
+		"Vogul Steering"
+
+	gun -10.5 -24 "Gadfly Blaster"
+	gun 10.5 -24 "Gadfly Blaster"
+	engine 0 41.5
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	description "The rather lax safety standards of the Rigra have led to the creation of the Thorn."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
