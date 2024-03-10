@@ -58,9 +58,7 @@ ship "Neri"
 	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Neri is a reflection of the latter goal."
 
 
-### Ideas for Rigra ships:
 ### More durable governmental ships - Aert-Rigra joint design
-### Heavily armed merchant ship
 
 
 ship "Hydra"
@@ -163,7 +161,7 @@ ship "Thorn"
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
-ship "Spiker"
+ship "Striker"
 	attributes
 		category "Light Warship"
 		"cost" 1300000
@@ -176,9 +174,9 @@ ship "Spiker"
 		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 40
-		"outfit space" 420
-		"weapon capacity" 150
-		"engine capacity" 100
+		"outfit space" 200
+		"weapon capacity" 80
+		"engine capacity" 50
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -212,4 +210,62 @@ ship "Spiker"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Rigra approach to warfare is to hit fast, hit hard, and then get away before your victim can hit back. This is best typified in the Spiker (change name?), a ship originally developed by the Rigra during the Bashkmul's war with the Pug. It is now used by the Bashkmul government, independent privateers, and pirates alike."
+	description "The Rigra approach to warfare is to hit fast, hit hard, and then get away before your victim can hit back. This is best typified in the Striker (change name?), a ship originally developed by the Rigra during the Bashkmul's war with the Pug. It is now used by the Bashkmul government, independent privateers, and pirates alike."
+
+
+ship "Fortress"
+	attributes
+		category "Utility"
+		"cost" 3860000
+		"shields" 7200
+		"hull" 5200
+		"required crew" 17
+		"bunks" 60
+		"mass" 600
+		"drag" 9.3
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 140
+		"outfit space" 470
+		"weapon capacity" 190
+		"engine capacity" 120
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Thiik Laser" 2
+		"Plague Cannon" 2
+		"Plague Barrel" 60
+		"Blaster Turret" 2
+		"Anti-Missile Turret"
+
+		"S3 Thermionic"
+		"LP144a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"Steel Shield Generator"
+		"Bazooka Blaster" 12
+
+		"Impala Plasma Thruster"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+
+	engine 31.5 89.5
+	engine -31.5 89.5
+	gun -52.5 -0.5 "Heavy Rocket Launcher"
+	gun -52.5 -0.5 "Plasma Cannon"
+	gun 52.5 -0.5 "Heavy Rocket Launcher"
+	gun 52.5 -0.5 "Plasma Cannon"
+	turret 0 0.5 "Anti-Missile Turret"
+	turret -35.5 29.5 "Blaster Turret"
+	turret 35.5 29.5 "Blaster Turret"
+	leak "leak" 40 50
+	leak "flame" 40 80
+	leak "big leak" 70 30
+	explode "tiny explosion" 5
+	explode "small explosion" 15
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion medium"
+	description "Jack of all trades, heavily armed merchant freighter. Sometimes also used by pirates to carry away stolen goods."
