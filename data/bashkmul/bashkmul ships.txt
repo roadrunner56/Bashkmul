@@ -165,14 +165,14 @@ ship "Thorn"
 
 ship "Spiker"
 	attributes
-		category "Medium Warship"
-		"cost" 4400000
+		category "Light Warship"
+		"cost" 1300000
 		"shields" 7000
 		"hull" 900
 		"required crew" 8
 		"bunks" 32
-		"mass" 150
-		"drag" 3.5
+		"mass" 100
+		"drag" 2.5
 		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 40
@@ -186,26 +186,24 @@ ship "Spiker"
 			"hit force" 1200
 	outfits
 		"Plague Cannon" 2
-		"Thiik Laser" 2
+		"Thiik Laser"
 		"Plague Barrel" 90
-		"Turtle Anti-Missile" 2
+		"Turtle Anti-Missile"
 
 		"Fountain Batteries"
 		"Engine Reactor"
-		"D94-YV Shield Generator"
+		"Iron Shield Generator"
 
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		"Kaich Thrusters"
+		"Kaich Steering"
 		"Hyperdrive"
 
 	engine -11.5 119
 	engine 11.5 119
-	gun -11.5 -68.5 "Thiik Laser"
 	gun 11.5 -68.5 "Thiik Laser"
 	gun -26 -8 "Plague Cannon"
 	gun 26 -8 "Plague Cannon"
 	turret 0 -10 "Turtle Anti-Missile"
-	turret 0 76 "Turtle Anti-Missile"
 	leak "leak" 40 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
