@@ -59,10 +59,8 @@ ship "Neri"
 
 
 ### Ideas for Rigra ships:
-### Hit and run attack ship
-### More durable governmental ships
+### More durable governmental ships - Aert-Rigra joint design
 ### Heavily armed merchant ship
-### Possible Aert-Rigra joint design?
 
 
 ship "Hydra"
@@ -123,8 +121,6 @@ ship "Hydra"
 
 
 ship "Thorn"
-	sprite "ship/petrel"
-	thumbnail "thumbnail/petrel"
 	attributes
 		category "Fighter"
 		"cost" 111000
@@ -165,3 +161,57 @@ ship "Thorn"
 	explode "small explosion" 20
 	description "The rather lax safety standards of the Rigra have led to the creation of the Thorn."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+
+
+ship "Spiker"
+	attributes
+		category "Medium Warship"
+		"cost" 4400000
+		"shields" 7000
+		"hull" 900
+		"required crew" 8
+		"bunks" 32
+		"mass" 150
+		"drag" 3.5
+		"heat dissipation" .7
+		"fuel capacity" 500
+		"cargo space" 40
+		"outfit space" 420
+		"weapon capacity" 150
+		"engine capacity" 100
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Plague Cannon" 2
+		"Thiik Laser" 2
+		"Plague Barrel" 90
+		"Turtle Anti-Missile" 2
+
+		"Fountain Batteries"
+		"Engine Reactor"
+		"D94-YV Shield Generator"
+
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+	engine -11.5 119
+	engine 11.5 119
+	gun -11.5 -68.5 "Thiik Laser"
+	gun 11.5 -68.5 "Thiik Laser"
+	gun -26 -8 "Plague Cannon"
+	gun 26 -8 "Plague Cannon"
+	turret 0 -10 "Turtle Anti-Missile"
+	turret 0 76 "Turtle Anti-Missile"
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The Rigra approach to warfare is to hit fast, hit hard, and then get away before your victim can hit back. This is best typified in the Spiker (change name?), a ship originally developed by the Rigra during the Bashkmul's war with the Pug. It is now used by the Bashkmul government, independent privateers, and pirates alike."
