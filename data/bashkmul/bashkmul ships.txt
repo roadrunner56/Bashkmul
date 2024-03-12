@@ -253,13 +253,11 @@ ship "Fortress"
 
 	engine 31.5 89.5
 	engine -31.5 89.5
-	gun -52.5 -0.5 "Heavy Rocket Launcher"
-	gun -52.5 -0.5 "Plasma Cannon"
-	gun 52.5 -0.5 "Heavy Rocket Launcher"
-	gun 52.5 -0.5 "Plasma Cannon"
-	turret 0 0.5 "Anti-Missile Turret"
-	turret -35.5 29.5 "Blaster Turret"
-	turret 35.5 29.5 "Blaster Turret"
+	gun 52.5 -0.5 "Plague Cannon"
+	gun 52.5 -0.5 "Plague Cannon"
+	turret 0 0.5 "Turtle Anti-Missile"
+	turret -35.5 29.5 "Turtle Anti-Missile"
+	turret 35.5 29.5 "Turtle Anti-Missile"
 	leak "leak" 40 50
 	leak "flame" 40 80
 	leak "big leak" 70 30
