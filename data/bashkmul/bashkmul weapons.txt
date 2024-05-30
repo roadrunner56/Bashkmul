@@ -9,13 +9,13 @@ outfit "Thunderstrike Blaster"
 	weapon
 		"inaccuracy" 1.5
 		"velocity" 20
-		"lifetime" 40
+		"lifetime" 150
 		"reload" 25
 		"firing energy" 40
 		"firing heat" 120
 		"shield damage" 70
 		"hull damage" 40
-	description "Powerful but inaccurate and unreliable. Rigra design."
+	description "Powerful long-range weapon, but inaccurate and unreliable. Rigra design."
 
 
 outfit "Thunderstrike Turret"

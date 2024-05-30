@@ -9,7 +9,7 @@ mission "First Contact: Bashkmul"
 		conversation
 			`The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the part of this ringworld open to visitors. Many, if not most of the inhabitants here are aliens you have not seen before: large, four-legged creatures with shaggy brown fur and large paws. Despite the less-than-warm welcome you recieved when you entered this space, you do not sense any hostility from these aliens; in fact, they do not seem to even notice your presence. They move at a languid pace, and the scene is almost peaceful until you hear a loud shout.`
 			`	"Aigh! Po ku ye ti!"`
-			`	You turn around to see a small, greenish blur sprint towards you on all fours. Once it approaches you, they stand up on their hind legs, reaching no higher than your chest. They are quite lanky in appearance, with thin limbs covered in tough scales. Their large eyes bulge out of either side of their gilled head, which itself is crowned by fins reaching along the spine and down their tail. "You are human, yes?" they say in a heavily accented voice.`
+			`	You turn around to see a small, greenish blur sprint towards you on all fours. Once it approaches you, they stand up on their hind legs, reaching no higher than your chest. They are quite lanky in appearance, with thin limbs covered in tough scales. Their large eyes bulge out of either side of their gilled head, which itself is crowned by fins reaching along the spine and down their tail. Their overall appearance gives you the impression of a humanoid fish. "You are human, yes?" they say in a heavily accented voice.`
 			choice
 				`	"Yes."`
 					goto yes
@@ -33,7 +33,7 @@ mission "First Contact: Bashkmul"
 				`	"No, I don't have a jump drive."`
 				`	"Can I speak to a Quarg?"`
 			`	Almost the second you finish talking you hear a deep voice next to you. "Salutations, visitor." You look over to find a Quarg observing you both.`
-			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace and slouch. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg. It slowly blinks its eyes.
+			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace and slouch. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg, who responds only by slowly blinking its eyes.
 			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you give up your jump drive if you wish to leave their space alive," it says, apparently unperturbed by this information.
 			choice
 				`	"Are you going to just let them do that?"`
@@ -44,16 +44,22 @@ mission "First Contact: Bashkmul"
 				`	"What if I leave and bring back more jump drives?"`
 					goto negotiation
 				`	"Okay, I'll give up my jump drive."`
-					die
+					goto okay
 				`	"I'm not giving up my jump drive!"`
 			`	"The Bashkmul, due to their... unique situation, value jump drives very highly. Simply put, traveling here with a jump drive makes you a target. I would advise leaving as soon as possible, unless you are somehow able to come to an agreement with the Bashkmul." The small alien looks at you, its teeth slightly bared.`
+			label choice2
 			choice
+				`	"What do you mean, 'unique situation'?"`
+					goto situation
 				`	"What if I leave and bring back more jump drives?"`
 					goto negotiation
 				`	"Okay, I'll give up my jump drive."`
-					die
+					goto okay
 				`	"I'm getting out of here. No one's getting their hands on my jump drive."`
 					goto nuhuh
+			label situation
+			`	"Perhaps it would be best if I let the Bashkmul themselves explain." It looks towards the small fish-like alien expectantly. "Give jump drive, then we talk," they say through clenched teeth.`
+				goto choice2
 			label negotiation
 			`	The Quarg narrows its eyes. "This may perhaps put you in a more favorable light with the Bashk-"`
 			`	"More? Have you more jump drives?" the small alien interrupts. A gleam in their yellow eyes becomes clearer. "If bring you more jump drives, then maybe we can make peace. Come to Mernoth by <date>, and we will talk with leaders."`
@@ -80,7 +86,7 @@ mission "First Contact: Bashkmul"
 				`	"No, I won't go."`
 					goto nuhuh
 			label leaders
-			`	"With Bashkmul..." they struggle to find an adequate word. "With group of voted people." You sense that this is the best explanation that you'll be able to get until you go to Mernoth.`
+			`	"With Bashkmul..." they struggle to find an adequate word. "With group of chosen people." You sense that this is the best explanation that you'll be able to get until you go to Mernoth.`
 			choice
 				`	"And what if I refuse?"`
 					goto refuse
@@ -88,7 +94,12 @@ mission "First Contact: Bashkmul"
 					accept
 				`	"No, I won't go."`
 					goto nuhuh
-
+			label okay
+			action
+				"reputation: Bashkmul" >=0
+				remove "Jump Drive" 1
+			`	Not wanting to provoke a fight with an unknown alien species, you give into their demands and remove your jump drive from your ship. Unless you have a backup, you probably won't be leaving Bashkmul space any time soon."`
+				decline
 
 
 mission "First Contact: Bashkmul 2"
@@ -115,8 +126,8 @@ mission "First Contact: Bashkmul 2"
 				`	"Why do you want jump drives so badly?"`
 				`	"Yes, I can bring more jump drives to you."`
 					goto yes
-			`The creature sighs. "I am an Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But our stars remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."
-			`	A Rigran beside him speaks up. "But this is not the time for stories. Our ultimatum is this: come back here with 5 jump drives in 50 days, or forfeit your one jump drive now."`
+			`The creature sighs. "I am an Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But the stars in Aert space remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."
+			`	A Rigran beside him speaks up. "But this is not time for stories. Our ultimatum is this: come back here with 5 jump drives in 50 days, or forfeit your one jump drive now."`
 			label choice2
 			choice
 				`	"Wait, you fought the Pug?"`
@@ -128,7 +139,7 @@ mission "First Contact: Bashkmul 2"
 				`	"I'm sorry, but I can't do that."`
 					goto sorry
 			label deadline
-			`	"Do you not realize the massive risk we are taking by letting you leave here with your jump drive? If you do not return in 50 days, we will assume that you betrayed our trust."`
+			`	"Do you not realize the massive risk we take by letting you leave here with your jump drive? If you do not return in 50 days, we will assume that you betrayed our trust."`
 			choice
 				`	"Yes, I can bring more jump drives to you."`
 					goto yes
@@ -137,7 +148,7 @@ mission "First Contact: Bashkmul 2"
 			`	With a wave of the hands, the Rigra motions for the guards surrounding you to take you away. You spend the rest of your days on Mernoth, never seeing your ship again. ###FIX###`
 				die
 			label pug
-			`	The Rigra grits his teeth. "There will be time for discussion on this later. Now answer the question."`
+			`	The Rigra grits his teeth. "There will be time for discussion later. Now answer the question."`
 				goto choice2
 			label yes
 			`"Excellent. We will see you by <date> here." The Rigra waves to dismiss you."`
@@ -146,7 +157,7 @@ mission "First Contact: Bashkmul 2"
 		has outfit "Jump Drive" 5
 		has "First Contact: Bashkmul 3: accepted"
 	on complete
-		outfit "Jump Drive" -5
+		remove "Jump Drive" -5
 		"reputation: Bashkmul" >=0
 		conversation
 			`Almost as soon as you hit the tarmac, you are surrounded with ships and guards - most of them seem preoccupied with keeping a large crowd of civilians at bay. You direct an Aert towards your hold, and 5 jump drives are carted off your ship. You wonder if that's the end of it when you feel a tapping on your back.`
@@ -163,7 +174,7 @@ mission "First Contact: Bashkmul 2"
 			`	"This place, it is perhaps not best for discussion," he says, looking towards the large crowd. "Meet me in the spaceport, and I will answer questions."
 					accept
 			label shoot
-			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must still be careful here. If you have more questions, meet me in the spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion." `
+			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must be careful still here. If you have more questions, meet me in spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion." `
 				accept
 			label morejd
 			`	The fins on the side of the Rigra's head perk up, like ears on a dog. "Are you joking me?"` ### error is intentional!
@@ -172,3 +183,11 @@ mission "First Contact: Bashkmul 2"
 				`	"...never mind."`
 			`	The Rigra snorts and looks away. "That is not funny," he says. "If you are done playing, you can meet me in the spaceport and I will tell you more about the Bashkmul." He looks towards the large crowd. "This place, it is perhaps not best for discussion."`
 				accept
+
+
+mission "First Contact: Bashkmul 3"
+	source "Mernoth"
+	to offer
+		has "First Contact: Bashkmul: accepted"
+	on offer
+		conversation

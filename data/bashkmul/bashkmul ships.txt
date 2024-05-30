@@ -118,7 +118,7 @@ ship "Hydra"
 	description "True to its name, the Hydra is a platform for a dizzying number of fighters. Carrier that carries a lot of small, cheap fighters"
 
 
-ship "Thorn"
+ship "Nail"
 	attributes
 		category "Fighter"
 		"cost" 111000
@@ -157,11 +157,11 @@ ship "Thorn"
 	engine 0 41.5
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The rather lax safety standards of the Rigra have led to the creation of the Thorn."
+	description "The rather lax safety standards of the Rigra have led to the creation of the Nail."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
-ship "Striker"
+ship "Flintlock"
 	attributes
 		category "Light Warship"
 		"cost" 1300000
@@ -210,14 +210,14 @@ ship "Striker"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "The Rigra approach to warfare is to hit fast, hit hard, and then get away before your victim can hit back. This is best typified in the Striker (change name?), a ship originally developed by the Rigra during the Bashkmul's war with the Pug. It is now used by the Bashkmul government, independent privateers, and pirates alike."
+	description "The Rigra approach to warfare is to hit fast, hit hard, and then get away before your victim can hit back. This is best typified in the Flintlock, a ship used by the Rigra during the Bashkmul's war with the Pug. It is now used by the Bashkmul government, independent privateers, and pirates alike."
 
 
 ship "Fortress"
 	attributes
 		category "Utility"
-		"cost" 3860000
-		"shields" 7200
+		"cost" 8860000
+		"shields" 11000
 		"hull" 5200
 		"required crew" 17
 		"bunks" 60
@@ -241,14 +241,13 @@ ship "Fortress"
 		"Blaster Turret" 2
 		"Anti-Missile Turret"
 
-		"S3 Thermionic"
-		"LP144a Battery Pack"
-		"nGVF-BB Fuel Cell"
+		"Factory Reactor"
+		"Fountain Batteries"
 		"Steel Shield Generator"
 		"Bazooka Blaster" 12
 
-		"Impala Plasma Thruster"
-		"Impala Plasma Steering"
+		"Shum Thrusters"
+		"Shum Steering"
 		"Hyperdrive"
 
 	engine 31.5 89.5
@@ -267,3 +266,61 @@ ship "Fortress"
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
 	description "Jack of all trades, heavily armed merchant freighter. Sometimes also used by pirates to carry away stolen goods."
+
+
+
+ship "Howitzer"
+	attributes
+		category "Large Warship"
+		"cost" 25000000
+		"shields" 30000
+		"hull" 10000
+		"required crew" 75
+		"bunks" 80
+		"mass" 1881
+		"drag" 16.3
+		"heat dissipation" .33
+		"fuel capacity" 500
+		"cargo space" 142
+		"outfit space" 798
+		"weapon capacity" 333
+		"engine capacity" 90
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 3000
+		outfits
+		"Plague Cannon" 4
+		"Plague Barrel" 140
+		"Turtle Anti-Missile" 2
+		"Thunderstrike Blaster" 4
+		"Factory Reactor"
+		"Fountain Batteries"
+		"Steel Shield Generator"
+		"Bazooka Blaster" 55
+		"Shum Thrusters"
+		"Shum Steering"
+		"Hyperdrive"
+	engine -44 133
+	engine 44 133
+	gun -22 -102 "Plague Cannon"
+	gun -34 -68 "Plague Cannon"
+	gun -49 -38 "Plague Cannon"
+	gun 49 -38 "Plague Cannon"
+	turret -39 48
+	turret 39 48
+	turret -57 75
+	turret 57 75
+	turret 57 75
+	turret 57 75
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 60 50
+	explode "tiny explosion" 50
+	explode "small explosion" 50
+	explode "medium explosion" 50
+	explode "large explosion" 50
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "First seeing use after the Pug War, the Howitzer is a joint Rigra-Aert design that focuses on long-range warfare over close engagements. A capital ship of the Bashkmul, it is the backbone of their interstellar military force."
