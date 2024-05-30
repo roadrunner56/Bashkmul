@@ -13,8 +13,8 @@
 - [X] Write descriptions for inhabited planets
 - [X] Make draft weapons stats
 - [X] Make draft outfit stats
-- [ ] Make draft ship stats
-- [ ] Write *very* basic descriptions for weapons, outfits, and ships, to get an idea of what their purpose and niche are
+- [X] Make draft ship stats
+- [X] Write *very* basic descriptions for weapons, outfits, and ships, to get an idea of what their purpose and niche are
 - [ ] Beg someone to make ship sprites for me
 - [ ] Make shipyards and outfitters
 - [X] Write first contact mission
