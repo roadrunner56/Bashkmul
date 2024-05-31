@@ -369,3 +369,43 @@ ship "Carrack"
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
 	description `Originally built as a transport for the large numbers of Rigra in Bashkmul space, since the Pug War the Carrack has also been used to move Aert from their original three planets to an uninhabited group of systems west of Bashkmul space. The few jump drives that the Bashkmul have are all installed in these ships as a result.`
+
+
+ship "Caravel"
+	attributes
+		category "Transport"
+		attributes
+		category "Light Freighter"
+		"cost" 570000
+		"shields" 1700
+		"hull" 1400
+		"required crew" 1
+		"bunks" 10
+		"mass" 130
+		"drag" 2.1
+		"heat dissipation" .82
+		"fuel capacity" 400
+		"cargo space" 51
+		"outfit space" 185
+		"weapon capacity" 37
+		"engine capacity" 48
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Gadfly Blaster"
+		"Spout Batteries" 2
+		"Piston Reactor"
+		"Vogul Thrusters"
+		"Vogul Steering"
+		"Hyperdrive"
+	engine -8 40
+	engine 8 40
+	gun 0 24 "Gadfly Blaster"
+	leak "leak" 60 50
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	description "A common sight in Rigra space, the Caravel provides ample cargo and passenger space for both beginning captains and experienced merchants looking to grow their fleet."

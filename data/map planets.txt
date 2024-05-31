@@ -28,14 +28,14 @@ planet "Nkal"
 
 planet "Mikos"
 	description "The Rigra, despite their general willingness to subject themselves to extreme environments, have an innate dislike of dry, cold worlds. Unfortunately, those worlds also tend to be the most rich in natural resources. Upon contact with the Aert, the Rigra realized that this new species was much better suited to extracting the vast mineral resources of Mikos. Thus the Aert were allowed to settle en masse here, producing mines that stretch throughout the crust of the planet. Some of the mines have been repurposed as Aert burrows, but the nature of this planet's geography means that very few are stable or intact enough for long-term habituation."
-	spaceport "You are struck by the large amount of Aert so deep into Rigra space. Apparently this planet's isolation was not a barrier to immigration, especially with the recent crisis in their space. Most are wearing specialized mining gear that covers their entire bodies, making their expressions even more engimatic than they usually are."
+	spaceport "You are struck by the large amount of Aert so deep into Rigra space. Apparently this planet's isolation is not a barrier to immigration, especially with the recent crisis in their space. Most are wearing specialized mining gear that covers their entire bodies, making their expressions even more engimatic than they usually are."
 
 planet "Kinsli"
 	description "The entire planet seems to be blanketed in a thick haze that you almost choke on when leaving your ship. As you come in for a landing, you notice that a majority of Kinsli's land area appears to be covered by sprawling cities and factories, which support the planet's gargantuan industrial output. There is precious little untouched wilderness to be seen, and you suspect that was intentional on the part of the Rigra."
 	spaceport "Crowds of Rigra, most of them wearing ventilation masks, hurry to and fro. It's hard to tell what they're thinking; while their faces are much more human than the Aert, they are mostly covered by their masks. Judging by their body language, however, they seem confident and almost jovial in their walk. You even see some Rigra who appear to play pranks on each other in between shifts."
 
 planet "Pastur"
-	description "While far away from its star, Pastur is the subject of intense terraforming efforts by the Bashkmul, aiming to produce a livable environment out of what was once a barren rock. Despite the skill the Rigra have in bending planets to their will, Pastur still seems more of a desperate attempt at gaining more livable planets rather than something that can be successful in the long-term."
+	description "While far away from its star, Pastur is the subject of intense terraforming efforts by the Bashkmul, aiming to produce a livable environment out of what was once a barren rock. The Rigra's relatively poor terraforming skill is self-evident here -  Pastur seems more of a desperate attempt at gaining more livable planets rather than something that can be successful in the long-term."
 	spaceport "The spaceport is half-built and there are few amenities. Evidently what resources this planet produces is not going towards making the spaceport more comfortable."
 
 planet "Suri 3-E"
@@ -54,7 +54,7 @@ planet "Lukainos"
 	spaceport "Even by Rigra standards, this planet is packed with people. You can hardly find standing room in the spaceport, and the din rattles your skull. The spaceport seems to be on one of the few areas of this planet that isn't covered by skyscrapers."
 
 planet "Sok"
-	description "Sok was settled relatively recently in the Rigra's history. This, combined with the large surface area of the planet, means that Sok has a much lower population density than most other Rigra worlds. What prevents a large movement to this planet is the dry, inhospitable weather, anathemic to Rigran life. Instead of terraforming the planet, however, the Bashkmul decided to establish this planet as a home for Aert who wish to escape their dying stars. The Aert are much more comfortable with Sok's dry environment and lack of large cities; they also tend to be more adventurous than many of their species. However, one barren planet cannot sustain the entire Aert population, and so the search for a new home continues."
+	description "Sok was settled relatively recently in the Rigra's history. This, combined with the large surface area of the planet, means that Sok has a much lower population density than most other Rigra worlds. What prevents a large movement to this planet is the dry, inhospitable weather, anathemic to both Rigran life and large scale agriculture. Instead of attempting to terraform the planet, however, the Bashkmul decided to establish Sok as a home for Aert who wish to escape their dying stars. The Aert are much more comfortable with Sok's dry environment and lack of large cities; they also tend to be more adventurous than many of their species. However, one barren planet cannot sustain the entire Aert population, and so the search for a new home continues."
 	spaceport "The spaceport seems to be done in the flat, simple style of the Aert. You rarely see materials more complex than wood and concrete. The Aert here seem to move at a more vigorous pace than elsewhere, which appears strange when juxtaposed with their large size and almost immovable appearance."
 
 planet "Deika Rigra"
@@ -63,3 +63,7 @@ planet "Deika Rigra"
 	spaceport "Even though this ringworld is controlled by the Quarg, both the Aert and the Rigra here seem to regard their supposed guardians with distaste. The spaceport is largely empty of Quarg, who presumably prefer the deeper sections of the ring that are closed off to the Bashkmul."
 
 # Still need to make planets for the southwestern region.
+
+planet "Dashur"
+	government Bashkmul
+	description "One of the more fanciful attempts to find a new home for the Aert is the use of the few jump drives in the possession of the Bashkmul to establish a small colony west of Bashkmul space. The poor terraforming capabilities of the Bashkmul and the limited population of this planet has made establishing a self-sufficient colony difficult. It is clear that it will be a long time before this planet is suitable for mass habituation."

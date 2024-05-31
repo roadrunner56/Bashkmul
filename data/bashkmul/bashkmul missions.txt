@@ -126,7 +126,7 @@ mission "First Contact: Bashkmul 2"
 				`	"Why do you want jump drives so badly?"`
 				`	"Yes, I can bring more jump drives to you."`
 					goto yes
-			`The creature sighs. "I am an Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But the stars in Aert space remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."
+			`"I am an Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But the stars in Aert space remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."
 			`	A Rigran beside him speaks up. "But this is not time for stories. Our ultimatum is this: come back here with 5 jump drives in 50 days, or forfeit your one jump drive now."`
 			label choice2
 			choice
@@ -139,7 +139,7 @@ mission "First Contact: Bashkmul 2"
 				`	"I'm sorry, but I can't do that."`
 					goto sorry
 			label deadline
-			`	"Do you not realize the massive risk we take by letting you leave here with your jump drive? If you do not return in 50 days, we will assume that you betrayed our trust."`
+			`	"Do you not realize the massive risk we take by letting you leave with jump drive? If you do not return in 50 days, we will assume that you betrayed our trust."`
 			choice
 				`	"Yes, I can bring more jump drives to you."`
 					goto yes
@@ -155,7 +155,7 @@ mission "First Contact: Bashkmul 2"
 				accept
 	to complete
 		has outfit "Jump Drive" 5
-		has "First Contact: Bashkmul 3: accepted"
+		has "First Contact: Bashkmul 2: accepted"
 	on complete
 		remove "Jump Drive" -5
 		"reputation: Bashkmul" >=0
@@ -171,7 +171,7 @@ mission "First Contact: Bashkmul 2"
 				`	"Where are the Aert trying to get to?"`
 				`	"Who are you?"
 				`	"How do you know my language?"`
-			`	"This place, it is perhaps not best for discussion," he says, looking towards the large crowd. "Meet me in the spaceport, and I will answer questions."
+			`	"This place, it is perhaps not best for discussion," he says, looking towards the large crowd. "Meet me in the spaceport, and I will bring you to a place to answer questions."
 					accept
 			label shoot
 			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must be careful still here. If you have more questions, meet me in spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion." `
@@ -191,3 +191,4 @@ mission "First Contact: Bashkmul 3"
 		has "First Contact: Bashkmul: accepted"
 	on offer
 		conversation
+			`You enter the spaceport and realize that you would probably not be able to pick the Rigran diplomat out of the surrounding crowd.`
