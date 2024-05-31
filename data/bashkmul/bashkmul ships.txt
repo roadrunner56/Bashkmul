@@ -30,7 +30,7 @@ ship "Detoh"
 
 ship "Neri"
 	attributes
-		category "Heavy Freighter"
+		category "Transport"
 		"cost" 130000
 		"hull" 25500
 		"required crew" 16
@@ -58,10 +58,8 @@ ship "Neri"
 	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Neri is a reflection of the latter goal."
 
 
-### More durable governmental ships - Aert-Rigra joint design
 
-
-ship "Hydra"
+ship "Trident"
 	attributes
 		category "Medium Warship"
 		"cost" 1685000
@@ -115,10 +113,10 @@ ship "Hydra"
 	turret 0 -62
 	turret 0 -20.5 "Turtle Anti-Missile"
 	turret 0 58.5 "Turtle Anti-Missile"
-	description "True to its name, the Hydra is a platform for a dizzying number of fighters. Carrier that carries a lot of small, cheap fighters"
+	description "True to its name, the Trident is a platform for a dizzying number of fighters. Carrier that carries a lot of small, cheap fighters"
 
 
-ship "Nail"
+ship "Slingshot"
 	attributes
 		category "Fighter"
 		"cost" 111000
@@ -157,7 +155,7 @@ ship "Nail"
 	engine 0 41.5
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The rather lax safety standards of the Rigra have led to the creation of the Nail."
+	description "The rather lax safety standards of the Rigra have led to the creation of the Slingshot."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
@@ -324,3 +322,50 @@ ship "Howitzer"
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
 	description "First seeing use after the Pug War, the Howitzer is a joint Rigra-Aert design that focuses on long-range warfare over close engagements. A capital ship of the Bashkmul, it is the backbone of their interstellar military force."
+
+
+
+ship "Carrack"
+	attributes
+		category "Transport"
+		"cost" 9375000
+		"shields" 14200
+		"hull" 4900
+		"required crew" 19
+		"bunks" 296
+		"mass" 1152
+		"drag" 13
+		"heat dissipation" .39
+		"fuel capacity" 800
+		"cargo space" 70
+		"outfit space" 489
+		"weapon capacity" 256
+		"engine capacity" 129
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Engine Reactor"
+		"Well Batteries"
+		"Steel Shield Generator"
+
+		"Madith Steering"
+		"Madith Thrusters"
+		"Hyperdrive"
+
+	engine -22 221 .6
+	engine -10 219 .8
+	engine 10 219 .8
+	engine 22 221 .6
+	gun -14 -183
+	gun 14 -183
+	turret 0 -153
+	turret 0 -43
+	explode "small explosion" 10
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	explode "huge explosion" 5
+	"final explode" "final explosion large"
+	description `Originally built as a transport for the large numbers of Rigra in Bashkmul space, since the Pug War the Carrack has also been used to move Aert from their original three planets to an uninhabited group of systems west of Bashkmul space. The few jump drives that the Bashkmul have are all installed in these ships as a result.`
