@@ -5,7 +5,7 @@
  
  Discussion post on the Endless Sky Github here: https://github.com/endless-sky/endless-sky/discussions/7983
  
- NOT CURRENTLY PLAYABLE: WIP
+ NOT CURRENTLY PLAYABLE AND HAS NOT YET BEEN TESTED: WIP
  
  To do before being PRed to vanilla ES:
 - [X] Finalize lore doc
