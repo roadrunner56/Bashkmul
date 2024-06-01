@@ -49,7 +49,7 @@ planet "Chemundur"
 	spaceport "You feel many eyes upon you as you land with your jump drive-equipped ship. Evidently there are many Bashkmul here that envy your ability to leave this region of space, and a few that are not above stealing it from you. Perhaps it is best to not stay here too long, at least not without more serious protection.
 
 planet "Lukainos"
-	description "In the deepest depths of Lukanios' cities lie untold millions of Rigra, whose link to the rest of their society is tenuous at best. What goes on at the centers of these cities is unknown even to the authorities on this planet; rumors and stories abound of the lawless nature of Lukanios' slums."
+	description "In the deepest depths of Lukanios' cities live untold millions of Rigra, whose link to the rest of their society is tenuous at best. What goes on at the centers of these cities is unknown even to the authorities on this planet; rumors and stories abound of the lawless nature of Lukanios' slums."
 	description "As a sort of mirror to the cities of Lukainos, the Aert have established their own underground civilization far beneath the concrete that coats this world."
 	spaceport "Even by Rigra standards, this planet is packed with people. You can hardly find standing room in the spaceport, and the din rattles your skull. The spaceport seems to be on one of the few areas of this planet that isn't covered by skyscrapers."
 
@@ -67,3 +67,4 @@ planet "Deika Rigra"
 planet "Dashur"
 	government Bashkmul
 	description "One of the more fanciful attempts to find a new home for the Aert is the use of the few jump drives in the possession of the Bashkmul to establish a small colony west of Bashkmul space. The poor terraforming capabilities of the Bashkmul and the limited population of this planet has made establishing a self-sufficient colony difficult. It is clear that it will be a long time before this planet is independent and suitable for mass habituation."
+	spaceport "The spaceport is little more than a collection of small buildings where freight from incoming ships are stored. There are virtually no other amenities."

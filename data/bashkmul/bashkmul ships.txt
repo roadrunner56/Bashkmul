@@ -26,6 +26,7 @@ ship "Detoh"
 		"Oerth Steering"
 		"Hyperdrive"
 	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Detoh is a reflection of the former goal."
+	description "As the Rigra lack any large cargo ships, the Detoh is sometimes used by Rigra captains despite its frail hull and non-existent shielding. Its poor speed and manueverability make it an especially frustrating ship for Rigra captains to pilot. These downsides are less of a dealbreaker for the Aert, as their space's lack of any real piracy makes strong defensive armaments unnecessary."
 
 
 ship "Neri"
@@ -56,7 +57,7 @@ ship "Neri"
 		"Oerth Steering"
 		"Hyperdrive"
 	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Neri is a reflection of the latter goal."
-
+	descriptoon "Since contact between the Aert and the Rigra, this ship has largely been superseded by the Rigra-made Carrack. However, for Aert captains and passengers wanting to stick to something more familiar, the Neri offers an adequate alternative."
 
 
 ship "Trident"
@@ -117,6 +118,8 @@ ship "Trident"
 
 
 ship "Slingshot"
+	sprite "ship/slingshot"
+	thumbnail "ship/slingshot"
 	attributes
 		category "Fighter"
 		"cost" 111000
@@ -134,7 +137,6 @@ ship "Slingshot"
 		"engine capacity" 34
 		"shield generation" 0.36
 		"shield energy" 0.24
-		"hull repair rate" 0.82
 		"hull energy" 0.54
 		weapon
 			"blast radius" 15
@@ -155,7 +157,7 @@ ship "Slingshot"
 	engine 0 41.5
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The rather lax safety standards of the Rigra have led to the creation of the Slingshot."
+	description "The rather lax safety standards of the Rigra are evident in the design of the Slingshot, a ship notorious for its emphasis on speed over survivability. The cheap, lightweight materials that make up the Slingshot allow it to be fielded in overwhelming numbers."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
@@ -368,7 +370,7 @@ ship "Carrack"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description `Originally built as a transport for the large numbers of Rigra in Bashkmul space, since the Pug War the Carrack has also been used to move Aert from their original three planets to an uninhabited group of systems west of Bashkmul space. The few jump drives that the Bashkmul have are all installed in these ships as a result.`
+	description `Originally built as a transport for the large numbers of Rigra in Bashkmul space, since the Pug War the Carrack has also been used to move Aert from their original three planets to an uninhabited group of systems west of Bashkmul space. The few jump drives that the Bashkmul have are all installed in these ships in an effort to move as many Aert west as possible.`
 
 
 ship "Caravel"
