@@ -66,4 +66,4 @@ planet "Deika Rigra"
 
 planet "Dashur"
 	government Bashkmul
-	description "One of the more fanciful attempts to find a new home for the Aert is the use of the few jump drives in the possession of the Bashkmul to establish a small colony west of Bashkmul space. The poor terraforming capabilities of the Bashkmul and the limited population of this planet has made establishing a self-sufficient colony difficult. It is clear that it will be a long time before this planet is suitable for mass habituation."
+	description "One of the more fanciful attempts to find a new home for the Aert is the use of the few jump drives in the possession of the Bashkmul to establish a small colony west of Bashkmul space. The poor terraforming capabilities of the Bashkmul and the limited population of this planet has made establishing a self-sufficient colony difficult. It is clear that it will be a long time before this planet is independent and suitable for mass habituation."
