@@ -26,7 +26,7 @@ ship "Detoh"
 		"Oerth Steering"
 		"Hyperdrive"
 	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Detoh is a reflection of the former goal."
-	description "As the Rigra lack any large cargo ships, the Detoh is sometimes used by Rigra captains despite its frail hull and non-existent shielding. Its poor speed and manueverability make it an especially frustrating ship for Rigra captains to pilot. These downsides are less of a dealbreaker for the Aert, as their space's lack of any real piracy makes strong defensive armaments unnecessary."
+	description "As the Rigra lack any large cargo ships, the Detoh is sometimes used by Rigra captains despite its frail hull and non-existent shielding. These downsides are less of a dealbreaker for the Aert, as their space's lack of any real piracy makes strong defensive armaments unnecessary. However, its poor speed and maneuverability make it an especially frustrating ship for Rigra captains to pilot."
 
 
 ship "Neri"
@@ -254,8 +254,8 @@ ship "Fortress"
 	engine -31.5 89.5
 	gun 52.5 -0.5 "Plague Cannon"
 	gun 52.5 -0.5 "Plague Cannon"
-	turret 0 0.5 "Turtle Anti-Missile"
-	turret -35.5 29.5 "Turtle Anti-Missile"
+	turret 0 0.5 "Thunderstrike Turret"
+	turret -35.5 29.5 "Thunderstrike Turret"
 	turret 35.5 29.5 "Turtle Anti-Missile"
 	leak "leak" 40 50
 	leak "flame" 40 80

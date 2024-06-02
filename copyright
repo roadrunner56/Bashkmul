@@ -1,4 +1,9 @@
-Files: images/*
+Files: images/ship/*
 Copyright: Daeridanii (https://github.com/Daeridanii1)
 License: CC-BY-SA-4.0
 Comment: Ship sprites created by Daeridanii.
+
+Files: images/effect/*
+Copyright: RisingLeaf
+License: CC-BY-SA-4.0
+Comment: Engine flares created by RisingLeaf.

@@ -180,8 +180,8 @@ outfit "Vogul Steering"
 	"turn" 308.8
 	"turning energy" 1.1
 	"turning heat" 2.1
-	"steering flare sprite" "effect/korath flare/small"
-		"frame rate" 7.5
+	"flare sprite" "effect/rigra/tiny"
+		"frame rate" 14
 	"steering flare sound" "plasma small"
 	description "Small Rigra steering."
 
