@@ -7,7 +7,7 @@ mission "First Contact: Bashkmul"
 	destination "Mernoth"
 	on offer
 		conversation
-			`The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the part of this ringworld open to visitors. Many, if not most of the inhabitants here are aliens you have not seen before: large, four-legged creatures with shaggy brown fur and large paws. Despite the less-than-warm welcome you recieved when you entered this space, you do not sense any hostility from these aliens; in fact, they do not seem to even notice your presence. They move at a languid pace, and the scene is almost peaceful until you hear a loud shout.`
+			`The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the part of this ringworld open to visitors. Many, if not most of the inhabitants here are aliens you have not seen before: large, four-legged creatures with shaggy brown fur and paws. Despite the less-than-warm welcome you recieved when you entered this space, you do not sense any hostility from these aliens; in fact, they do not seem to even notice your presence. About the size of a large horse, they move at a languid pace, and the scene is almost peaceful until you hear a loud shout.`
 			`	"Aigh! Po ku ye ti!"`
 			`	You turn around to see a small, greenish blur sprint towards you on all fours. Once it approaches you, they stand up on their hind legs, reaching no higher than your chest. They are quite lanky in appearance, with thin limbs covered in tough scales. Their large eyes bulge out of either side of their gilled head, which itself is crowned by fins reaching along the spine and down their tail. Their overall appearance gives you the impression of a humanoid fish. "You are human, yes?" they say in a heavily accented voice.`
 			choice
@@ -174,14 +174,14 @@ mission "First Contact: Bashkmul 2"
 			`	"This place, it is perhaps not best for discussion," he says, looking towards the large crowd. "Meet me in the spaceport, and I will bring you to a place to answer questions."
 					accept
 			label shoot
-			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must be careful still here. If you have more questions, meet me in spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion." `
+			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so... cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must be careful still here. If you have more questions, meet me in spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion." `
 				accept
 			label morejd
 			`	The fins on the side of the Rigra's head perk up, like ears on a dog. "Are you joking me?"` ### error is intentional!
 			choice
 				`	"I'm serious."`
 				`	"...never mind."`
-			`	The Rigra snorts and looks away. "That is not funny," he says. "If you are done playing, you can meet me in the spaceport and I will tell you more about the Bashkmul." He looks towards the large crowd. "This place, it is perhaps not best for discussion."`
+			`	The Rigra snorts and looks away. "That is not funny," he says. "If you are done playing, you can meet me in the spaceport and I will tell you more about the Bashkmul, and you can tell me more about humanity." He looks towards the large crowd. "This place, it is perhaps not best for discussion."`
 				accept
 
 
@@ -191,4 +191,45 @@ mission "First Contact: Bashkmul 3"
 		has "First Contact: Bashkmul: accepted"
 	on offer
 		conversation
-			`You enter the spaceport and realize that you would probably not be able to pick the Rigran diplomat out of the surrounding crowd.`
+			`The weather in the spaceport is uncomfortably hot and humid, a condition not helped by the massive crowd surrounding you. Most of the crowd is made up of Rigra, but the few Aert you see stand out simply by virtue of their size. The spaceport is a cacophony of conversations, arguments, haggling, music, and more than the occasional shout your way. You soon realize that you would probably not be able to pick the Rigran diplomat out of the surrounding crowd. Just as you consider going back, you turn around to see him running on all fours towards you.`
+			`	"Captain!" He straightens up and smooths down the cloak he is now wearing. "Come with me. I am sure you have many questions."`
+			`	You follow him to what looks like a large sewage drain, albeit one with a rather ornate cover. He opens a lock on the door, and you begin walking down a warmly-lit hallway. The air is surprisingly misty, and you notice humidifiers installed along the walls. Eventually you reach a doorway with two doors embedded within each other in a manner reminiscent of a dog door; the larger one fills up the entire doorway and is about the size of an Aert, while the smaller one barely reaches your shoulder. The Rigra diplomat enters through the smaller doorway.`
+			choice
+				`	(Enter through the smaller door.)`
+					choice smaller
+				`	(Enter through the larger door.)`
+			`	You push against the larger door, and it only budges after you bring your entire weight against it. Clearly the door was meant for something far larger than you.`
+				goto laugh
+			label smaller
+			`	You crouch down and try to squeeze yourself through the narrow doorway, only making it through after a considerable period of time.`
+			label laugh
+			`	You look up to see the Rigra struggling to hold back laughter. The sound of his laugh is high-pitched, almost like birdsong.`
+			`	"Apologies, our facilites are not made for someone of your stature," he says, regaining composure. "Now, I realize that you do not know my name. In the interest of keeping my identity easy to remember with you, I have selected a human name for use. Please, call me Darwin."`
+			`	You decide to refrain from making any jokes about fish that grew legs.`
+			`	<first> <last>, you say.`
+			`	He pauses as if thinking of what to say. "A pleasure to meet you, <last>. Now, you may ask me questions you have about Bashkmul.`
+			label choice
+			choice
+				`	"Did your government fight the Pug?"`
+					goto pug
+				`	"Where are the Aert trying to get to?"`
+					goto aert
+				`	"How do you know my language?"`
+					goto language
+				`	"I can bring you more jump drives."`
+					goto morejd
+			label pug
+			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He couldn't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. We shared our knowledge with them and advanced their society. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. You are familiar with them?"`
+			choice ### add option for those players who haven't completed FW yet.
+				`	"Yes, humanity was at war with the Pug. I helped fight them off."`
+				`	"They invaded our space and cut off our hyperlanes, but they never touched our stars."`
+			`	"So we are not the only species that have been subject to their evil ways. This must have been recent, as we have no record of Pug in human space."`
+			choice
+				`	"What do you mean, 'records'?"`
+				`	"How do you know about humanity?"`
+					goto language
+			label language
+			`	"You are not first human that has arrived in our space, although you are first surviving this long. The
+			label aert
+			label morejd
+			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you. You
