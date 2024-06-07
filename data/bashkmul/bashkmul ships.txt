@@ -106,8 +106,6 @@ ship "Trident"
 		"launch effect"
 	bay "Fighter" 25 10 under
 		"launch effect"
-	bay "Fighter" 25 10 under
-		"launch effect"
 	engine -16.5 120 0.7
 	engine 0 116.5 1
 	engine 16.5 120 0.7

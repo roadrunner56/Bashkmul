@@ -201,9 +201,9 @@ mission "First Contact: Bashkmul 3"
 			`	You push against the larger door, and it only budges after you bring your entire weight against it. Clearly the door was meant for something far larger than you.`
 				goto laugh
 			label smaller
-			`	You crouch down and try to squeeze yourself through the narrow doorway, only making it through after a considerable period of time.`
+			`	You crouch down and try to squeeze yourself through the narrow doorway, only making it through after a considerable amount of time and effort.`
 			label laugh
-			`	You look up to see the Rigra struggling to hold back laughter. The sound of his laugh is high-pitched, almost like birdsong.`
+			`	You look up to see the Rigra at a desk, struggling to hold back laughter. The sound of his laugh is high-pitched, almost like birdsong.`
 			`	"Apologies, our facilites are not made for someone of your stature," he says, regaining composure. "Now, I realize that you do not know my name. In the interest of keeping my identity easy to remember with you, I have selected a human name for use. Please, call me Darwin."`
 			`	You decide to refrain from making any jokes about fish that grew legs.`
 			`	<first> <last>, you say.`
@@ -219,7 +219,7 @@ mission "First Contact: Bashkmul 3"
 				`	"I can bring you more jump drives."`
 					goto morejd
 			label pug
-			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He couldn't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. We shared our knowledge with them and advanced their society. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. You are familiar with them?"`
+			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He can't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. We united against them, forming the Bashkmul, and drove them off. But the stars in Aert space, they were not repairable, even by the Pug. You are familiar with Pug?"`
 			choice ### add option for those players who haven't completed FW yet.
 				`	"Yes, humanity was at war with the Pug. I helped fight them off."`
 				`	"They invaded our space and cut off our hyperlanes, but they never touched our stars."`
@@ -229,7 +229,8 @@ mission "First Contact: Bashkmul 3"
 				`	"How do you know about humanity?"`
 					goto language
 			label language
-			`	"You are not first human that has arrived in our space, although you are first surviving this long. The
+			`	"You are not first human that has arrived in our space, although you are first surviving this long. You are also the first we were able to communicate with. The only other human who arrived here was killed for her jump drive, as we could not negotiate the trade of more jump drives like we did with you. However, we found a data chip on her person, from your 'Library of Alexandria'. We learned about your species and your language from this data, so that if we ever encountered another human traveler we could communicate properly. Thankfully my training has not gone to waste." He smiles.`
 			label aert
+			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan.
 			label morejd
-			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you. You
+			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you. You realize how serious this is to us." His eyes dart across the room to `
