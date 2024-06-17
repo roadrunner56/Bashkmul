@@ -218,12 +218,14 @@ mission "First Contact: Bashkmul 3"
 					goto language
 				`	"I can bring you more jump drives."`
 					goto morejd
+				`	"I have no further questions."`
+					goto finish
 			label pug
-			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He can't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. We united against them, forming the Bashkmul, and drove them off. But the stars in Aert space, they were not repairable, even by the Pug. You are familiar with Pug?"`
+			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He can't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. We united against them, forming the Bashkmul, and drove them off. But the stars in Aert space, they were not repairable even by the Pug. We believe they intended to fix them once the war was over, but they for whatever reason were unable to. You are familiar with Pug?"`
 			choice ### add option for those players who haven't completed FW yet.
 				`	"Yes, humanity was at war with the Pug. I helped fight them off."`
 				`	"They invaded our space and cut off our hyperlanes, but they never touched our stars."`
-			`	"So we are not the only species that have been subject to their evil ways. This must have been recent, as we have no record of Pug in human space."`
+			`	Darwin's eyes widen in what you guess is an expression of shock. "So we are not the only species that have been subject to their evil ways. This must have been recent, as we have no record of Pug in human space."`
 			choice
 				`	"What do you mean, 'records'?"`
 				`	"How do you know about humanity?"`
@@ -231,6 +233,8 @@ mission "First Contact: Bashkmul 3"
 			label language
 			`	"You are not first human that has arrived in our space, although you are first surviving this long. You are also the first we were able to communicate with. The only other human who arrived here was killed for her jump drive, as we could not negotiate the trade of more jump drives like we did with you. However, we found a data chip on her person, from your 'Library of Alexandria'. We learned about your species and your language from this data, so that if we ever encountered another human traveler we could communicate properly. Thankfully my training has not gone to waste." He smiles.`
 			label aert
-			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan.
+			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan. Simply put, their stars are expanding
 			label morejd
-			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you. You realize how serious this is to us." His eyes dart across the room to `
+			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you? You realize how serious this is to us." His eyes dart across the room and a frog-like tongue jumps out of his mouth, trapping an insect that was flying by your face moments ago. "If you ever have more jump drives to give us, meet me here. I am authorized to give rewards out to anybody who can do so.`
+			label finish
+			`	"Very well. I now have some questions for you. Are you able to
