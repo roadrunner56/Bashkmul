@@ -6,7 +6,7 @@ outfit "Iron Shield Generator"
 	"outfit space" -12
 	"shield generation" 0.4
 	"shield energy" 1.0
-	description "Rigra don't care much for shields."
+	description "The traditional design philosphy of the Rigra has emphasized speed and agility as the best defense. As such, Rigran shield technology is comparatively poor, and some captains even forgo the use of shields entirely."
 
 
 outfit "Steel Shield Generator"
@@ -241,7 +241,7 @@ outfit "Spout Batteries"
 	"mass" 15
 	"outfit space" -15
 	"energy capacity" 5836
-	description "Small batteries. Aert design. Originally developed for storing electricity generated through solar power in Aert worlds, adapted for spaceships."
+	description "As the Aert have mainly depended on solar power for centuries, they have developed batteries capable of holding large amounts of power for their size. Their batteries were soon adapted for spacefaring ships, and their reliability and high energy capacity have made them popular throughout Bashkmul space."
 
 outfit "Well Batteries"
 	category "Power"
@@ -250,7 +250,7 @@ outfit "Well Batteries"
 	"mass" 30
 	"outfit space" -30
 	"energy capacity" 13044
-	description "Medium batteries. Aert design."
+	description "Medium batteries. Aert design. Aert batteries are one of the few pieces of technology that have truly suprassed their Rigran equivalents. After contact, the Rigra quickly adopted these new batteries and now Aert batteries are almost exclusively used throughout Bashkmul space."
 
 outfit "Fountain Batteries"
 	category "Power"
@@ -259,7 +259,7 @@ outfit "Fountain Batteries"
 	"mass" 40
 	"outfit space" -40
 	"energy capacity" 23350
-	description "Large batteries. Aert design."
+	description "Large batteries. Aert design. While Rigra captains prefer to rely mostly on their generators for power during flights, the Aert prefer to have a continuous backup source of energy. This has led to the creation of batteries with extensive energy capacities."
 
 
 outfit "Bazooka Blaster"
@@ -269,4 +269,4 @@ outfit "Bazooka Blaster"
 	"capture attack" 2
 	"capture defense" 0.5
 	"unplunderable" 1
-	description "Barely able to be held up by your average Rigran, the Bazooka Blaster fires rounds that any other species would consider excessive in hand-to-hand combat."
+	description "Barely able to be held up by your average Rigran, the Bazooka Blaster fires rounds that any other species would consider excessive in hand-to-hand combat. The blast is almost strong enough to rip a hole through the interior of a ship, a fact not helped by its poor aim and high recoil. Despite these drawbacks, the Bazooka Blaster is extensively used in boarding and capture operations, as its sheer power ensures that one hit will be enough to take out its target instantly."

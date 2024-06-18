@@ -161,7 +161,7 @@ mission "First Contact: Bashkmul 2"
 		"reputation: Bashkmul" >=0
 		conversation
 			`Almost as soon as you hit the tarmac, you are surrounded with ships and guards - most of them seem preoccupied with keeping a large crowd of civilians at bay. You direct an Aert towards your hold, and 5 jump drives are carted off your ship. You wonder if that's the end of it when you feel a tapping on your back.`
-			`	"Frankly, I did not expect you to come back." You turn around to see the Rigra you met upon first visiting Mernoth. "I was against letting you go, personally. I now see that I was wrong." He sighs. "You have done a great service to the Aert, more than you can understand."`
+			`	"Frankly, I did not expect you to come back." You turn around to see the Rigra you met upon first visiting Mernoth. He is looking at the ground, with his paws clasped behind his back. "I was against letting you go, personally. I now see that I was wrong." He sighs. "You have done a great service to the Aert, more than you can understand."`
 			choice
 				`	"Does that mean the Bashkmul will stop shooting at me?"`
 					goto shoot
@@ -221,7 +221,7 @@ mission "First Contact: Bashkmul 3"
 				`	"I have no further questions."`
 					goto finish
 			label pug
-			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He can't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. We united against them, forming the Bashkmul, and drove them off. But the stars in Aert space, they were not repairable even by the Pug. We believe they intended to fix them once the war was over, but they for whatever reason were unable to. You are familiar with Pug?"`
+			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He can't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. We united against them, forming the Bashkmul, and drove them off. But the stars in Aert space, they were not repairable even by the Pug. We believe they intended to fix them once the war was over, but they for whatever reason were unable to, or perhaps decided not to. You are familiar with Pug?"`
 			choice ### add option for those players who haven't completed FW yet.
 				`	"Yes, humanity was at war with the Pug. I helped fight them off."`
 				`	"They invaded our space and cut off our hyperlanes, but they never touched our stars."`
@@ -232,9 +232,26 @@ mission "First Contact: Bashkmul 3"
 					goto language
 			label language
 			`	"You are not first human that has arrived in our space, although you are first surviving this long. You are also the first we were able to communicate with. The only other human who arrived here was killed for her jump drive, as we could not negotiate the trade of more jump drives like we did with you. However, we found a data chip on her person, from your 'Library of Alexandria'. We learned about your species and your language from this data, so that if we ever encountered another human traveler we could communicate properly. Thankfully my training has not gone to waste." He smiles.`
+				goto choice
 			label aert
-			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan. Simply put, their stars are expanding
+			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan. Simply put, their stars are expanding and heating up, and this has rendered many part of their planets uninhabitable. The Aert, their space is not extensive, and ours is... not currently suitable for them. Some have chosen to live with us despite the conditions on many of our planets, but a few chose to travel to the west of our space.`
+				goto choice
 			label morejd
-			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you? You realize how serious this is to us." His eyes dart across the room and a frog-like tongue jumps out of his mouth, trapping an insect that was flying by your face moments ago. "If you ever have more jump drives to give us, meet me here. I am authorized to give rewards out to anybody who can do so.`
+			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you? You realize how serious this is to us." His eyes dart across the room and a frog-like tongue jumps out of his mouth, trapping an insect that was flying by your face moments ago. He swallows it and continues. "If you ever have more jump drives to give us, meet me here. I am authorized to give rewards out to anybody who can do so.`
+				goto choice
 			label finish
-			`	"Very well. I now have some questions for you. Are you able to
+			`	"Very well. I now have some questions for you, as we are always curious to know more about other species, and we are unsure whether our knowledge of humanity is accurate or not. Are you able to tell us more about these 'Alphas'?`
+			choice
+				`	(Tell him about the Alphas.)`
+				`	(Feign ignorance.)`
+					goto lie
+			`	You tell Darwin what you know about the Alphas, how they were created, and where they might still be hiding.`
+			`	"If I understand correct, your species created these creatures that were superior to you in all aspects but numbers, and yet you failed to immediately establish complete control over them?" He pauses and his eyes narrow. "That is... unwise." He appears to chew on something before continuing. "We have fortunately not met these Alphas before. If we find them we will destroy them before they can become a threat to us as they have been to you."`
+			`	"Now, we require more knowledge of the Pug, should they attempt to invade our space again. Are you able to scan a Pug ship?`
+			choice
+				`	"Yes, I can do that."`
+				`	"I'd rather not provoke them."`
+			`	"I don't blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. Before I leave, know that few Rigra and fewer Aert speak your language. We have no translator, so you must get by through signs and body langauge. I wish you luck, captain."
+					decline
+			`	"Excellent. Come back here once you have the data."`
+					accept

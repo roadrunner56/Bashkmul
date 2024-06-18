@@ -26,7 +26,7 @@ ship "Detoh"
 		"Oerth Steering"
 		"Hyperdrive"
 	description "The brief history of Aert spaceflight has been mainly focused on moving cargo and people in bulk. The Detoh is a reflection of the former goal."
-	description "As the Rigra lack any large cargo ships, the Detoh is sometimes used by Rigra captains despite its frail hull and non-existent shielding. These downsides are less of a dealbreaker for the Aert, as their space's lack of any real piracy makes strong defensive armaments unnecessary. However, its poor speed and maneuverability make it an especially frustrating ship for Rigra captains to pilot."
+	description "As the Rigra do not have any large cargo ships currently in production, the Detoh is sometimes used by Rigra captains despite its frail hull and non-existent shielding. These downsides are less of a dealbreaker for the Aert, as their space's lack of any real piracy makes strong defensive armaments unnecessary. However, its poor speed and maneuverability make it an especially frustrating ship for Rigra captains to pilot."
 
 
 ship "Neri"
@@ -155,7 +155,7 @@ ship "Slingshot"
 	engine 0 41.5
 	explode "tiny explosion" 30
 	explode "small explosion" 20
-	description "The rather lax safety standards of the Rigra are evident in the design of the Slingshot, a ship notorious for its emphasis on speed over survivability. The cheap, lightweight materials that make up the Slingshot allow it to be fielded in overwhelming numbers."
+	description "The rather lax safety standards of the Rigra are evident in the design of the Slingshot, a ship notorious for its emphasis on speed over survivability. The cheap, lightweight materials that make up the Slingshot allow it to be fielded in overwhelming numbers, which besides its maneuverability is about the only advantage it has in combat."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
@@ -223,7 +223,7 @@ ship "Fortress"
 		"drag" 9.3
 		"heat dissipation" .5
 		"fuel capacity" 500
-		"cargo space" 140
+		"cargo space" 150
 		"outfit space" 470
 		"weapon capacity" 190
 		"engine capacity" 120
@@ -263,7 +263,7 @@ ship "Fortress"
 	explode "medium explosion" 30
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "Jack of all trades, heavily armed merchant freighter. Sometimes also used by pirates to carry away stolen goods."
+	description "As Rigra space became increasingly unstable and dangerous, the need arose for a merchant ship that was able to withstand pirate attacks. The Fortress has both ample cargo and weapons space, allowing it to function both as a freighter and as a defensive platform. This versatility has also made it popular with the very pirates it was meant to defend against.`
 
 
 
@@ -385,7 +385,7 @@ ship "Caravel"
 		"drag" 2.1
 		"heat dissipation" .82
 		"fuel capacity" 400
-		"cargo space" 51
+		"cargo space" 100
 		"outfit space" 185
 		"weapon capacity" 37
 		"engine capacity" 48
