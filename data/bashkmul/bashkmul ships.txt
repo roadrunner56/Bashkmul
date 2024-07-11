@@ -117,7 +117,7 @@ ship "Trident"
 
 ship "Slingshot"
 	sprite "ship/slingshot"
-	thumbnail "ship/slingshot"
+	thumbnail "thumbnail/slingshot"
 	attributes
 		category "Fighter"
 		"cost" 111000
@@ -160,6 +160,8 @@ ship "Slingshot"
 
 
 ship "Flintlock"
+	sprite "ship/flintlock"
+	thumbnail "thumbnail/flinklock"
 	attributes
 		category "Light Warship"
 		"cost" 1300000
