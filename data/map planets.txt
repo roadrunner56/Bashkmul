@@ -46,7 +46,7 @@ planet "Chemundur"
 	description "Due to both its cold temperature and its isolation from other inhabited planets, this planet was never densely settled by the Rigra. The few who live here would like to keep it that way."
 	description "Chemundur has become something of a Mecca for those looking to escape both the Bashkmul government and the overcrowding endemic to most Rigra worlds. Nominally under the control of the Bashkmul, in reality the current overpopulation crisis has limited the government's capability to enforce its authority on this planet given the limited resources it has."
 	spaceport "Instead of the spaceport machinery common on most Rigra planets, you see cargo being carried by strange beasts with the body of a bear but with a neck and face more similar to a giraffe. The Rigra's small size allows them to ride such beasts with ease. You even see some of them racing each other just outside the spaceport."
-	spaceport "You feel many eyes upon you as you land with your jump drive-equipped ship. Evidently there are many Bashkmul here that envy your ability to leave this region of space, and a few that are not above stealing it from you. Perhaps it is best to not stay here too long, at least not without more serious protection.
+	spaceport "You feel many eyes upon you as you land with your jump drive-equipped ship. Evidently there are many Bashkmul here that envy your ability to leave this region of space, and a few that are not above stealing it from you. Perhaps it is best to not stay here too long, at least not without more serious protection."
 
 planet "Lukainos"
 	description "In the deepest depths of Lukanios' cities live untold millions of Rigra, whose link to the rest of their society is tenuous at best. What goes on at the centers of these cities is unknown even to the authorities on this planet; rumors and stories abound of the lawless nature of Lukanios' slums."
@@ -59,7 +59,7 @@ planet "Sok"
 
 planet "Deika Rigra"
 	government Quarg
-	description "The first thing you notice about this ringworld is that the Quarg seem to be a minority here. Instead, Deika Rigra is filled with both Aert and Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
+	description "The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the areas you are granted access to. Instead, Deika Rigra is filled with both Aert and Rigra desperate to escape their growingly inhospitable worlds. To accomodate as many of the Bashkmul as possible, the Quarg have doubled their efforts to expand this ringworld."
 	spaceport "Even though this ringworld is controlled by the Quarg, both the Aert and the Rigra here seem to regard their supposed guardians with distaste. The spaceport is largely empty of Quarg, who presumably prefer the deeper sections of the ring that are closed off to the Bashkmul."
 
 # Still need to make planets for the southwestern region.
@@ -72,5 +72,6 @@ planet "Dashur"
 
 planet "Lumpi Pug"
 	description "The Pug here are confined to a singular island in the middle of one of Lumpi Pug's vast oceans. The number of buildings and the size of the spaceport suggest that this settlement is capable of housing far more Pug than it currently holds."
+	spaceport "The
 	government Pug
 

@@ -186,6 +186,8 @@ mission "First Contact: Bashkmul 2"
 
 
 mission "First Contact: Bashkmul 3"
+	name "Scan a Pug ship"
+	description "Scan a Pug ship and bring the information back to Darwin, the Rigran diplomat."
 	source "Mernoth"
 	to offer
 		has "First Contact: Bashkmul: accepted"
@@ -221,7 +223,7 @@ mission "First Contact: Bashkmul 3"
 				`	"I have no further questions."`
 					goto finish
 			label pug
-			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He can't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority. War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. We united against them, forming the Bashkmul, and drove them off. But the stars in Aert space, they were not repairable even by the Pug. We believe they intended to fix them once the war was over, but they for whatever reason were unable to, or perhaps decided not to. You are familiar with Pug?"`
+			`	Darwin's face darkens. "Yes. They are responsible for the current troubles in Aert space." Darwin leans back in his chair. He can't be taller than a meter. "Many years ago, we first made contact with the Aert. Our contact was peaceful, despite our overwhelming technological and military superiority." Fins on the side of his head flare out. "War only broke out between us when an agricultural plague struck our worlds, and we were forced to take one of their farming planets to feed our people. The Pug decided to intervene by playing with our stars, threatening to destroy them if we did not submit to their authority. We and the Aert united against them, forming the Bashkmul, and drove them off. But the stars in Aert space, they were not repairable even by the Pug. We believe they intended to fix them once the war was over, but they for whatever reason were unable to, or perhaps decided not to. You are familiar with Pug?"`
 			choice ### add option for those players who haven't completed FW yet.
 				`	"Yes, humanity was at war with the Pug. I helped fight them off."`
 				`	"They invaded our space and cut off our hyperlanes, but they never touched our stars."`
@@ -231,7 +233,7 @@ mission "First Contact: Bashkmul 3"
 				`	"How do you know about humanity?"`
 					goto language
 			label language
-			`	"You are not first human that has arrived in our space, although you are first surviving this long. You are also the first we were able to communicate with. The only other human who arrived here was killed for her jump drive, as we could not negotiate the trade of more jump drives like we did with you. However, we found a data chip on her person, from your 'Library of Alexandria'. We learned about your species and your language from this data, so that if we ever encountered another human traveler we could communicate properly. Thankfully my training has not gone to waste." He smiles.`
+			`	"You are not first human that has arrived in our space, although you are first surviving this long. You are also first we were able to communicate with. The only other human who arrived here was killed for her jump drive, as we could not negotiate the trade of more jump drives like we did with you. However, we found a data chip on her person, from your 'Library of Alexandria'. We learned about your species and your language from this data, so that if we ever encountered another human traveler we could communicate properly. Thankfully my training has not gone to waste." He smiles.`
 				goto choice
 			label aert
 			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan. Simply put, their stars are expanding and heating up, and this has rendered many part of their planets uninhabitable. The Aert, their space is not extensive, and ours is... not currently suitable for them. Some have chosen to live with us despite the conditions on many of our planets, but a few chose to travel to the west of our space.`
@@ -247,11 +249,49 @@ mission "First Contact: Bashkmul 3"
 					goto lie
 			`	You tell Darwin what you know about the Alphas, how they were created, and where they might still be hiding.`
 			`	"If I understand correct, your species created these creatures that were superior to you in all aspects but numbers, and yet you failed to immediately establish complete control over them?" He pauses and his eyes narrow. "That is... unwise." He appears to chew on something before continuing. "We have fortunately not met these Alphas before. If we find them we will destroy them before they can become a threat to us as they have been to you."`
-			`	"Now, we require more knowledge of the Pug, should they attempt to invade our space again. Are you able to scan a Pug ship?`
+				goto gov
+				label lie
+			`	Darwin's eyes narrow. "I see. Given the havok they have wrought on your species, you must either be astoundingly ignorant of your own history, or a liar. I do not take kindly to either."`
+				label gov
+			`	"Now, is human space still united under one government, or has there been changes as a result of your war?"`
+			choice
+			### copy and pasted this from the Saryd University lecture because I'm a lazy bum. Will have to change this a bit later.
+			`	"No, human space is split between the Republic in the north and the Free Worlds in the south."`
+					to display
+						has "event: war begins"
+						not "free worlds checkmate"
+			`	"No, human space is split between the Republic in the west, the Free Worlds in the south, and the Syndicate in the east. The Syndicate is technically part of the Republic, but they have a lot of autonomy."`
+				to display
+					has "event: war begins"
+					not "free worlds checkmate"
+			`	"Yes, all of human space is united under the Republic."`
+				goto unchanged
+				to display
+					or
+						not "event: war begins"
+						has "free worlds checkmate"
+			`	"Yes, but there are internal subdivisions: the Free Worlds in the south, the Republic in the north, and the Syndicate in the east."`
+				to display
+					has "free worlds checkmate"
+			`	"No. Technically all of human space is under the Republic, but the Syndicate has significant autonomy."`
+				to display
+					not "event: war begins"
+				goto unchanged
+			`	"No. Technically all of human space is under the Republic, but the Free Worlds and Syndicate have significant autonomy."`
+				to display
+					has "free worlds checkmate"
+			`	"Hmm. This 'Free Worlds', it is new to our records. Thank you for this information."`
+				goto last
+				label unchanged
+			`	"Hmm. This description is similar to previous records. Thank you for this information."`
+				label last
+			`	"One last thing. We require more knowledge of the Pug, should they attempt to invade our space again. Are you able to scan a Pug ship?`
 			choice
 				`	"Yes, I can do that."`
+					goto accept
 				`	"I'd rather not provoke them."`
-			`	"I don't blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. Before I leave, know that few Rigra and fewer Aert speak your language. We have no translator, so you must get by through signs and body langauge. I wish you luck, captain."
+			`	"I don't blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. Before I leave, know that few Rigra and fewer Aert speak your language. We have no mechanical translator, so you must get by through signs and body langauge. I wish you luck, captain."
 					decline
-			`	"Excellent. Come back here once you have the data."`
+				label accept
+			`	"Excellent. Come back here once you have data."`
 					accept
