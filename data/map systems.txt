@@ -1,7 +1,7 @@
 system Frenoj
 	pos 576.111 -168.89
 	government Bashkmul
-	habitable 5600
+	habitable 4000
 	belt 1280 6
 	link Popi
 	link Shpi
@@ -23,9 +23,7 @@ system Frenoj
 	trade Metal 421
 	trade Plastic 280
 	object
-		sprite star/f-giant
-		distance 71.181
-		period 10
+		sprite star/k-supergiant
 	object
 		sprite planet/ocean8
 		distance 449
@@ -40,7 +38,7 @@ system Frenoj
 		period 234.246
 	object
 		sprite planet/gas4-b
-		distance 3276
+		distance 1958.006
 		period 1002.263
 		object
 			sprite planet/dust1
@@ -52,7 +50,7 @@ system Frenoj
 		period 3930.634
 	object Lukainos
 		sprite planet/desert1
-		distance 5000
+		distance 3705.391
 		period 200
 	object Mikos
 		sprite planet/rock15
@@ -62,7 +60,7 @@ system Frenoj
 system Raunai
 	pos 494.667 -295.334
 	government Quarg
-	habitable 3450
+	habitable 900
 	belt 1180 10
 	link Melkran
 	asteroids "large metal" 1 5.07
@@ -222,7 +220,7 @@ system Ina
 	minables aluminum 1 3.159
 	minables neodymium 3 3.291
 	object
-		sprite star/a-giant
+		sprite star/o-giant
 		period 10
 	object
 		sprite planet/lava7-b
@@ -254,7 +252,7 @@ system Ina
 			period 417.564
 	object
 		sprite planet/gas8
-		distance 4037
+		distance 6514.956
 		period 1154.342
 		object
 			sprite planet/rock17
@@ -266,7 +264,7 @@ system Ina
 		period 7591.843
 	object Shundosh
 		sprite planet/cloud3
-		distance 7150.116
+		distance 4165.135
 
 system Afer
 	pos 805.34 -237.622
@@ -287,8 +285,6 @@ system Afer
 	minables iron 8 12.744
 	object
 		sprite star/k-giant
-		distance 132.347
-		period 49.252
 	object
 		sprite star/l-dwarf
 		distance 268.43
@@ -320,7 +316,7 @@ system Afer
 			period 100.976
 	object
 		sprite planet/gas5
-		distance 3231
+		distance 6335.481
 		period 981.507
 		object
 			sprite planet/rock7
@@ -336,7 +332,7 @@ system Afer
 		period 1444.802
 	object Aeron
 		sprite planet/ocean7
-		distance 5000
+		distance 3019.874
 		period 300
 
 system Vetem
@@ -458,7 +454,7 @@ system Shpi
 	minables copper 1 2.756
 	minables lead 4 2.166
 	object
-		sprite star/f0
+		sprite star/m-giant
 		period 10
 	object
 		sprite planet/rock15
@@ -493,7 +489,7 @@ system Shpi
 		distance 7991
 		period 5647.311
 	object Chemundur
-		sprite planet/dust7
+		sprite planet/ocean6
 		distance 2660
 		period 350
 
@@ -721,7 +717,7 @@ system Prapme
 			period 207.32
 	object "Suri 3-E"
 		sprite planet/station12
-		distance 4004.493
+		distance 2856.916
 		period 400
 
 system Yepi
@@ -759,7 +755,7 @@ system Yepi
 system Kukla
 	pos 543.917 -132.417
 	government Uninhabited
-	habitable 370
+	habitable 900
 	belt 1280 7
 	link Grot
 	link Hapur
@@ -772,11 +768,10 @@ system Kukla
 	minables lead 4 13.37
 	minables copper 5 8.556
 	object
-		sprite star/k8
-		period 10
+		sprite star/f5
 	object
 		sprite planet/gas3-b
-		distance 525
+		distance 1923.039
 		period 250.149
 	object
 		sprite planet/ocean0-b
@@ -810,6 +805,9 @@ system Kukla
 			sprite planet/ice7-b
 			distance 298
 			period 134.63
+	object Dashur
+		sprite planet/dust4-b
+		distance 746.607
 
 system Hapur
 	pos 484.126 -168
@@ -1461,3 +1459,55 @@ system "Lepuri e Vitur"
 			distance 236
 			period 137.047
 
+
+system Lumpi
+	pos 784.727 -137.907
+	government Pug
+	habitable 500
+	belt 1923 5
+	asteroids "small rock" 51 2.592
+	asteroids "medium rock" 9 2.333
+	asteroids "large rock" 15 2.794
+	asteroids "small metal" 2 2.563
+	asteroids "medium metal" 21 2.16
+	asteroids "large metal" 2 1.555
+	minables aluminum 1 3.668
+	minables neodymium 4 3.039
+	minables iron 5 2.673
+	object
+		sprite planet/forest3-b
+		distance 1447.973
+		period 311.637
+		object
+			sprite planet/dust1
+			distance 177
+			period 73.238
+	object
+		sprite planet/cloud8
+		distance 950
+		period 1171.239
+	object
+		sprite planet/gas8
+		distance 2222
+		period 4189.634
+		object
+			sprite planet/rock14-b
+			distance 350
+			period 171.364
+	object
+		sprite planet/gas7-hot
+		distance 3986
+		period 10066.209
+	object
+		sprite planet/gas0-b
+		distance 9314
+		period 35955.418
+	object
+		sprite planet/gas6
+		distance 10506
+		period 43074.088
+	object "Lumpi Pug"
+		sprite planet/forest6
+		distance 413.682
+	object
+		sprite star/k0-old
