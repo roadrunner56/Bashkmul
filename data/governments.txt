@@ -1,7 +1,29 @@
-government Bashkmul
+government Bashkmul (Rigra)
+	"display name" Bashkmul
 	swizzle 12
 	color 0 0.145 0.706
-	"player reputation" 1000
+	"player reputation" -1
 	"attitude toward"
+		Quarg 0.1
+		Xapelaux 1
 		Gegno 0.1
 		Pug -1
+	"friendly hail" "friendly bashkmul"
+	"friendly disabled hail" "friendly disabled bashkmul"
+	"hostile hail" "hostile bashkmul"
+	"hostile disabled hail" "hostile disabled bashkmul"
+	raid <fleet> [<min-attraction#> [<max-attraction#>]]
+
+government Bashkmul (Aert)
+	"display name" Bashkmul
+	swizzle 12
+	color 0 0.145 0.706
+	"player reputation" 0
+	"attitude toward"
+		Quarg 0.1
+		Xapelaux 1
+		Gegno 0.1
+		Pug -1
+	"friendly disabled hail" "friendly disabled bashkmul"
+	"hostile disabled hail" "hostile disabled bashkmul"
+	language aert

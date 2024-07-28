@@ -1,7 +1,7 @@
 system Frenoj
 	pos 576.111 -168.89
 	government Bashkmul
-	habitable 4000
+	habitable 4500
 	belt 1280 6
 	link Popi
 	link Shpi
@@ -12,34 +12,34 @@ system Frenoj
 	asteroids "medium metal" 10 2.72
 	asteroids "large metal" 7 3.613
 	minables aluminum 2 5.393
-	trade Clothing 245
-	trade Electronics 756
-	trade Equipment 562
-	trade Food 294
-	trade "Heavy Metals" 866
-	trade Industrial 844
-	trade "Luxury Goods" 1275
-	trade Medical 549
-	trade Metal 421
-	trade Plastic 280
+	trade Clothing 238
+	trade Electronics 818
+	trade Equipment 547
+	trade Food 329
+	trade "Heavy Metals" 882
+	trade Industrial 842
+	trade "Luxury Goods" 1271
+	trade Medical 639
+	trade Metal 500
+	trade Plastic 243
 	object
 		sprite star/k-supergiant
 	object
 		sprite planet/ocean8
 		distance 449
-		period 50.855
+		period 56.731
 	object
 		sprite planet/rock11-b
 		distance 838
-		period 129.668
+		period 144.65
 	object
 		sprite planet/neptune-b
 		distance 1243
-		period 234.246
+		period 261.313
 	object
 		sprite planet/gas4-b
 		distance 1958.006
-		period 1002.263
+		period 516.624
 		object
 			sprite planet/dust1
 			distance 275
@@ -47,23 +47,33 @@ system Frenoj
 	object
 		sprite planet/gas4
 		distance 8147
-		period 3930.634
+		period 4384.805
 	object Lukainos
 		sprite planet/desert1
 		distance 3705.391
-		period 200
+		period 1344.946
 	object Mikos
 		sprite planet/rock15
 		distance 2596.573
-		period 204
+		period 788.959
 
 system Raunai
 	pos 494.667 -295.334
 	government Quarg
-	habitable 900
+	habitable 1250
 	belt 1180 10
 	link Melkran
 	asteroids "large metal" 1 5.07
+	trade Clothing 179
+	trade Electronics 848
+	trade Equipment 576
+	trade Food 321
+	trade "Heavy Metals" 804
+	trade Industrial 791
+	trade "Luxury Goods" 1054
+	trade Medical 682
+	trade Metal 434
+	trade Plastic 357
 	object
 		sprite star/g5-old
 		period 500
@@ -71,19 +81,19 @@ system Raunai
 		sprite "planet/ringworld left"
 			scale 0.5
 		distance 812
-		period 349.82
+		period 261.782
 		offset -30
 	object "Deika Rigra"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
-		period 349.82
+		period 261.782
 		offset -50
 	object "Deika Rigra"
 		sprite "planet/ringworld right"
 			scale 0.5
 		distance 812
-		period 349.82
+		period 261.782
 		offset -70
 
 system Melkran
@@ -103,6 +113,16 @@ system Melkran
 	asteroids "large metal" 2 2.071
 	minables aluminum 10 2.692
 	minables titanium 43 3.81
+	trade Clothing 190
+	trade Electronics 823
+	trade Equipment 540
+	trade Food 322
+	trade "Heavy Metals" 828
+	trade Industrial 831
+	trade "Luxury Goods" 1062
+	trade Medical 656
+	trade Metal 416
+	trade Plastic 338
 	object
 		sprite star/g-giant
 		period 10
@@ -129,14 +149,14 @@ system Melkran
 	object Nkal
 		sprite planet/forest6
 		distance 2500
-		period 320
+		period 785.674
 	object Pastur
 		sprite planet/rock11
-		distance 5951.596
-		period 500
+		distance 3132.66
+		period 2885.909
 
 system Niku
-	pos 861.663 -212.365
+	pos 863.885 -214.587
 	government Bashkmul
 	habitable 5040.089
 	belt 1879 9
@@ -150,6 +170,16 @@ system Niku
 	asteroids "medium metal" 7 2.695
 	asteroids "large metal" 17 2.172
 	minables lead 18 2.602
+	trade Clothing 413
+	trade Electronics 848
+	trade Equipment 563
+	trade Food 185
+	trade "Heavy Metals" 1137
+	trade Industrial 755
+	trade "Luxury Goods" 1028
+	trade Medical 928
+	trade Metal 462
+	trade Plastic 408
 	object
 		sprite star/g-giant
 		distance 248.5
@@ -169,7 +199,7 @@ system Niku
 			period 130.995
 	object
 		sprite planet/gas11-b
-		distance 1889
+		distance 3664.641
 		period 462.582
 		object
 			sprite planet/rock3-b
@@ -181,7 +211,7 @@ system Niku
 			period 272.497
 	object
 		sprite planet/gas9-b
-		distance 3221
+		distance 5873.253
 		period 1029.976
 		object
 			sprite planet/rock14
@@ -201,13 +231,13 @@ system Niku
 		period 1971.746
 	object Lumop
 		sprite planet/rock1
-		distance 3900
+		distance 2530.369
 		period 600
 
 system Ina
-	pos 841.507 -269.622
+	pos 858.05 -269.622
 	government Bashkmul
-	habitable 7900
+	habitable 22300
 	belt 1430 7
 	belt 1882 10
 	link Afer
@@ -219,25 +249,35 @@ system Ina
 	minables lead 1 4.002
 	minables aluminum 1 3.159
 	minables neodymium 3 3.291
+	trade Clothing 438
+	trade Electronics 851
+	trade Equipment 593
+	trade Food 265
+	trade "Heavy Metals" 1112
+	trade Industrial 724
+	trade "Luxury Goods" 996
+	trade Medical 875
+	trade Metal 453
+	trade Plastic 426
 	object
 		sprite star/o-giant
 		period 10
 	object
 		sprite planet/lava7-b
 		distance 396
-		period 35.464
+		period 21.108
 	object
 		sprite planet/rock0-b
 		distance 811
-		period 103.939
+		period 61.864
 	object
 		sprite planet/desert3-b
 		distance 1489
-		period 258.576
+		period 153.904
 	object
 		sprite planet/gas10-b
 		distance 2549
-		period 579.164
+		period 344.717
 		object
 			sprite planet/ice0
 			distance 231
@@ -253,7 +293,7 @@ system Ina
 	object
 		sprite planet/gas8
 		distance 6514.956
-		period 1154.342
+		period 1408.558
 		object
 			sprite planet/rock17
 			distance 356
@@ -261,16 +301,18 @@ system Ina
 	object
 		sprite planet/vesvi
 		distance 14171
-		period 7591.843
+		period 4518.646
 	object Shundosh
 		sprite planet/cloud3
-		distance 4165.135
+		distance 8152.351
+		period 3113.735
 
 system Afer
 	pos 805.34 -237.622
 	government Bashkmul
-	habitable 5602.009
+	habitable 3000.15
 	belt 1082 7
+	link Akoma
 	link Ina
 	link Niku
 	link Yepi
@@ -283,6 +325,16 @@ system Afer
 	minables titanium 6 7.335
 	minables lead 6 7.425
 	minables iron 8 12.744
+	trade Clothing 407
+	trade Electronics 870
+	trade Equipment 614
+	trade Food 211
+	trade "Heavy Metals" 1107
+	trade Industrial 727
+	trade "Luxury Goods" 1067
+	trade Medical 904
+	trade Metal 473
+	trade Plastic 411
 	object
 		sprite star/k-giant
 	object
@@ -293,15 +345,15 @@ system Afer
 	object
 		sprite planet/rock5-b
 		distance 940.47
-		period 24.372
+		period 210.623
 	object
 		sprite planet/desert10-b
 		distance 593
-		period 77.174
+		period 105.456
 	object
 		sprite planet/ice3-b
-		distance 1333
-		period 260.096
+		distance 5185.455
+		period 355.413
 		object
 			sprite planet/ice0
 			distance 176
@@ -309,7 +361,7 @@ system Afer
 	object
 		sprite planet/neptune-b
 		distance 2077
-		period 505.875
+		period 691.263
 		object
 			sprite planet/rock14-b
 			distance 246
@@ -317,7 +369,7 @@ system Afer
 	object
 		sprite planet/gas5
 		distance 6335.481
-		period 981.507
+		period 3682.628
 		object
 			sprite planet/rock7
 			distance 275
@@ -329,16 +381,16 @@ system Afer
 	object
 		sprite planet/gas14-b
 		distance 4181
-		period 1444.802
+		period 1974.28
 	object Aeron
 		sprite planet/ocean7
-		distance 3019.874
-		period 300
+		distance 1454.5
+		period 1211.914
 
 system Vetem
 	pos 604.388 -298.723
 	government Bashkmul
-	habitable 625
+	habitable 1250
 	belt 1589 7
 	link Lezoji
 	link Melkran
@@ -351,25 +403,35 @@ system Vetem
 	asteroids "medium metal" 39 1.886
 	asteroids "large metal" 3 1.38
 	minables tungsten 6 3.003
+	trade Clothing 186
+	trade Electronics 806
+	trade Equipment 528
+	trade Food 363
+	trade "Heavy Metals" 761
+	trade Industrial 820
+	trade "Luxury Goods" 1064
+	trade Medical 718
+	trade Metal 420
+	trade Plastic 339
 	object
 		sprite star/g5-old
 		period 10
 	object
 		sprite planet/ice5-b
 		distance 365
-		period 111.573
+		period 78.894
 	object
 		sprite planet/gas13-b
-		distance 1124
-		period 602.934
+		distance 4442.753
+		period 426.338
 	object
 		sprite planet/gas6-b
 		distance 2072
-		period 1509.053
+		period 1067.062
 	object
 		sprite planet/gas1
 		distance 3202
-		period 2899.025
+		period 2049.92
 		object
 			sprite planet/dust4
 			distance 503
@@ -377,18 +439,19 @@ system Vetem
 	object
 		sprite planet/gas14-b
 		distance 6982
-		period 9334.472
+		period 6600.468
 	object
 		sprite planet/gas0-b
 		distance 7661
-		period 10728.727
+		period 7586.355
 		object
 			sprite planet/dust3
 			distance 271
 			period 168.638
 	object Kinsli
 		sprite planet/rock1
-		distance 700
+		distance 1239.264
+		period 209.533
 
 system Popi
 	pos 517.389 -243.888
@@ -435,9 +498,9 @@ system Popi
 			period 196.931
 
 system Shpi
-	pos 621.555 -231.556
+	pos 609.888 -234.612
 	government Bashkmul
-	habitable 2560
+	habitable 2300
 	belt 1879 3
 	belt 2267
 	link Fletka
@@ -453,21 +516,31 @@ system Shpi
 	minables tungsten 1 2.325
 	minables copper 1 2.756
 	minables lead 4 2.166
+	trade Clothing 267
+	trade Electronics 788
+	trade Equipment 586
+	trade Food 332
+	trade "Heavy Metals" 804
+	trade Industrial 826
+	trade "Luxury Goods" 1237
+	trade Medical 579
+	trade Metal 456
+	trade Plastic 258
 	object
 		sprite star/m-giant
 		period 10
 	object
 		sprite planet/rock15
 		distance 291
-		period 39.245
+		period 41.403
 	object
 		sprite planet/gas14
 		distance 679
-		period 139.876
+		period 147.571
 	object
 		sprite planet/gas8
 		distance 1725
-		period 566.401
+		period 597.558
 		object
 			sprite "planet/yniu ena"
 			distance 363
@@ -475,7 +548,7 @@ system Shpi
 	object
 		sprite planet/gas15
 		distance 3610
-		period 1714.75
+		period 1809.076
 		object
 			sprite planet/rock17
 			distance 227
@@ -483,18 +556,18 @@ system Shpi
 	object
 		sprite planet/uranus
 		distance 6315
-		period 3967.346
+		period 4185.584
 	object
 		sprite planet/neptune-b
 		distance 7991
-		period 5647.311
+		period 5957.963
 	object Chemundur
 		sprite planet/ocean6
 		distance 2660
-		period 350
+		period 1144.244
 
 system Fletka
-	pos 686.452 -268.512
+	pos 672.841 -272.679
 	government Uninhabited
 	habitable 3430
 	belt 1478 10
@@ -545,6 +618,16 @@ system Lezoji
 	asteroids "large metal" 15 2.58
 	minables lead 1 2.384
 	minables iron 1 3.195
+	trade Clothing 145
+	trade Electronics 832
+	trade Equipment 489
+	trade Food 410
+	trade "Heavy Metals" 790
+	trade Industrial 747
+	trade "Luxury Goods" 1028
+	trade Medical 746
+	trade Metal 381
+	trade Plastic 370
 	object
 		sprite star/f5-old
 		period 10
@@ -570,8 +653,8 @@ system Lezoji
 			period 465.148
 	object
 		sprite planet/gas9
-		distance 3800.39
-		period 1190.84
+		distance 4973.639
+		period 1600.13
 		object
 			sprite planet/oberon-b
 			distance 253
@@ -583,7 +666,7 @@ system Lezoji
 	object
 		sprite planet/gas2-hot
 		distance 5987.373
-		period 2906.748
+		period 3164.225
 		object
 			sprite planet/rock3-b
 			distance 214
@@ -614,18 +697,20 @@ system Lezoji
 			period 319.324
 	object Greemi
 		sprite planet/ice7
-		distance 4766.312
-		period 500
+		distance 4227.422
+		period 2247.432
 		offset 40
 	object Sok
 		sprite planet/rock12-b
 		distance 2500
+		period 853.735
 
 system Akoma
 	pos 760.285 -260.345
 	government Bashkmul
 	habitable 3450
 	belt 1518 7
+	link Afer
 	link Fletka
 	link Lezoji
 	link Prapme
@@ -637,6 +722,16 @@ system Akoma
 	minables uranium 2 10.867
 	minables iron 3 7.546
 	minables aluminum 16 7.552
+	trade Clothing 171
+	trade Electronics 837
+	trade Equipment 447
+	trade Food 447
+	trade "Heavy Metals" 737
+	trade Industrial 747
+	trade "Luxury Goods" 1067
+	trade Medical 764
+	trade Metal 348
+	trade Plastic 405
 	object
 		sprite star/m-supergiant
 		period 10
@@ -677,6 +772,16 @@ system Prapme
 	asteroids "medium metal" 7 5.742
 	asteroids "large metal" 1 4.64
 	minables lead 1 10.747
+	trade Clothing 205
+	trade Electronics 870
+	trade Equipment 464
+	trade Food 508
+	trade "Heavy Metals" 808
+	trade Industrial 786
+	trade "Luxury Goods" 1036
+	trade Medical 808
+	trade Metal 357
+	trade Plastic 418
 	object
 		sprite star/k-giant
 	object
@@ -718,10 +823,10 @@ system Prapme
 	object "Suri 3-E"
 		sprite planet/station12
 		distance 2856.916
-		period 400
+		period 1115.182
 
 system Yepi
-	pos 778.784 -173.845
+	pos 779.895 -166.067
 	government Uninhabited
 	habitable 2300
 	belt 1585 9
@@ -754,8 +859,8 @@ system Yepi
 
 system Kukla
 	pos 543.917 -132.417
-	government Uninhabited
-	habitable 900
+	government Bashkmul
+	habitable 1715
 	belt 1280 7
 	link Grot
 	link Hapur
@@ -771,16 +876,16 @@ system Kukla
 		sprite star/f5
 	object
 		sprite planet/gas3-b
-		distance 1923.039
-		period 250.149
+		distance 5196.284
+		period 814.536
 	object
 		sprite planet/ocean0-b
 		distance 1217
-		period 882.866
+		period 410.075
 	object
 		sprite planet/gas8-b
 		distance 2875
-		period 3205.649
+		period 1488.966
 		object
 			sprite planet/dust4
 			distance 345
@@ -791,23 +896,24 @@ system Kukla
 			period 412.523
 	object
 		sprite planet/jupiter-b
-		distance 4598
-		period 6483.546
+		distance 4098.425
+		period 3011.49
 		object
 			sprite planet/lava0-b
 			distance 299
 			period 135.308
 	object
 		sprite planet/gas12-b
-		distance 5843
-		period 9287.802
+		distance 7230.487
+		period 4314.016
 		object
 			sprite planet/ice7-b
 			distance 298
 			period 134.63
 	object Dashur
 		sprite planet/dust4-b
-		distance 746.607
+		distance 1537.741
+		period 197.045
 
 system Hapur
 	pos 484.126 -168
@@ -1459,11 +1565,10 @@ system "Lepuri e Vitur"
 			distance 236
 			period 137.047
 
-
 system Lumpi
-	pos 784.727 -137.907
+	pos 618.338 -138.74
 	government Pug
-	habitable 500
+	habitable 3000
 	belt 1923 5
 	asteroids "small rock" 51 2.592
 	asteroids "medium rock" 9 2.333
@@ -1474,6 +1579,16 @@ system Lumpi
 	minables aluminum 1 3.668
 	minables neodymium 4 3.039
 	minables iron 5 2.673
+	trade Clothing 148
+	trade Electronics 878
+	trade Equipment 686
+	trade Food 464
+	trade "Heavy Metals" 876
+	trade Industrial 683
+	trade "Luxury Goods" 1335
+	trade Medical 911
+	trade Metal 210
+	trade Plastic 328
 	object
 		sprite planet/forest3-b
 		distance 1447.973
@@ -1485,11 +1600,9 @@ system Lumpi
 	object
 		sprite planet/cloud8
 		distance 950
-		period 1171.239
 	object
 		sprite planet/gas8
 		distance 2222
-		period 4189.634
 		object
 			sprite planet/rock14-b
 			distance 350
@@ -1497,17 +1610,16 @@ system Lumpi
 	object
 		sprite planet/gas7-hot
 		distance 3986
-		period 10066.209
 	object
 		sprite planet/gas0-b
 		distance 9314
-		period 35955.418
 	object
 		sprite planet/gas6
 		distance 10506
-		period 43074.088
 	object "Lumpi Pug"
 		sprite planet/forest6
-		distance 413.682
+		distance 3229.067
 	object
-		sprite star/k0-old
+		sprite star/k-supergiant
+		period -nan
+
