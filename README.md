@@ -16,16 +16,16 @@
 - [X] Make draft ship stats
 - [X] Write *very* basic descriptions for weapons, outfits, and ships, to get an idea of what their purpose and niche are
 - [ ] Beg someone to make ship sprites for me
-- [ ] Make shipyards and outfitters
-- [X] Write first contact mission
-
-To do once PRed to vanilla ES:
-- [ ] Edit and expand on first contact mission
+- [X] Make shipyards and outfitters
+- [ ] Finish first contact missions
 - [ ] Flesh out and edit descriptions
 - [ ] Add descriptions for planets in the uninhabited western region
+- [ ] Create fleets
+- [ ] Create hails
+            
+To do once PRed to vanilla ES:
+
 - [ ] Outfit and flare sprites
 - [ ] Unique sounds
 - [ ] Unique landing images
-- [ ] Create fleets
 - [ ] Balance :(
-- [ ] Create hails
