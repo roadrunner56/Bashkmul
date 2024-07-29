@@ -20,7 +20,7 @@ outfit "Steel Shield Generator"
 	description "Rigra-Aert design."
 
 
-outfit "Mountain Hull Regenerator"
+outfit "Mantle Hull Regenerator"
 	category "Systems"
 	cost 940000
 	thumbnail "outfit/large nanite fabricator"
