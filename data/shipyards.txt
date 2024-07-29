@@ -1,0 +1,18 @@
+shipyard Aert
+	Detoh
+	Neri
+
+shipyard "Rigra Basics"
+	Flintlock
+	Slingshot
+	Trident
+
+shipyard "Rigra Advanced"
+	Caravel
+	Carrack
+	Flintlock
+	Fortress
+	Howitzer
+	Slingshot
+	Trident
+

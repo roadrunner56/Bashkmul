@@ -756,7 +756,7 @@ system Akoma
 			distance 306
 			period 202.34
 	object Mernoth
-		sprite planet/forest1-b
+		sprite planet/forest2
 		distance 3037.664
 		period 216
 
@@ -911,7 +911,7 @@ system Kukla
 			distance 298
 			period 134.63
 	object Dashur
-		sprite planet/dust4-b
+		sprite planet/forest1
 		distance 1537.741
 		period 197.045
 
@@ -1566,7 +1566,7 @@ system "Lepuri e Vitur"
 			period 137.047
 
 system Lumpi
-	pos 618.338 -138.74
+	pos 615.005 -138.74
 	government Pug
 	habitable 3000
 	belt 1923 5
@@ -1621,5 +1621,5 @@ system Lumpi
 		distance 3229.067
 	object
 		sprite star/k-supergiant
-		period -nan
+		period 0
 
