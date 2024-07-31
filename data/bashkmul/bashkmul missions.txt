@@ -9,7 +9,7 @@ mission "First Contact: Bashkmul"
 		conversation
 			`The first thing you notice about this ringworld is that the Quarg seem to be a minority here, at least in the part of this ringworld open to visitors. Many, if not most of the inhabitants here are aliens you have not seen before: large, four-legged creatures with shaggy brown fur and paws. Despite the less-than-warm welcome you recieved when you entered this space, you do not sense any hostility from these aliens; in fact, they do not seem to even notice your presence. About the size of a large horse, they move at a languid pace, and the scene is almost peaceful until you hear a loud shout.`
 			`	"Aigh! Po ku ye ti!"`
-			`	You turn around to see a small, greenish blur sprint towards you on all fours. Once it approaches you, they stand up on their hind legs, reaching no higher than your chest. They are quite lanky in appearance, with thin limbs covered in tough scales. Their large eyes bulge out of either side of their gilled head, which itself is crowned by fins reaching along the spine and down their tail. Their overall appearance gives you the impression of a humanoid fish. "You are human, yes?" they say in a heavily accented voice.`
+			`	You turn around to see a small, greenish blur sprint towards you on all fours. Once it approaches you, they stand up on their hind legs, reaching no higher than your waist. They are quite lanky in appearance, with thin limbs covered in tough scales. Their large eyes bulge out of either side of their gilled head, which itself is crowned by fins reaching along the spine and down their tail. Their overall appearance gives you the impression of a humanoid fish. "You are human, yes?" they say in a heavily accented voice.`
 			choice
 				`	"Yes."`
 					goto yes
@@ -189,6 +189,7 @@ mission "First Contact: Bashkmul 3"
 	name "Scan a Pug ship"
 	description "Scan a Pug ship and bring the information back to Darwin, the Rigran diplomat."
 	source "Mernoth"
+	waypoint "Lumpi Pug"
 	to offer
 		has "First Contact: Bashkmul: accepted"
 	on offer
@@ -206,9 +207,10 @@ mission "First Contact: Bashkmul 3"
 			`	You crouch down and try to squeeze yourself through the narrow doorway, only making it through after a considerable amount of time and effort.`
 			label laugh
 			`	You look up to see the Rigra at a desk, struggling to hold back laughter. The sound of his laugh is high-pitched, almost like birdsong.`
-			`	"Apologies, our facilites are not made for someone of your stature," he says, regaining composure. "Now, I realize that you do not know my name. In the interest of keeping my identity easy to remember with you, I have selected a human name for use. Please, call me Darwin."`
+			`	"Apologies, our facilites are not made for someone of your stature," he says, regaining composure. The whole office is filled with furniture either far too large or far too small for you; the effect is disorienting. You sit down on the nearest chair, which is uncomfortably tiny. You notice it has a hole in the back, presumably to accomodate the tails of the Rigra.`
+			`	"Now, I realize that you do not know my name. In the interest of keeping my identity easy to remember with you, I have selected a human name for use. Please, call me Darwin."`
 			`	You decide to refrain from making any jokes about fish that grew legs.`
-			`	<first> <last>, you say.`
+			`	"<first> <last>," you say.`
 			`	He pauses as if thinking of what to say. "A pleasure to meet you, <last>. Now, you may ask me questions you have about Bashkmul.`
 			label choice
 			choice
@@ -218,6 +220,8 @@ mission "First Contact: Bashkmul 3"
 					goto aert
 				`	"How do you know my language?"`
 					goto language
+				`	"Do you have a translator I can use?"
+					goto translator
 				`	"I can bring you more jump drives."`
 					goto morejd
 				`	"I have no further questions."`
@@ -236,10 +240,13 @@ mission "First Contact: Bashkmul 3"
 			`	"You are not first human that has arrived in our space, although you are first surviving this long. You are also first we were able to communicate with. The only other human who arrived here was killed for her jump drive, as we could not negotiate the trade of more jump drives like we did with you. However, we found a data chip on her person, from your 'Library of Alexandria'. We learned about your species and your language from this data, so that if we ever encountered another human traveler we could communicate properly. Thankfully my training has not gone to waste." He smiles.`
 				goto choice
 			label aert
-			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan. Simply put, their stars are expanding and heating up, and this has rendered many part of their planets uninhabitable. The Aert, their space is not extensive, and ours is... not currently suitable for them. Some have chosen to live with us despite the conditions on many of our planets, but a few chose to travel to the west of our space.`
+			`	"Because of the Pug's games, the stars in Aert space have an accelerated lifespan. Simply put, their stars are expanding and heating up, and this has rendered many parts of their planets uninhabitable. The Aert, their space is not extensive, and ours is... not currently suitable for them. Some have chosen to live with us despite the conditions on many of our planets, but a few chose to travel to the west of our space.`
 				goto choice
 			label morejd
 			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you? You realize how serious this is to us." His eyes dart across the room and a frog-like tongue jumps out of his mouth, trapping an insect that was flying by your face moments ago. He swallows it and continues. "If you ever have more jump drives to give us, meet me here. I am authorized to give rewards out to anybody who can do so.`
+				goto choice
+			label translator
+			`	Darwin tilts his head slightly in what you assume is a display of confusion. "Translator? Can you not simply... Ah, I forget. For you humans, difficult it is for you to learn languages when you are old. We Rigra do not use translators - we have many languages among us selves, but we pick them up as a young human does. A few Rigra have even tried to learn the human language for fun. Perhaps you will run into them." He leans back. "I am... 32, in your years, and feel the weight of my age, but I am still able to gain a working knowledge of your speech quite easy. It is unfortunate you cannot do the same. The Aert are similar in that regard. We have no translator for you, but you can try to get by on our planets with your games of 'charades', or hope you can meet a Rigra that speaks your language. "`
 				goto choice
 			label finish
 			`	"Very well. I now have some questions for you, as we are always curious to know more about other species, and we are unsure whether our knowledge of humanity is accurate or not. Are you able to tell us more about these 'Alphas'?`
@@ -285,13 +292,37 @@ mission "First Contact: Bashkmul 3"
 				label unchanged
 			`	"Hmm. This description is similar to previous records. Thank you for this information."`
 				label last
-			`	"One last thing. We require more knowledge of the Pug, should they attempt to invade our space again. Are you able to scan a Pug ship?`
+			`	"One last thing. We require more knowledge of the Pug, should they attempt to invade our space again. We know that they are hiding in <waypoint>, which is unconnected to our space. Are you able to scan a Pug ship that is located in this system, and bring us the results?"`
+			label choice
 			choice
 				`	"Yes, I can do that."`
 					goto accept
+				`	"Why can't you just do that yourself, now that I've given you jump drives?"`
+					goto ask
 				`	"I'd rather not provoke them."`
-			`	"I don't blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. Before I leave, know that few Rigra and fewer Aert speak your language. We have no mechanical translator, so you must get by through signs and body langauge. I wish you luck, captain."
+			`	"I do not blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. I may contact you again if something comes up that you should know about. Best luck, captain."
 					decline
+				label ask
+			`	"We simply do not want to run risk of provoking them. We are in a difficult situation as is. If you scan them, they are less likely to take it out on us."`
+				goto choice
 				label accept
-			`	"Excellent. Come back here once you have data."`
+			`	"Excellent. Come back here once you have data." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. I may contact you again if something comes up that you should know about. Best luck, captain."`
 					accept
+
+	npc "scan outfits"
+		government "Pug"
+		personality staying uninterested target
+		system "Lumpi Pug"
+		fleet
+			names "bashkmul pug"
+			variant
+				"Pug Maboro"
+		dialog `You've scanned the Pug ship and gained a list of its outfits. Time to return to <planet> to collect your payment.`
+
+	on complete
+		conversation
+			`Upon landing, you seek out Darwin's 'office' in the underground cavern he took you to last time you saw him. "Ah, hello <last>. Thank you for the data. The Pug, I hope they were not hostile?"`
+			choice
+			`	"No, they didn't give me any trouble."`
+			`	"They didn't seem to care about me scanning them."`
+			`	Darwin frowns. "Suspisious. Perhaps this is only what they want us to know... No matter. Thank you for your assistance." He gets up to leave, and turns to you as he walks out the door. "You are welcome to take jobs and buy our equipment if you so desire. I believe your jump drive would give you some advantages in trading here. He bares his teeth, evidently trying to approximate a human smile but reminding you more of a cornered animal. "Best luck, Captain."`
