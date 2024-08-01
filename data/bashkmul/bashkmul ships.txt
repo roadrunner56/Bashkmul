@@ -1,3 +1,5 @@
+## Stats are currently placeholders because I don't know how to balance anything.
+
 ship "Detoh"
 	attributes
 		category "Heavy Freighter"
@@ -106,13 +108,55 @@ ship "Trident"
 		"launch effect"
 	bay "Fighter" 25 10 under
 		"launch effect"
+	bay "Fighter" 25 10 under
+		"launch effect"
+	bay "Fighter" 25 10 under
+		"launch effect"
+	bay "Fighter" 25 10 under
+		"launch effect"
 	engine -16.5 120 0.7
 	engine 0 116.5 1
 	engine 16.5 120 0.7
 	turret 0 -62
 	turret 0 -20.5 "Turtle Anti-Missile"
 	turret 0 58.5 "Turtle Anti-Missile"
-	description "True to its name, the Trident is a platform for a dizzying number of fighters. Carrier that carries a lot of small, cheap fighters"
+	description "Mainly used as a support ship by Bashkmul military forces, the Trident is able to field a dizzying number of fighters. While designed to carry Slingshots, some civilian Rigra captains instead carry Coffers, transforming the Trident into a capable freighter. The flexibility of being able to switch out Coffers for Slingshots, or vice versa, have made it popular with Rigra captains who want a versatile ship that is equally capable of carrying cargo as it is hunting pirates."
+
+
+ship "Coffer"
+	attributes
+		category "Fighter"
+		cost 369000
+		"shields" 350
+		"hull" 600
+		"required crew" 1
+		"bunks" 1
+		"mass" 54
+		"drag" .65
+		"heat dissipation" .25
+		"outfit space" 45
+		"engine capacity" 28
+		"cargo space" 100
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
+	outfits
+		"Spout Batteries"
+		"Vogul Thrusters"
+		"Vogul Engines"
+
+	engine 23 -1
+	engine -23 -1
+	engine 19 29
+	engine -19 29
+	leak "leak" 70 50
+	leak "flame" 50 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description `The Coffer is an older Rigra design, back when pirate attacks were rare and an alien invasion seemed unthinkable. Formulated as an alternative for those captains focused on carrying cargo rather than bounty hunting, the Coffer is used to transform the Trident into a large freighter without raising heat levels to an unmanageable amount. Some more daring captains even use this fighter as their flagship, adding a hyperdrive to turn it into a ship able to carry a high density of cargo for its size. This high density comes at a cost, however - the cockpit, already quite cramped even by the standards of the Rigra, is almost impossible for a human pilot to fit in.`
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 ship "Slingshot"
@@ -176,7 +220,7 @@ ship "Flintlock"
 		"cargo space" 40
 		"outfit space" 200
 		"weapon capacity" 80
-		"engine capacity" 50
+		"engine capacity" 80
 		weapon
 			"blast radius" 80
 			"shield damage" 800
@@ -192,8 +236,8 @@ ship "Flintlock"
 		"Engine Reactor"
 		"Iron Shield Generator"
 
-		"Kaich Thrusters"
-		"Kaich Steering"
+		"Madith Thrusters"
+		"Madith Steering"
 		"Hyperdrive"
 
 	engine -11.5 119
@@ -239,7 +283,7 @@ ship "Fortress"
 		"Plague Cannon" 2
 		"Plague Barrel" 60
 		"Blaster Turret" 2
-		"Anti-Missile Turret"
+		"Turtle Anti-Missile"
 
 		"Factory Reactor"
 		"Fountain Batteries"
@@ -323,7 +367,7 @@ ship "Howitzer"
 	explode "large explosion" 50
 	explode "huge explosion" 20
 	"final explode" "final explosion large"
-	description "First seeing use after the Pug War, the Howitzer is a joint Rigra-Aert design that focuses on long-range warfare over close engagements. A capital ship of the Bashkmul, it is the backbone of their interstellar military force."
+	description "First seeing use after the Pug War, the Howitzer is a joint Rigra-Aert design that focuses on long-range warfare over close engagements. A capital ship of the Bashkmul, it is the backbone of their interstellar military force. In an effort to ensure that Bashkmul space is well-defended should the Pug attack again, the Bashkmul government has made the Howitzer available for civilians to purchase. This has increased the number of Howitzers in circulation and consequentially has made Bashkmul space an unattractive target for invasion, but has also had the unfortunate side effect of making it easier for pirates to get their hands on this ship."
 
 
 
@@ -370,13 +414,11 @@ ship "Carrack"
 	explode "large explosion" 20
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
-	description `Originally built as a transport for the large numbers of Rigra in Bashkmul space, since the Pug War the Carrack has also been used to move Aert from their original three planets to an uninhabited group of systems west of Bashkmul space. The few jump drives that the Bashkmul have are all installed in these ships in an effort to move as many Aert west as possible.`
+	description `The Carrack has a long history - its predecessors were used as colony ships in the early days of Rigran space exploration, and the Rigra have still found its fundamental design useful hundreds of years later. Its most recent incarnations were intended as transports for the large numbers of Rigra in Bashkmul space, and given the high population density of the Rigra, many captains have found the Carrack to be a lucrative ship. Since the Pug War the Carrack has also been used to move Aert from their original three planets to an uninhabited group of systems west of Bashkmul space. The few jump drives that the Bashkmul have are all installed in these ships in an effort to move as many Aert west as possible.`
 
 
 ship "Caravel"
 	attributes
-		category "Transport"
-		attributes
 		category "Light Freighter"
 		"cost" 570000
 		"shields" 1700
