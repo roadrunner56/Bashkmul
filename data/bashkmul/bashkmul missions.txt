@@ -303,7 +303,7 @@ mission "First Contact: Bashkmul 3"
 			`	"I do not blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. I may contact you again if something comes up that you should know about. Best luck, captain."
 					decline
 				label ask
-			`	"We simply do not want to run risk of provoking them. We are in a difficult situation as is. If you scan them, they are less likely to take it out on us."`
+			`	"We simply do not want to run risk of provoking them. We are in a difficult situation as is. If you are the one that scan them, they are less likely to take it out on us."`
 				goto choice
 				label accept
 			`	"Excellent. Come back here once you have data." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. I may contact you again if something comes up that you should know about. Best luck, captain."`
@@ -325,4 +325,4 @@ mission "First Contact: Bashkmul 3"
 			choice
 			`	"No, they didn't give me any trouble."`
 			`	"They didn't seem to care about me scanning them."`
-			`	Darwin frowns. "Suspisious. Perhaps this is only what they want us to know... No matter. Thank you for your assistance." He gets up to leave, and turns to you as he walks out the door. "You are welcome to take jobs and buy our equipment if you so desire. I believe your jump drive would give you some advantages in trading here. He bares his teeth, evidently trying to approximate a human smile but reminding you more of a cornered animal. "Best luck, Captain."`
+			`	Darwin frowns. "Suspisious. Perhaps this is only what they want us to know... No matter. Thank you for your assistance." He gets up to leave, and turns to you as he walks out the door. "You are welcome to take jobs and buy our equipment if you so desire. I believe your jump drive would give you some advantages in trading here, and I know the Aert would be grateful for your assistance to transport them west." He bares his teeth, evidently trying to approximate a human smile but reminding you more of a cornered animal. "Best luck, Captain."`
