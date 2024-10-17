@@ -124,6 +124,8 @@ ship "Trident"
 
 
 ship "Coffer"
+	sprite "ship/coffer"
+	thumbnail "thumbnail/coffer"
 	attributes
 		category "Fighter"
 		cost 369000
@@ -205,7 +207,7 @@ ship "Slingshot"
 
 ship "Flintlock"
 	sprite "ship/flintlock"
-	thumbnail "thumbnail/flinklock"
+	thumbnail "thumbnail/flintlock"
 	attributes
 		category "Light Warship"
 		"cost" 1300000
