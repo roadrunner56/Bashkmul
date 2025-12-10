@@ -1,3 +1,13 @@
+outfit "Pump Cooling"
+	category "Systems"
+	series "Cooling"
+	cost 27500
+	thumbnail "outfit/water cooling"
+	"mass" 14
+	"outfit space" -14
+	"cooling" 18
+	description "With the advent of the Pug invasion, the Bashkmul quickly realised that their warships, packed to the brim with high-power weapons, were prone to overheating. In response, Aert engineers designed the Pump Cooling system, greatly alleviating the heat strain on their warships' systems."
+
 outfit "Iron Shield Generator"
 	category "Systems"
 	cost 59000
@@ -17,7 +27,7 @@ outfit "Steel Shield Generator"
 	"outfit space" -20
 	"shield generation" 0.8
 	"shield energy" 1.8
-	description "Rigra-Aert design."
+	description "The start of the Pug-Bashkmul War led to a surge of casualties from both Aert and Rigra ships. This Shield Generator is the fruit of a joint Aert-Rigra venture in creating shield regeneration systems capable of standing up to the Pug invaders."
 
 
 outfit "Mantle Hull Regenerator"
@@ -26,9 +36,9 @@ outfit "Mantle Hull Regenerator"
 	thumbnail "outfit/large nanite fabricator"
 	"mass" 40
 	"outfit space" -40
-	"hull repair rate" 1,5
+	"hull repair rate" 0.9
 	"hull energy" 3
-	description "Aert design. New."
+	description "Developed by the Aert in an effort to ensure the integrity of their ships in deep space, the Mantle Hull Regenerator utilizes a large heater that continuously supplies a fleet of small robots with molten metal, who then use it to weld damaged portions of the ship's hull back together. In extreme cases, they can even fabricate replacement parts for particularly gnarly holes."
 
 
 outfit "Factory Reactor"
@@ -64,43 +74,43 @@ outfit "Piston Reactor"
 	description "Small reactor."
 
 
-outfit "Vogul Thrusters"
+outfit "Vogul Thruster"
 	category "Engines"
 	cost 80000
 	thumbnail "outfit/chiisana rift thruster"
-	"mass" 11
-	"outfit space" -11
-	"engine capacity" -11
-	"thrust" 5.2
-	"thrusting energy" 1.40
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 21.5
+	"thrusting energy" 1.9
 	"thrusting heat" 1.1
 	"flare sprite" "effect/bunrodea flare/large"
 		"frame rate" 1
 		"rewind"
 		"scale" 0.3
 	"flare sound" "ion tiny"
-	description "Small thrusters."
+	description "Small thruster."
 
 
-outfit "Kaich Thrusters"
+outfit "Kaich Thruster"
 	category "Engines"
 	cost 120000
 	thumbnail "outfit/chiisana rift thruster"
 	"mass" 24
 	"outfit space" -24
 	"engine capacity" -24
-	"thrust" 10.8
-	"thrusting energy" 1.40
-	"thrusting heat" 1.1
+	"thrust" 29.5
+	"thrusting energy" 1.84
+	"thrusting heat" 1.25
 	"flare sprite" "effect/bunrodea flare/large"
 		"frame rate" 1
 		"rewind"
 		"scale" 0.3
 	"flare sound" "ion tiny"
-	description "Medium thrusters."
+	description "Medium thruster."
 
 
-outfit "Madith Thrusters"
+outfit "Madith Thruster"
 	category "Engines"
 	cost 180000
 	thumbnail "outfit/chiisana rift thruster"
@@ -118,40 +128,40 @@ outfit "Madith Thrusters"
 	description "Large thrusters."
 
 
-outfit "Shum Thrusters"
+outfit "Shum Thruster"
 	category "Engines"
 	cost 250000
 	thumbnail "outfit/chiisana rift thruster"
 	"mass" 49
 	"outfit space" -49
 	"engine capacity" -49
-	"thrust" 34.3
-	"thrusting energy" 2.80
-	"thrusting heat" 2.2
+	"thrust" 59
+	"thrusting energy" 3.8
+	"thrusting heat" 3.8
 	"flare sprite" "effect/bunrodea flare/large"
 		"frame rate" 1
 		"rewind"
 		"scale" 0.3
 	"flare sound" "ion tiny"
-	description "Extra-large thrusters."
+	description "Extra-large thruster."
 
 
-outfit "Oerth Thrusters"
+outfit "Oerth Thruster"
 	category "Engines"
 	cost 100000
 	thumbnail "outfit/chiisana rift thruster"
 	"mass" 53
 	"outfit space" -53
 	"engine capacity" -53
-	"thrust" 19.3
-	"thrusting energy" 0.8
-	"thrusting heat" 0.3
+	"thrust" 48.3
+	"thrusting energy" 1.9
+	"thrusting heat" 4.3
 	"flare sprite" "effect/bunrodea flare/large"
 		"frame rate" 1
 		"rewind"
 		"scale" 0.3
 	"flare sound" "ion tiny"
-	description "Aert thrusters. Large, slow, but uses very little power."
+	description "Aert thruster. Large, slow, but uses very little power."
 
 
 outfit "Oerth Steering"
@@ -174,10 +184,10 @@ outfit "Vogul Steering"
 	category "Engines"
 	"cost" 75000
 	thumbnail "outfit/small korath steering"
-	"mass" 18
-	"outfit space" -18
-	"engine capacity" -18
-	"turn" 308.8
+	"mass" 11
+	"outfit space" -11
+	"engine capacity" -11
+	"turn" 450
 	"turning energy" 1.1
 	"turning heat" 2.1
 	"flare sprite" "effect/rigra/tiny"
@@ -193,7 +203,7 @@ outfit "Kaich Steering"
 	"mass" 26
 	"outfit space" -26
 	"engine capacity" -26
-	"turn" 472.4
+	"turn" 900
 	"turning energy" 1.4
 	"turning heat" 3.2
 	"steering flare sprite" "effect/korath flare/small"
@@ -209,9 +219,9 @@ outfit "Madith Steering"
 	"mass" 37
 	"outfit space" -37
 	"engine capacity" -37
-	"turn" 522.7
-	"turning energy" 1.7
-	"turning heat" 3.6
+	"turn" 1345
+	"turning energy" 1.9
+	"turning heat" 4.8
 	"steering flare sprite" "effect/korath flare/small"
 		"frame rate" 7.5
 	"steering flare sound" "plasma small"
@@ -222,10 +232,10 @@ outfit "Shume Steering"
 	category "Engines"
 	"cost" 123000
 	thumbnail "outfit/small korath steering"
-	"mass" 37
-	"outfit space" -37
-	"engine capacity" -37
-	"turn" 600.3
+	"mass" 48
+	"outfit space" -48
+	"engine capacity" -48
+	"turn" 2680
 	"turning energy" 2.3
 	"turning heat" 4.2
 	"steering flare sprite" "effect/korath flare/small"
@@ -234,25 +244,25 @@ outfit "Shume Steering"
 	description "Extra-large Rigra steering."
 
 
-outfit "Spout Batteries"
+outfit "Spout Battery"
 	category "Power"
 	cost 11000
 	thumbnail "outfit/small battery hai"
 	"mass" 15
 	"outfit space" -15
-	"energy capacity" 5836
+	"energy capacity" 7000
 	description "As the Aert have mainly depended on solar power for centuries, they have developed batteries capable of holding large amounts of power for their size. Their batteries were soon adapted for spacefaring ships, and their reliability and high energy capacity have made them popular throughout Bashkmul space."
 
-outfit "Well Batteries"
+outfit "Well Battery"
 	category "Power"
 	cost 25000
 	thumbnail "outfit/medium battery hai"
 	"mass" 30
 	"outfit space" -30
-	"energy capacity" 13044
+	"energy capacity" 15500
 	description "Medium batteries. Aert design. Aert batteries are one of the few pieces of technology that have truly suprassed their Rigran equivalents. After contact, the Rigra quickly adopted these new batteries and now Aert batteries are almost exclusively used throughout Bashkmul space."
 
-outfit "Fountain Batteries"
+outfit "Fountain Battery"
 	category "Power"
 	cost 47000
 	thumbnail "outfit/large battery hai"
@@ -260,7 +270,6 @@ outfit "Fountain Batteries"
 	"outfit space" -40
 	"energy capacity" 23350
 	description "Large batteries. Aert design. While Rigra captains prefer to rely mostly on their generators for power during flights, the Aert prefer to have a continuous backup source of energy. This has led to the creation of batteries with extensive energy capacities."
-
 
 outfit "Bazooka Blaster"
 	category "Hand to Hand"

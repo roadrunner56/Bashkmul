@@ -22,6 +22,11 @@ system Frenoj
 	trade Medical 639
 	trade Metal 500
 	trade Plastic 243
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
+	fleet "Small Pug (Bashkmul)" 1000
+	fleet "Large Pug (Bashkmul)" 1500
 	object
 		sprite star/k-supergiant
 	object
@@ -59,7 +64,7 @@ system Frenoj
 
 system Raunai
 	pos 494.667 -295.334
-	government Quarg
+	government "Quarg (Bashkmul)"
 	habitable 1250
 	belt 1180 10
 	link Melkran
@@ -74,6 +79,10 @@ system Raunai
 	trade Medical 682
 	trade Metal 434
 	trade Plastic 357
+	fleet "Quarg (Bashkmul)" 600
+	fleet "Large Quarg (Bashkmul)" 800
+	fleet "Large Rigra" 1200
+	fleet "Small Rigra" 1600
 	object
 		sprite star/g5-old
 		period 500
@@ -123,6 +132,9 @@ system Melkran
 	trade Medical 656
 	trade Metal 416
 	trade Plastic 338
+	fleet "Large Rigra" 600
+	fleet "Small Rigra" 300
+	fleet "Rigra Traders" 300
 	object
 		sprite star/g-giant
 		period 10
@@ -180,6 +192,9 @@ system Niku
 	trade Medical 928
 	trade Metal 462
 	trade Plastic 408
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/g-giant
 		distance 248.5
@@ -259,6 +274,9 @@ system Ina
 	trade Medical 875
 	trade Metal 453
 	trade Plastic 426
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/o-giant
 		period 10
@@ -335,6 +353,9 @@ system Afer
 	trade Medical 904
 	trade Metal 473
 	trade Plastic 411
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/k-giant
 	object
@@ -413,6 +434,9 @@ system Vetem
 	trade Medical 718
 	trade Metal 420
 	trade Plastic 339
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/g5-old
 		period 10
@@ -469,6 +493,9 @@ system Popi
 	asteroids "large metal" 4 4.888
 	minables lead 5 5.924
 	minables aluminum 6 6.98
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/g5
 		period 10
@@ -526,6 +553,9 @@ system Shpi
 	trade Medical 579
 	trade Metal 456
 	trade Plastic 258
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/m-giant
 		period 10
@@ -581,6 +611,9 @@ system Fletka
 	asteroids "medium metal" 61 1.775
 	asteroids "large metal" 78 1.448
 	minables aluminum 94 2.6
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/f5-old
 		period 10
@@ -732,6 +765,9 @@ system Akoma
 	trade Medical 764
 	trade Metal 348
 	trade Plastic 405
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/m-supergiant
 		period 10
@@ -782,6 +818,9 @@ system Prapme
 	trade Medical 808
 	trade Metal 357
 	trade Plastic 418
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/k-giant
 	object
@@ -837,6 +876,9 @@ system Yepi
 	asteroids "small metal" 2 4.637
 	asteroids "medium metal" 7 2.52
 	asteroids "large metal" 4 4.99
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/m-giant
 		period 10
@@ -872,6 +914,9 @@ system Kukla
 	asteroids "large metal" 2 7.378
 	minables lead 4 13.37
 	minables copper 5 8.556
+	fleet "Large Rigra" 400
+	fleet "Small Rigra" 200
+	fleet "Rigra Traders" 300
 	object
 		sprite star/f5
 	object
@@ -1567,7 +1612,7 @@ system "Lepuri e Vitur"
 
 system Lumpi
 	pos 615.005 -138.74
-	government Pug
+	government "Pug (Bashkmul)"
 	habitable 3000
 	belt 1923 5
 	asteroids "small rock" 51 2.592
@@ -1589,6 +1634,8 @@ system Lumpi
 	trade Medical 911
 	trade Metal 210
 	trade Plastic 328
+	fleet "Small Pug (Bashkmul)" 400
+	fleet "Large Pug (Bashkmul)" 1000
 	object
 		sprite planet/forest3-b
 		distance 1447.973

@@ -1,64 +1,4 @@
-outfit "Thunderstrike Blaster"
-	category "Guns"
-	cost 130000
-	thumbnail "outfit/pulse cannon"
-	"mass" 13
-	"outfit space" -13
-	"weapon capacity" -13
-	"gun ports" -1
-	weapon
-		"inaccuracy" 1.5
-		"velocity" 20
-		"lifetime" 150
-		"reload" 25
-		"firing energy" 40
-		"firing heat" 120
-		"shield damage" 70
-		"hull damage" 40
-	description "Powerful long-range weapon, but inaccurate and unreliable. Rigra design."
-
-
-outfit "Thunderstrike Turret"
-	category "Turrets"
-	cost 130000
-	thumbnail "outfit/pulse cannon"
-	"mass" 19
-	"outfit space" -19
-	"weapon capacity" -19
-	"turret mounts" -1
-	weapon
-		"inaccuracy" 1.9
-		"velocity" 20
-		"lifetime" 40
-		"reload" 25
-		"firing energy" 50
-		"firing heat" 135
-		"shield damage" 90
-		"hull damage" 50
-	description "Powerful but inaccurate and unreliable. Rigra design."
-
-
-outfit "Gadfly Blaster"
-	category "Guns"
-	cost 130000
-	thumbnail "outfit/pulse cannon"
-	"mass" 9
-	"outfit space" -9
-	"weapon capacity" -9
-	"gun ports" -1
-	weapon
-		"inaccuracy" 1.5
-		"velocity" 20
-		"lifetime" 40
-		"reload" 25
-		"firing energy" 40
-		"firing heat" 120
-		"shield damage" 70
-		"hull damage" 40
-	description "Weak but fast. Rigra design."
-
-
-outfit "Thiik Laser"
+outfit "Hammerstrike Blaster" ## Used for hit and run tactics, not supposed to have a long range
 	category "Guns"
 	cost 130000
 	thumbnail "outfit/pulse cannon"
@@ -67,23 +7,101 @@ outfit "Thiik Laser"
 	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "projectile/laser"
-			"frame rate" 1
-		sound "laser"
-		"hit effect" "beam laser impact"
-		"inaccuracy" .5
-		"velocity" 300
+		sprite "projectile/bombardment"
+			"frame rate" 3.2
+			"no repeat"
+		sound "bombardment"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 1.5
+		"velocity" 25
+		"lifetime" 15
+		"reload" 20
+		"firing energy" 40
+		"firing heat" 120
+		"hit force" 240
+		"shield damage" 75
+		"hull damage" 35
+		"energy damage" 10
+	description "The Pug war prompted Rigra engineers to come up with this weapon. Its low range is compensated for by both its sheer power and the speed of Rigran ships, enabling hit and run tactics that most other species would consider reckless."
+
+outfit "Hammerstrike Turret"
+	category "Turrets"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	weapon
+		sprite "projectile/bombardment"
+			"frame rate" 3.2
+			"no repeat"
+		sound "bombardment"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 1.9
+		"turret turn" 3.0
+		"velocity" 25
+		"lifetime" 45
+		"reload" 20
+		"firing energy" 50
+		"firing heat" 135
+		"hit force" 320
+		"shield damage" 80
+		"hull damage" 45
+		"energy damage" 12
+	description "While turrets are not commonly used by Rigra captains, who generally prefer the flexibility and speed of a gun, the Hammerstrike turret has found a niche among captains wanting a longer range and higher damage than its gun version."
+
+outfit "Dart Blaster"
+	category "Guns"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "projectile/locust blaster"
+		sound "locust blaster"
+		"hit effect" "bullet impact"
+		"inaccuracy" 1.5
+		"velocity" 40
+		"lifetime" 20
+		"reload" 12.5
+		"firing energy" 40
+		"firing heat" 120
+		"hit force" 160
+		"shield damage" 25
+		"hull damage" 9
+	description "Compared to the Hammerstrike Blaster, the Dart is much weaker in terms of damage, but its high bullet speed and hit force serves as a powerful interdiction weapon against smaller vessels."
+
+
+outfit "Dagger Laser"
+	category "Guns"
+	cost 130000
+	thumbnail "outfit/pulse cannon"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"gun ports" -1
+	weapon
+		sprite "projectile/moonbeam"
+			"random start frame"
+		sound "moonbeam"
+		"hit effect" "moonbeam impact"
+		"inaccuracy" .3
+		"velocity" 490
 		"lifetime" 1
 		"reload" 1
 		"firing energy" .67
 		"firing heat" 1.6
 		"shield damage" 2.2
 		"hull damage" 3.9
-	description "New laser weapon. Rigra design."
+	description "Recently developed, the Dagger is a new laser design from the Rigra that was originally intended for mining but quickly became repurposed as a weapon. A favorite among pirates and privateers alike, the Dagger makes it easier to capture or loot a ship without destroying it in combat."
+	description "The traditional Rigra emphasis on blaster weapons has made it so that only recently have beam weapons been seriously developed, and as such the Dagger possesses a relatively low damage for its size."
 
 
 outfit "Plague Cannon"
-	ccategory "Secondary Weapons"
+	category "Secondary Weapons"
 	cost 80000
 	thumbnail "outfit/torpedo launcher"
 	"mass" 18
@@ -116,9 +134,12 @@ outfit "Plague Cannon"
 		"optical tracking" .8
 		"shield damage" 700
 		"hull damage" 920
+		"corrosion damage" 12
+		"discharge damage" 7
+		"burn damage" 1
 		"hit force" 200
 		"missile strength" 30
-	description "Fires toxic waste. Rigra design."
+	description "The Plague Cannon is a simple assembly system. Plague Barrels are loaded into the launching tube, where a rudimentary guidance system and rocket booster are strapped onto it, before being launched at high speeds towards the enemy. While its damage potential is massive, the corrosive nature of Plague Paste often destroy disabled ships before any boarding action can be attempted."
 
 
 outfit "Plague Barrel"
@@ -126,9 +147,19 @@ outfit "Plague Barrel"
 	cost 1400
 	thumbnail "outfit/torpedo"
 	"mass" .4
-	"torpedo capacity" -1
-	description "Plague barrels are ammunition for the Plague Cannon. Each Plague Cannon can hold 20 of them. You cannot install barrels unless you have also installed a launcher to fire them from."
+	"barrel capacity" -1
+	description "Taking advantage of the immense amount of toxic and corrosive byproducts produced by Rigran industrial processes, the Plague Barrel weaponizes a condensed mixture of these compounds to produce a projectile capable of eating through a ship's hull. Specially made casings, the Barrels, are designed in such a way that the mixture contained within is splattered on the largest possible area after impact."
+	description "The weapon thus has the dual effect of removing chemical pollution while providing a cheap source of weaponry to the Bashkmul, and the state of many Rigran planets means that the ultimate source of Plague Barrels won't be exhausted anytime soon."
 
+outfit "Plague Barrel Storage Rack"
+	category "Ammunition"
+	cost 21000
+	thumbnail "outfit/torpedo storage"
+	"mass" 3
+	"outfit space" -9
+	"torpedo capacity" 15
+	ammo "Torpedo"
+	description "Because of the dangerous nature of Plague Barrels and the lax quality control standards of the Rigra, this ammunition requires a specialised storage system to avoid corrosion of your ship."
 
 outfit "Turtle Anti-Missile"
 	category "Turrets"
@@ -139,12 +170,11 @@ outfit "Turtle Anti-Missile"
 	"weapon capacity" -17
 	"turret mounts" -1
 	weapon
-		"inaccuracy" 2.2
-		"velocity" 20
-		"lifetime" 40
-		"reload" 25
-		"firing energy" 50
-		"firing heat" 135
-		"shield damage" 90
-		"hull damage" 50
-	description "Poor stats. Aert design."
+		"hit effect" "large anti-missile"
+		"anti-missile" 10
+		"velocity" 200
+		"lifetime" 1
+		"reload" 12
+		"firing energy" 10
+		"firing heat" 5
+	description "While its efficiency is questionable when compared to similar systems elsewhere, the Turtle Anti-Missile remains the only one available to the Bashkmul. While most Rigra view the Turtle as a waste of good weapons space, it is popular among Aert captains wishing to increase the safety and security of their passengers and cargo."

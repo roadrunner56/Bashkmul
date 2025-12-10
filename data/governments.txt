@@ -1,29 +1,115 @@
-government Bashkmul (Rigra)
-	"display name" Bashkmul
-	swizzle 12
+#Bashkmul, and Bashkmul related governments
+government "Bashkmul"
+	swizzle 13
 	color 0 0.145 0.706
-	"player reputation" -1
+	"crew attack" 2.5
+	"crew defense" 1
+
 	"attitude toward"
 		Quarg 0.1
-		Xapelaux 1
 		Gegno 0.1
-		Pug -1
-	"friendly hail" "friendly bashkmul"
-	"friendly disabled hail" "friendly disabled bashkmul"
-	"hostile hail" "hostile bashkmul"
-	"hostile disabled hail" "hostile disabled bashkmul"
-	raid <fleet> [<min-attraction#> [<max-attraction#>]]
+		Pug -.01
+		"Pug (Bashkmul)" -.01
+	"player reputation" 5
 
-government Bashkmul (Aert)
+government "Bashkmul (Rigra)"
 	"display name" Bashkmul
-	swizzle 12
+	swizzle 13
+	color 0 0.145 0.706
+	"crew attack" 2.5
+	"crew defense" 1
+
+	"attitude toward"
+		Quarg 0.1
+		Gegno 0.1
+		Pug -.01
+		"Pug (Bashkmul)" -.01
+	"player reputation" 0
+	"raid" "Rigra Raid"
+	"friendly hail" "friendly rigra"
+	"friendly disabled hail" "friendly disabled rigra"
+	"hostile hail" "hostile rigra"
+	"hostile disabled hail" "hostile disabled rigra"
+
+government "Bashkmul (Aert)"
+	"display name" Bashkmul
+	swizzle 13
 	color 0 0.145 0.706
 	"player reputation" 0
+	"crew attack" 1
+	"crew defense" 2.5
 	"attitude toward"
 		Quarg 0.1
-		Xapelaux 1
 		Gegno 0.1
-		Pug -1
-	"friendly disabled hail" "friendly disabled bashkmul"
-	"hostile disabled hail" "hostile disabled bashkmul"
-	language aert
+		Pug -.01
+		"Pug (Bashkmul)" -.01
+	"friendly disabled hail" "friendly disabled aert"
+	"hostile disabled hail" "hostile disabled aert"
+	language "Aert"
+
+government "Pug (Bashkmul)"
+	"display name" "Pug"
+	swizzle 0
+	color "governments: Pug"
+
+	"player reputation" 1
+	"attitude toward"
+		"Drak" -.01
+		"Quarg" -.01
+		"Quarg (Hai)" -.01
+		"Quarg (Kor Efret)" -.01
+		"Quarg (Gegno)" -.01
+		"Quarg (Incipias)" -.01
+		"Quarg (Bashkmul)" -.01
+		"Bashkmul" -.01
+		"Bashkmul (Rigra)" -.01
+		"Bashkmul (Aert)" -.01
+	"friendly hail" "friendly pug"
+	"friendly disabled hail" "friendly disabled pug"
+	"hostile hail" "hostile pug"
+	"hostile disabled hail" "hostile pug"
+
+
+
+government "Quarg (Bashkmul)"
+	swizzle 4
+	color "governments: Quarg"
+	"display name" "Quarg"
+
+	"player reputation" 1
+	"attitude toward"
+		"Quarg" 1
+		"Quarg (Hai)" 1
+		"Quarg (Gegno)" 1
+		"Quarg (Incipias)" 1
+		"Quarg (Kor Efret)" 1
+	"death sentence" "quarg imprisonment"
+	"hostile hail" "hostile quarg"
+	"hostile disabled hail" "hostile quarg"
+	atrocities
+		"Antimatter Core"
+		"Astral Ribault"
+		"Celestial Culverin"
+		"Central Repair Hub"
+		"Elysian Ranseur"
+		"Large Graviton Thruster"
+		"Large Graviton Steering"
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Peripheral Repair Hub"
+		"Phalanx System"
+		"Quantum Shield Generator"
+		"Quantum Vacuum Battery"
+		"Quasar Core"
+		"Singularity Core"
+		"Skydagger"
+		"Skylance"
+		"Slipstream Projector"
+		"Small Graviton Thruster"
+		"Small Graviton Steering"
+		"Stratospear"
+		ship "Quarg Guivre"
+		ship "Quarg Hydra"
+		ship "Quarg Lindwyrm"
+		ship "Quarg Wardragon"
+		ship "Quarg Wyvern"

@@ -1,0 +1,182 @@
+fleet "Small Rigra"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward disables plunders harvests
+	variant
+		"Flintlock" 2
+	variant
+		"Flintlock (Plague)" 2
+	variant 2
+		"Flintlock (Hammerstrike)" 2
+	variant 2
+		"Flintlock (Dagger)" 2
+	variant 2
+		"Flintlock (Dagger Fast)" 3
+	variant
+		"Flintlock (Full Hammerstrike)" 2
+	variant
+		"Flintlock (Pug)" 2
+	variant
+		"Flintlock (Hammerstrike)"
+		"Trident"
+		"Slingshot" 9
+	variant
+		"Flintlock (Hammerstrike)"
+		"Trident"
+		"Slingshot (Hammerstrike)" 9
+	variant
+		"Trident"
+		"Slingshot" 9
+		"Flintlock (Hammerstrike)" 2
+
+fleet "Large Rigra"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward disables plunders harvests
+	variant 10
+		"Flintlock (Hammerstrike)" 5
+	variant 10
+		"Flintlock (Dagger Fast)" 5
+	variant 10
+		"Flintlock (Dagger)" 5
+	variant 10
+		"Flintlock (Full Hammerstrike)" 3
+		"Flintlock (Hammerstrike)" 2
+	variant 10
+		"Trident"
+		"Slingshot" 9
+		"Flintlock (Hammerstrike)" 5
+	variant 10
+		"Trident" 2
+		"Slingshot" 18
+	variant 10
+		"Trident" 2
+		"Slingshot" 9
+		"Slingshot (Hammerstrike)" 9
+		"Flintlock (Hammerstrike)" 5
+	variant 10
+		"Trident" 3
+		"Slingshot" 27
+	variant 10
+		"Flintlock (Dagger)" 10
+	variant 10
+		"Flintlock (Dagger Fast)" 10
+	variant
+		"Pug Maboro (Dagger)"
+		"Flintlock (Hammerstrike)" 5
+	variant
+		"Pug Maboro (Hammerstrike)"
+		"Flintlock (Hammerstrike)" 5
+	variant
+		"Pug Maboro (Plague)"
+		"Flintlock (Plague)" 5
+
+fleet "Rigra Traders"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward
+	variant
+		"Trident (Cargo)"
+		"Coffer" 9
+
+fleet "Rigra Raid"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward plunders
+	variant
+		"Flintlock (Dagger)" 5
+	variant
+		"Flintlock (Dagger Fast)" 5
+
+
+fleet "Small Pug (Bashkmul)"
+	government "Pug (Bashkmul)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Zibruka"
+	variant 2
+		"Pug Zibruka" 2
+	variant 2
+		"Pug Enfolta"
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka"
+
+fleet "Large Pug (Bashkmul)"
+	government "Pug (Bashkmul)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+	variant 1
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Zibruka" 5
+	variant 2
+		"Pug Maboro"
+		"Pug Zibruka" 2
+	variant 3
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka"
+	variant 2
+		"Pug Maboro"
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+
+fleet "Quarg (Bashkmul)"
+	government "Quarg (Bashkmul)"
+	names "quarg"
+	cargo 3
+	personality
+		forbearing opportunistic
+	variant
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Wardragon"
+	variant
+		"Quarg Drake" 2
+
+fleet "Large Quarg (Bashkmul)"
+	government "Quarg (Bashkmul)"
+	names "quarg"
+	cargo 1
+	personality
+		forbearing opportunistic
+	variant 2
+		"Quarg Wardragon" 4
+	variant 2
+		"Quarg Wardragon" 3
+		"Quarg Wyvern"
+	variant 2
+		"Quarg Wardragon" 2
+		"Quarg Wyvern" 2
+	variant
+		"Quarg Wyvern" 3
+	variant
+		"Quarg Wardragon" 3
+		"Quarg Drake" 3
+	variant
+		"Quarg Wyvern" 2
+		"Quarg Drake" 4
+	variant
+		"Quarg Hydra"
+		"Quarg Wyvern"
+		"Quarg Wardragon" 2

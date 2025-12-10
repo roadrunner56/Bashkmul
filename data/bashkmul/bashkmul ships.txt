@@ -188,7 +188,7 @@ ship "Slingshot"
 			"hull damage" 200
 			"hit force" 350
 	outfits
-		"Gadfly Blaster" 2
+		"Dart Blaster" 2
 
 		"Piston Reactor"
 		"Spout Batteries"
@@ -196,8 +196,8 @@ ship "Slingshot"
 		"Vogul Thrusters"
 		"Vogul Steering"
 
-	gun -10.5 -24 "Gadfly Blaster"
-	gun 10.5 -24 "Gadfly Blaster"
+	gun -10.5 -24 "Dart Blaster"
+	gun 10.5 -24 "Dart Blaster"
 	engine 0 41.5
 	explode "tiny explosion" 30
 	explode "small explosion" 20
@@ -230,7 +230,7 @@ ship "Flintlock"
 			"hit force" 1200
 	outfits
 		"Plague Cannon" 2
-		"Thiik Laser"
+		"Dagger Laser"
 		"Plague Barrel" 90
 		"Turtle Anti-Missile"
 
@@ -244,7 +244,7 @@ ship "Flintlock"
 
 	engine -11.5 119
 	engine 11.5 119
-	gun 11.5 -68.5 "Thiik Laser"
+	gun 11.5 -68.5 "Dagger Laser"
 	gun -26 -8 "Plague Cannon"
 	gun 26 -8 "Plague Cannon"
 	turret 0 -10 "Turtle Anti-Missile"
@@ -281,7 +281,7 @@ ship "Fortress"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		"Thiik Laser" 2
+		"Dagger Laser" 2
 		"Plague Cannon" 2
 		"Plague Barrel" 60
 		"Blaster Turret" 2
@@ -300,8 +300,8 @@ ship "Fortress"
 	engine -31.5 89.5
 	gun 52.5 -0.5 "Plague Cannon"
 	gun 52.5 -0.5 "Plague Cannon"
-	turret 0 0.5 "Thunderstrike Turret"
-	turret -35.5 29.5 "Thunderstrike Turret"
+	turret 0 0.5 "Hammerstrike Turret"
+	turret -35.5 29.5 "Hammerstrike Turret"
 	turret 35.5 29.5 "Turtle Anti-Missile"
 	leak "leak" 40 50
 	leak "flame" 40 80
@@ -340,7 +340,7 @@ ship "Howitzer"
 		"Plague Cannon" 4
 		"Plague Barrel" 140
 		"Turtle Anti-Missile" 2
-		"Thunderstrike Blaster" 4
+		"Hammerstrike Blaster" 4
 		"Factory Reactor"
 		"Fountain Batteries"
 		"Steel Shield Generator"
@@ -441,7 +441,7 @@ ship "Caravel"
 			"hull damage" 150
 			"hit force" 450
 	outfits
-		"Gadfly Blaster"
+		"Dart Blaster"
 		"Spout Batteries" 2
 		"Piston Reactor"
 		"Vogul Thrusters"
@@ -449,7 +449,7 @@ ship "Caravel"
 		"Hyperdrive"
 	engine -8 40
 	engine 8 40
-	gun 0 24 "Gadfly Blaster"
+	gun 0 24 "Dart Blaster"
 	leak "leak" 60 50
 	explode "tiny explosion" 10
 	explode "small explosion" 20
