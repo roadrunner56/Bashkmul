@@ -1,0 +1,406 @@
+fleet "Small Rigra"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward disables plunders harvests
+	variant
+		"Flintlock" 2
+	variant
+		"Flintlock (Plague)" 2
+	variant 2
+		"Flintlock (Hammerstrike)" 2
+	variant 2
+		"Flintlock (Dagger)" 2
+	variant 2
+		"Flintlock (Dagger Fast)" 3
+	variant
+		"Flintlock (Full Hammerstrike)" 2
+	variant
+		"Flintlock (Pug)" 2
+	variant
+		"Flintlock (Hammerstrike)"
+		"Trident"
+		"Slingshot" 9
+	variant
+		"Flintlock (Hammerstrike)"
+		"Trident"
+		"Slingshot (Hammerstrike)" 9
+	variant
+		"Trident"
+		"Slingshot" 9
+		"Flintlock (Hammerstrike)" 2
+
+fleet "Large Rigra"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward disables plunders harvests
+	variant 10
+		"Flintlock (Hammerstrike)" 5
+	variant 10
+		"Flintlock (Dagger Fast)" 5
+	variant 10
+		"Flintlock (Dagger)" 5
+	variant 10
+		"Flintlock (Full Hammerstrike)" 3
+		"Flintlock (Hammerstrike)" 2
+	variant 10
+		"Trident"
+		"Slingshot" 9
+		"Flintlock (Hammerstrike)" 5
+	variant 10
+		"Trident" 2
+		"Slingshot" 18
+	variant 10
+		"Trident" 2
+		"Slingshot" 9
+		"Slingshot (Hammerstrike)" 9
+		"Flintlock (Hammerstrike)" 5
+	variant 10
+		"Trident" 3
+		"Slingshot" 27
+	variant 10
+		"Flintlock (Dagger)" 10
+	variant 10
+		"Flintlock (Dagger Fast)" 10
+	variant
+		"Pug Maboro (Dagger)"
+		"Flintlock (Hammerstrike)" 5
+	variant
+		"Pug Maboro (Hammerstrike)"
+		"Flintlock (Hammerstrike)" 5
+	variant
+		"Pug Maboro (Plague)"
+		"Flintlock (Plague)" 5
+
+fleet "Rigra Traders"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward
+	variant
+		"Trident (Cargo)"
+		"Coffer" 9
+
+fleet "Rigra Raid"
+	government "Bashkmul (Rigra)"
+	names "rigra"
+	cargo 1
+	personality
+		coward plunders
+	variant
+		"Flintlock (Dagger)" 5
+	variant
+		"Flintlock (Dagger Fast)" 5
+
+
+fleet "Small Pug (Bashkmul)"
+	government "Pug (Bashkmul)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Zibruka"
+	variant 2
+		"Pug Zibruka" 2
+	variant 2
+		"Pug Enfolta"
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka"
+
+fleet "Large Pug (Bashkmul)"
+	government "Pug (Bashkmul)"
+	names "pug"
+	cargo 1
+	personality
+		heroic
+	variant 1
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+	variant 1
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Zibruka" 5
+	variant 2
+		"Pug Maboro"
+		"Pug Zibruka" 2
+	variant 3
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka"
+	variant 2
+		"Pug Maboro"
+		"Pug Enfolta" 2
+	variant 1
+		"Pug Maboro"
+		"Pug Enfolta"
+		"Pug Zibruka" 2
+
+fleet "Quarg (Bashkmul)"
+	government "Quarg (Bashkmul)"
+	names "quarg"
+	cargo 3
+	personality
+		forbearing opportunistic
+	variant
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Wardragon"
+	variant
+		"Quarg Drake" 2
+
+fleet "Large Quarg (Bashkmul)"
+	government "Quarg (Bashkmul)"
+	names "quarg"
+	cargo 1
+	personality
+		forbearing opportunistic
+	variant 2
+		"Quarg Wardragon" 4
+	variant 2
+		"Quarg Wardragon" 3
+		"Quarg Wyvern"
+	variant 2
+		"Quarg Wardragon" 2
+		"Quarg Wyvern" 2
+	variant
+		"Quarg Wyvern" 3
+	variant
+		"Quarg Wardragon" 3
+		"Quarg Drake" 3
+	variant
+		"Quarg Wyvern" 2
+		"Quarg Drake" 4
+	variant
+		"Quarg Hydra"
+		"Quarg Wyvern"
+		"Quarg Wardragon" 2
+
+shipyard Aert
+	Detoh
+	Neri
+
+shipyard "Rigra Basics"
+	Flintlock
+	Slingshot
+	Trident
+
+shipyard "Rigra Advanced"
+	Caravel
+	Carrack
+	Flintlock
+	Fortress
+	Howitzer
+	Slingshot
+	Trident
+
+outfitter "Aert Basics"
+	"Engine Reactor"
+	"Fountain Batteries"
+	"Iron Shield Generator"
+	"Oerth Steering"
+	"Oerth Thrusters"
+	"Piston Reactor"
+	"Spout Batteries"
+	"Well Batteries"
+
+outfitter "Aert Advanced"
+	"Fountain Batteries"
+	"Iron Shield Generator"
+	"Mantle Hull Regenerator"
+	"Oerth Steering"
+	"Oerth Thrusters"
+	"Piston Reactor"
+	"Engine Reactor"
+	"Factory Reactor"
+	"Spout Batteries"
+	"Steel Shield Generator"
+	"Well Batteries"
+
+outfitter "Rigra Advanced"
+	"Fountain Batteries"
+	"Iron Shield Generator"
+	"Piston Reactor"
+	"Engine Reactor"
+	"Factory Reactor"
+	"Shum Steering"
+	"Shum Thrusters"
+	"Kaich Steering"
+	"Kaich Thrusters"
+	"Madith Steering"
+	"Madith Thrusters"
+	"Shum Steering"
+	"Shum Thrusters"
+	"Spout Batteries"
+	"Steel Shield Generator"
+	"Vogul Steering"
+	"Vogul Thrusters"
+	"Well Batteries"
+	"Bazooka Blaster"
+
+outfitter "Rigra Basics"
+	"Iron Shield Generator"
+	"Piston Reactor"
+	"Engine Reactor"
+	"Kaich Steering"
+	"Kaich Thrusters"
+	"Madith Steering"
+	"Madith Thrusters"
+	"Spout Batteries"
+	"Vogul Steering"
+	"Vogul Thrusters"
+	"Well Batteries"
+	"Bazooka Blaster"
+
+phrase "friendly rigra"
+	word
+		"Greetings, "
+		"Hello, "
+		"Good day, "
+	word
+		"friend! "
+		"my friend! "
+		"acquaintance! "
+		"human! "
+		"friendly human! "
+		"captain! "
+	word
+		"Do you have any "
+	word
+		"Jump Drives" 10
+		"food"
+		"clothes"
+		"equipment"
+	word
+		"for sale today?"
+
+phrase "friendly rigra"
+	word
+		"Thank you for providing "
+	word
+		"Jump Drives" 2
+		"aid"
+		"food"
+	word
+		" to us!"
+
+
+phrase "friendly rigra"
+	word
+		"I want to "
+		"I yearn for "
+	word
+		"colonising "
+		"settling "
+	word
+		"the Western Reach!"
+		"the West!"
+
+phrase "friendly rigra"
+	word
+		"We need more "
+	word
+		"Jump Drives!" 10
+		"terraforming supplies!" 5
+		"food!"
+		"clothes!"
+
+phrase "friendly rigra"
+	word
+		"I am carrying "
+	word
+		"food"
+		"clothes"
+		"construction materials"
+	word
+		". "
+	word
+		"I must be careful!"
+		"They are precious!"
+		"My homeworld needs them!"
+
+phrase "friendly rigra"
+	word
+		"Watch out for the "
+		"Be wary of the "
+		"Report if you see the "
+	word
+		"Pug!" 10
+		"Star Leeches!"
+		"yellow ships!"
+		"Star Eaters!"
+		"Star Destroyers!"
+
+phrase "friendly disabled rigra"
+	word
+		"Our ship is disabled! "
+		"We need repairs! "
+	word
+		"Please board our ship!"
+		"Help us!"
+
+phrase "hostile rigra"
+	word
+		"Die, "
+		"Perish, "
+		"Leave, "
+	word
+		"you monster!"
+		"swindler!"
+		"murderer!"
+		"pirate!"
+		"hostile ship!"
+		"Pug!" 5
+
+phrase "hostile rigra"
+	word
+		"The stars "
+		"The doubters "
+	word
+		"were right! "
+		"were correct! "
+	word
+		"You are "
+	word
+		"with the Pug!"
+		"untrustworthy!"
+		"hostile!"
+		"malicious!"
+		"evil!"
+		"just like the Pug!"
+		"a murderer!"
+
+phrase "hostile rigra"
+	word
+		"Surprise attack!"
+		"Ambush!"
+		"Disable the engines!"
+		"Break the shields!"
+		"Pierce the hull!"
+
+phrase "hostile rigra"
+	word
+		"Give me your Jump Drive!"
+		"Your Jump Drive is mine!"
+		"Hand over your Jump Drive!"
+		"We will take your Jump Drive!"
+		"You will not escape!"
+
+phrase "hostile disabled rigra"
+	word
+		"You"
+		"Leave me alone, you"
+		"Stay away from me, you"
+		"Dare to board me? You"
+	word
+		" "
+	phrase
+		"shakespearean insults"
+	word
+		"."
+		"!"

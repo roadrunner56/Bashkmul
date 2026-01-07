@@ -1,5 +1,6 @@
 mission "First Contact: Bashkmul"
 	landing
+	clearance
 	name "Jump Drives for Peace"
 	deadline 10
 	description "An alien species known as the Rigra has requested your presence at their capital."

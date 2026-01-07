@@ -22,7 +22,7 @@ ship "Detoh"
 	outfits
 
 		"Fountain Batteries"
-		"Mountain Hull Regenerator"
+		"Mantle Hull Regenerator"
 
 		"Oerth Thrusters"
 		"Oerth Steering"
@@ -53,7 +53,7 @@ ship "Neri"
 	outfits
 
 		"Fountain Batteries"
-		"Mountain Hull Regenerator"
+		"Mantle Hull Regenerator"
 
 		"Oerth Thrusters"
 		"Oerth Steering"
@@ -63,65 +63,79 @@ ship "Neri"
 
 
 ship "Trident"
+	sprite "ship/trident"
+	thumbnail "thumbnail/trident"
 	attributes
 		category "Medium Warship"
-		"cost" 1685000
+		"cost" 5650000
 		"shields" 13400
 		"hull" 7200
 		"required crew" 16
 		"bunks" 32
-		"mass" 320
+		"mass" 640
 		"drag" 5.1
 		"heat dissipation" 0.7
 		"fuel capacity" 600
 		"cargo space" 103
-		"outfit space" 427
+		"outfit space" 428
 		"weapon capacity" 147
 		"engine capacity" 109
-		"shield energy" 3.1
-		"hull energy" 0.95
 		weapon
 			"blast radius" 240
 			"shield damage" 2400
 			"hull damage" 1200
 			"hit force" 3000
 	outfits
-		"Turtle Anti-Missile" 2
+		"Hammerstrike Turret" 2
+		"Turtle Anti-Missile"
 
 		"Engine Reactor"
-		"Iron Shield Generator"
+		"Fountain Battery" 2
+		"Steel Shield Generator" 4
 		"Bazooka Blaster" 10
 
-		"Kaich Thrusters"
-		"Kaich Steering"
+		"Shum Thruster"
+		"Shum Steering"
+		"Vogul Steering"
 		"Hyperdrive"
 
-	bay "Fighter" 0 30 over
-		"launch effect"
-	bay "Fighter" -34 68 over
-		"launch effect"
-	bay "Fighter" 0 81 over
-		"launch effect"
-	bay "Fighter" 34 68 over
-		"launch effect"
-	bay "Fighter" -25 10 under
-		"launch effect"
-	bay "Fighter" 25 10 under
-		"launch effect"
-	bay "Fighter" 25 10 under
-		"launch effect"
-	bay "Fighter" 25 10 under
-		"launch effect"
-	bay "Fighter" 25 10 under
-		"launch effect"
-	engine -16.5 120 0.7
-	engine 0 116.5 1
-	engine 16.5 120 0.7
-	turret 0 -62
-	turret 0 -20.5 "Turtle Anti-Missile"
-	turret 0 58.5 "Turtle Anti-Missile"
+	bay "Fighter" -26 9 under
+		"launch effect" "korath internal"
+	bay "Fighter" -35.5 9 under
+		"launch effect" "korath internal"
+	bay "Fighter" -46.5 9 under
+		"launch effect" "korath internal"
+	bay "Fighter" -59.5 9 under
+		"launch effect" "korath internal"
+	bay "Fighter" 0 58 under back
+		"launch effect" "korath internal"
+	bay "Fighter" 26 9 under
+		"launch effect" "korath internal"
+	bay "Fighter" 35.5 9 under
+		"launch effect" "korath internal"
+	bay "Fighter" 46.5 9 under
+		"launch effect" "korath internal"
+	bay "Fighter" 59.5 9 under
+		"launch effect" "korath internal"
+	engine 9 94.5 1
+	engine -9 94.5 1
+	turret 0 20 "Turtle Anti-Missile"
+	turret -75.5 -34 "Hammerstrike Turret"
+	turret 75.5 -34 "Hammerstrike Turret"
 	description "Mainly used as a support ship by Bashkmul military forces, the Trident is able to field a dizzying number of fighters. While designed to carry Slingshots, some civilian Rigra captains instead carry Coffers, transforming the Trident into a capable freighter. The flexibility of being able to switch out Coffers for Slingshots, or vice versa, have made it popular with Rigra captains who want a versatile ship that is equally capable of carrying cargo as it is hunting pirates."
 
+ship "Trident" "Trident (Cargo)"
+	outfits
+		"Piston Reactor"
+		"Spout Battery"
+
+		"Hyperdrive"
+		"Steel Shield Generator"
+		"Cargo Expansion" 12
+
+		"Madith Steering"
+		"Shum Thruster"
+		"Vogul Thruster"
 
 ship "Coffer"
 	sprite "ship/coffer"
@@ -130,14 +144,14 @@ ship "Coffer"
 		category "Fighter"
 		cost 369000
 		"shields" 350
-		"hull" 600
+		"hull" 850
 		"required crew" 1
 		"bunks" 1
 		"mass" 54
 		"drag" .65
 		"heat dissipation" .25
 		"outfit space" 45
-		"engine capacity" 28
+		"engine capacity" 30
 		"cargo space" 100
 		weapon
 			"blast radius" 12
@@ -145,9 +159,9 @@ ship "Coffer"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Spout Batteries"
-		"Vogul Thrusters"
-		"Vogul Engines"
+		"Spout Battery"
+		"Vogul Thruster"
+		"Vogul Steering"
 
 	engine 23 -1
 	engine -23 -1
@@ -168,16 +182,16 @@ ship "Slingshot"
 		category "Fighter"
 		"cost" 111000
 		"shields" 400
-		"hull" 1000
+		"hull" 800
 		"cargo space" 15
 		"fuel capacity" 100
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1.55
+		"drag" 0.6
 		"heat dissipation" .8
 		"outfit space" 133
-		"weapon capacity" 20
+		"weapon capacity" 22
 		"engine capacity" 34
 		"shield generation" 0.36
 		"shield energy" 0.24
@@ -191,9 +205,12 @@ ship "Slingshot"
 		"Dart Blaster" 2
 
 		"Piston Reactor"
-		"Spout Batteries"
+		"Spout Battery"
+		"Pump Cooling"
+		"Steel Shield Generator"
+		"Iron Shield Generator"
 
-		"Vogul Thrusters"
+		"Vogul Thruster"
 		"Vogul Steering"
 
 	gun -10.5 -24 "Dart Blaster"
@@ -210,18 +227,18 @@ ship "Flintlock"
 	thumbnail "thumbnail/flintlock"
 	attributes
 		category "Light Warship"
-		"cost" 1300000
+		"cost" 4500000
 		"shields" 7000
-		"hull" 900
+		"hull" 1000
 		"required crew" 8
 		"bunks" 32
-		"mass" 100
+		"mass" 250
 		"drag" 2.5
 		"heat dissipation" .7
 		"fuel capacity" 500
 		"cargo space" 40
-		"outfit space" 200
-		"weapon capacity" 80
+		"outfit space" 305
+		"weapon capacity" 100
 		"engine capacity" 80
 		weapon
 			"blast radius" 80
@@ -231,14 +248,14 @@ ship "Flintlock"
 	outfits
 		"Plague Cannon" 2
 		"Dagger Laser"
-		"Plague Barrel" 90
+		"Plague Barrel" 40
 		"Turtle Anti-Missile"
 
-		"Fountain Batteries"
+		"Fountain Battery"
 		"Engine Reactor"
 		"Iron Shield Generator"
 
-		"Madith Thrusters"
+		"Madith Thruster"
 		"Madith Steering"
 		"Hyperdrive"
 
@@ -258,6 +275,99 @@ ship "Flintlock"
 	"final explode" "final explosion medium"
 	description "The Rigra approach to warfare is to hit fast, hit hard, and then get away before your victim can hit back. This is best typified in the Flintlock, a ship used by the Rigra during the Bashkmul's war with the Pug. It is now used by the Bashkmul government, independent privateers, and pirates alike."
 
+ship "Flintlock" "Flintlock (Hammerstrike)"
+	outfits
+		"Hammerstrike Blaster" 3
+		"Turtle Anti-Missile"
+
+		"Hyperdrive"
+		"Steel Shield Generator" 3
+		"Piston Reactor"
+		"Fountain Battery"
+
+		"Madith Steering"
+		"Madith Thruster"
+
+ship "Flintlock" "Flintlock (Dagger)"
+	outfits
+		"Dagger Laser" 3
+		"Turtle Anti-Missile"
+
+		"Hyperdrive"
+		"Steel Shield Generator" 3
+		"Piston Reactor"
+		"Fountain Battery"
+
+		"Madith Steering"
+		"Madith Thruster"
+
+ship "Flintlock" "Flintlock (Dagger Fast)"
+	outfits
+		"Dagger Laser" 3
+		"Turtle Anti-Missile"
+
+		"Hyperdrive"
+		"Steel Shield Generator" 3
+		"Piston Reactor"
+		"Fountain Battery"
+
+		"Kaich Steering"
+		"Shum Thruster"
+
+
+ship "Flintlock" "Flintlock (Full Hammerstrike)"
+	outfits
+		"Hammerstrike Blaster" 3
+		"Hammerstrike Turret"
+
+		"Hyperdrive"
+		"Steel Shield Generator" 2
+		"Iron Shield Generator"
+		"Piston Reactor"
+		"Fountain Battery"
+
+		"Madith Steering"
+		"Madith Thruster"
+
+ship "Flintlock" "Flintlock (Plague)"
+	outfits
+		"Plague Cannon" 3
+		"Plague Barrel" 60
+
+		"Hyperdrive"
+		"Steel Shield Generator" 2
+		"Iron Shield Generator"
+		"Piston Reactor"
+		"Fountain Battery"
+
+		"Madith Steering"
+		"Madith Thruster"
+
+ship "Slingshot" "Slingshot (Hammerstrike)"
+	outfits
+		"Hammerstrike Blaster"
+
+		"Piston Reactor"
+		"Spout Battery"
+
+		"Pump Cooling"
+		"Steel Shield Generator"
+
+		"Vogul Thruster"
+		"Vogul Steering"
+
+ship "Slingshot" "Slingshot (Dagger)"
+	outfits
+		"Dagger Laser"
+
+		"Piston Reactor"
+		"Spout Battery"
+
+		"Pump Cooling"
+		"Steel Shield Generator"
+
+		"Vogul Thruster"
+		"Vogul Steering"
 
 ship "Fortress"
 	attributes
