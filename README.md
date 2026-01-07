@@ -20,8 +20,8 @@
 - [ ] Finish first contact missions
 - [ ] Flesh out and edit descriptions
 - [ ] Add descriptions for planets in the uninhabited western region
-- [ ] Create fleets
-- [ ] Create hails
+- [X] Create fleets
+- [X] Create hails
             
 To do once PRed to vanilla ES:
 
