@@ -27,15 +27,16 @@ mission "First Contact: Bashkmul"
 				`	"How do you know my language?"`
 					goto language
 			label yes
-			`	"You... fly in our space with jump drive?"
+			`	"You... fly in our space with jump drive?"`
 			label choice
 			choice
 				`	"Yes, that's how I got here."`
 				`	"No, I don't have a jump drive."`
 				`	"Can I speak to a Quarg?"`
 			`	Almost the second you finish talking you hear a deep voice next to you. "Salutations, visitor." You look over to find a Quarg observing you both.`
-			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace and slouch. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg, who responds only by slowly blinking its eyes.
-			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you give up your jump drive if you wish to leave their space alive," it says, apparently unperturbed by this information.
+			`	"I see you have found yourself in the space of the Bashkmul," it says. To your side you can see the small alien grimace and slouch. You can't tell whether this is in anger or fear. "Mos flet me te neri! Ti nuk ye bashk!" they say to the Quarg, who responds only by slowly blinking its eyes.`
+			### Need to edit Quarg speech to be more 'flowery' ###
+			`	"There appears to be some confusion. You must excuse us for a moment." It crouches down towards the small creature and begins a vigorous debate. Finally, the Quarg turns to you. "The Bashkmul demand that you give up your jump drive if you wish to leave their space alive," it says, apparently unperturbed by this information.`
 			choice
 				`	"Are you going to just let them do that?"`
 				`	"What if I leave and bring back more jump drives?"`
@@ -69,13 +70,15 @@ mission "First Contact: Bashkmul"
 					goto refuse
 				`	"Leaders?"`
 					goto leaders
-				`	"Alright, I'll go."
-					####put a more in-depth response here
+				`	"Alright, I'll go."`
 					accept
-				`	"No, I won't go."
+				`	"No, I won't go."`
 			label nuhuh
+			action
+				"reputation: Bashkmul" <?= -1000
+				"reputation: Bashkmul (Rigra)" <?= -1000
+				set "bashkmul refuse jd"
 			`	The Bashkmul squints and mutters something in their own language. They then take out some sort of communications device. "You are not welcome in our space." They give a bitter smirk as they walk away.`
-			#####This should send a fleet after you and make you permanently hostile to the Bashkmul
 				decline
 			label refuse
 			`	"Then your ship, we disable and board," they say simply."`
@@ -97,10 +100,63 @@ mission "First Contact: Bashkmul"
 					goto nuhuh
 			label okay
 			action
-				"reputation: Bashkmul" >=0
-				remove "Jump Drive" 1
+				"reputation: Bashkmul" >?= 0
+				"reputation: Bashkmul (Rigra)" >?= 0
+				outfit "Jump Drive" -1
 			`	Not wanting to provoke a fight with an unknown alien species, you give into their demands and remove your jump drive from your ship. Unless you have a backup, you probably won't be leaving Bashkmul space any time soon."`
 				decline
+
+mission "Bashkmul: Jump Drive Fleet"
+	landing
+	invisible
+	repeat
+	to offer
+		has "bashkmul refuse jd"
+		not "Bashkmul: Jump Drive Fleet: active"
+	to complete
+		never
+	npc save
+		government "Bashkmul (Rigra)"
+		personality disables forbearing
+		system Raunai
+		fleet "Large Rigra" 3
+		fleet "Small Rigra" 5
+	npc save
+		government "Bashkmul (Rigra)"
+		personality disables forbearing
+		system Melkran
+		fleet "Large Rigra" 5
+		fleet "Small Rigra" 7
+	npc save
+		government "Bashkmul (Rigra)"
+		personality disables forbearing
+		system Vetem
+		fleet "Large Rigra" 4
+		fleet "Small Rigra" 6
+	npc save
+		government "Bashkmul (Rigra)"
+		personality disables forbearing
+		system Lezoji
+		fleet "Large Rigra" 2
+		fleet "Small Rigra" 3
+	npc save
+		government "Bashkmul (Rigra)"
+		personality disables forbearing
+		system Popi
+		fleet "Large Rigra"
+		fleet "Small Rigra" 2
+	npc save
+		government "Bashkmul (Rigra)"
+		personality disables forbearing
+		system Shpi
+		fleet "Large Rigra" 4
+		fleet "Small Rigra" 6
+	npc save
+		government "Bashkmul (Rigra)"
+		personality disables forbearing
+		system Akoma
+		fleet "Large Rigra" 10
+		fleet "Small Rigra" 15
 
 
 mission "First Contact: Bashkmul 2"
@@ -111,24 +167,31 @@ mission "First Contact: Bashkmul 2"
 	source "Mernoth"
 	destination "Mernoth"
 	to offer
-		has "First Contact: Bashkmul: accepted"
+		has "First Contact: Bashkmul: offered"
 	on offer
 		conversation
 			`It is an unusally rainy day at <planet>'s spaceport. You struggle to find a place to land, but that is not only due to the cloud cover. A sizable crowd has formed; most of them appear to be of the same species as the alien who you talked to on <source>. Upon landing, your ship is quickly surrounded by guards in uniforms, who appear to be from both species you saw on the ringworld. A booming voice rattles the inside of your ship.`
 			`	"For the Rigra and Aert which make up the Bashkmul, we demand you exit from your ship."`
 			choice
 				`	(Leave your ship.)`
+					goto exit
 				`	(Take off now.)`
-					flee
-			`	Upon leaving your ship, you are taken by the guards towards a building that you imagine was more impressive in its heyday. For now though, you walk through the creaking hallways and warped doors to a	large atrium filled with what are presumably representatives of the Bashkmul government. Most of them are the fish-like aliens, but the one who speaks to you is the large, four-legged creature you recognize from the ringworld.`
+			action
+				"reputation: Bashkmul" <?= -1000
+				"reputation: Bashkmul (Rigra)" <?= -1000
+				set "bashkmul refuse jd"
+			`	You change your mind at the last minute, and take off from Mernoth. While a few defense cannons start opening fire at you, you manage to escape through the atmosphere. However, it is clear that any chance of making peace with the Bashkmul is now gone.`
+				flee
+			label exit
+			`	Upon leaving your ship, you are taken by the guards towards a crumbling building. From the faded paint and peeling posters that dot its exterior, it is clear that the building has seen better days. The guards guide you through the creaking hallways and flaying doors to a large atrium filled with what are presumably representatives of the Bashkmul government. Most of them are of the fish-like species yo recognise on Deika Rigra, but the one who speaks to you is the large, six-limbed alien you saw earlier at the spaceport.`
 			`	"I must apologize for the less than warm welcome you have recieved. Our more... able diplomats were not prepared for your sudden visit." Their voice has a deep baritone quality, and their speech is slow and almost labored. Neither its tone nor its stony expression betrays any sort of emotion, at least not any that you can discern. "We have been told that you can give us multiple jump drives in exchange for safe passage through our space."`
 			choice
 				`	"Who are you?"`
 				`	"Why do you want jump drives so badly?"`
 				`	"Yes, I can bring more jump drives to you."`
 					goto yes
-			`"I am an Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But the stars in Aert space remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."
-			`	A Rigran beside him speaks up. "But this is not time for stories. Our ultimatum is this: come back here with 5 jump drives in 50 days, or forfeit your one jump drive now."`
+			`"I am Aert. Our planets, our stars, were mangled by a species called the Pug. We united with the Rigra-" they gesture towards the fish aliens who make up most of the crowd in the building, "-fought the Pug off, and formed the Bashkmul. But the stars in Aert space remained broken and our planets began to die. Though we are connected to Rigra space, there remain few untouched places there. We must look beyond our space for a new home."`
+			`	A Rigran beside him speaks up. "But this is not time for stories. Our requirement is this: come back here with 5 jump drives in 50 days, or forfeit your one jump drive now."`
 			label choice2
 			choice
 				`	"Wait, you fought the Pug?"`
@@ -140,13 +203,14 @@ mission "First Contact: Bashkmul 2"
 				`	"I'm sorry, but I can't do that."`
 					goto sorry
 			label deadline
-			`	"Do you not realize the massive risk we take by letting you leave with jump drive? If you do not return in 50 days, we will assume that you betrayed our trust."`
+			`	The Rigra diplomat scowls, his face scrunched up as he spits. "Do you not realize the massive risk we take by letting you leave with jump drive? If you do not return in 50 days, you have betrayed our trust."`
 			choice
 				`	"Yes, I can bring more jump drives to you."`
 					goto yes
 				`	"I'm sorry, but I can't do that."`
 			label sorry
-			`	With a wave of the hands, the Rigra motions for the guards surrounding you to take you away. You spend the rest of your days on Mernoth, never seeing your ship again. ###FIX###`
+			`	"Then you will not leave this planet alive," the Rigra replies. They flick one of the fins on their head, gesturing towards a group of Aert in bright uniforms.`
+			`	As you would quickly learn, refusing such a demand deep in enemy territory is unwise, as the Aert pin you to the ground. You are forced to watch, handcuffed, as Rigran soldiers storm your ship and remove your Jump Drive from it. You would spend the rest of your days as a civilian on the crowded, alien world of Mernoth, wondering what could have been.`
 				die
 			label pug
 			`	The Rigra grits his teeth. "There will be time for discussion later. Now answer the question."`
@@ -170,15 +234,15 @@ mission "First Contact: Bashkmul 2"
 					goto morejd
 				`	"Did your species really fight the Pug?"`
 				`	"Where are the Aert trying to get to?"`
-				`	"Who are you?"
+				`	"Who are you?"`
 				`	"How do you know my language?"`
-			`	"This place, it is perhaps not best for discussion," he says, looking towards the large crowd. "Meet me in the spaceport, and I will bring you to a place to answer questions."
+			`	"This place, it is perhaps not best for discussion," he says, looking towards the large crowd. "Meet me in the spaceport, and I will bring you to a place to answer questions."`
 					accept
 			label shoot
-			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so... cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must be careful still here. If you have more questions, meet me in spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion." `
+			`	"We have ordered our fleets to allow you safe passage through our space. However, I must warn you that some of our civilians are not so... cooperative. They may be greedy for your jump drive, and attempt to hijack your ship. You must be careful still here. If you have more questions, meet me in spaceport." He looks towards the large crowd. "This place, it is perhaps not best for discussion."`
 				accept
 			label morejd
-			`	The fins on the side of the Rigra's head perk up, like ears on a dog. "Are you joking me?"` ### error is intentional!
+			`	The fins on the side of the Rigra's head perk up, like ears on a dog. "Are you joking me?"`
 			choice
 				`	"I'm serious."`
 				`	"...never mind."`
@@ -221,7 +285,7 @@ mission "First Contact: Bashkmul 3"
 					goto aert
 				`	"How do you know my language?"`
 					goto language
-				`	"Do you have a translator I can use?"
+				`	"Do you have a translator I can use?"`
 					goto translator
 				`	"I can bring you more jump drives."`
 					goto morejd
@@ -247,7 +311,7 @@ mission "First Contact: Bashkmul 3"
 			`	Darwin's eyes narrow, and he leans forward. "You really are not joking me, are you? You realize how serious this is to us." His eyes dart across the room and a frog-like tongue jumps out of his mouth, trapping an insect that was flying by your face moments ago. He swallows it and continues. "If you ever have more jump drives to give us, meet me here. I am authorized to give rewards out to anybody who can do so.`
 				goto choice
 			label translator
-			`	Darwin tilts his head slightly in what you assume is a display of confusion. "Translator? Can you not simply... Ah, I forget. For you humans, difficult it is for you to learn languages when you are old. We Rigra do not use translators - we have many languages among us selves, but we pick them up as a young human does. A few Rigra have even tried to learn the human language for fun. Perhaps you will run into them." He leans back. "I am... 32, in your years, and feel the weight of my age, but I am still able to gain a working knowledge of your speech quite easy. It is unfortunate you cannot do the same. The Aert are similar in that regard. We have no translator for you, but you can try to get by on our planets with your games of 'charades', or hope you can meet a Rigra that speaks your language. "`
+			`	Darwin tilts his head slightly in what you assume is a display of confusion. "Translator? Can you not simply... Ah, I forget. For you humans, difficult it is for you to learn languages when you are old. We Rigra do not use translators - we have many languages among us selves, but we pick them up as a young human does. A few Rigra have even tried to learn the human language for fun. Perhaps you will run into them." He leans back. "I am... 32, in your years, and feel the weight of my age, but I am still able to gain a working knowledge of your speech quite easy. It is unfortunate you cannot do the same. The Aert are similar in that regard. We have no translator for you, but you can try to get by on our planets with your games of 'charades', or hope you can meet a Rigra that speaks your language."`
 				goto choice
 			label finish
 			`	"Very well. I now have some questions for you, as we are always curious to know more about other species, and we are unsure whether our knowledge of humanity is accurate or not. Are you able to tell us more about these 'Alphas'?`
@@ -301,7 +365,7 @@ mission "First Contact: Bashkmul 3"
 				`	"Why can't you just do that yourself, now that I've given you jump drives?"`
 					goto ask
 				`	"I'd rather not provoke them."`
-			`	"I do not blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. I may contact you again if something comes up that you should know about. Best luck, captain."
+			`	"I do not blame you. Many of our own fell to their weapons." He suddenly gets up - even sitting in your chair, you tower over him. It is only now you notice a small pistol holstered in a belt he is wearing. "I must go. I may contact you again if something comes up that you should know about. Best luck, captain."`
 					decline
 				label ask
 			`	"We simply do not want to run risk of provoking them. We are in a difficult situation as is. If you are the one that scan them, they are less likely to take it out on us."`
@@ -311,11 +375,11 @@ mission "First Contact: Bashkmul 3"
 					accept
 
 	npc "scan outfits"
-		government "Pug"
+		government "Pug (Bashkmul)"
 		personality staying uninterested target
-		system "Lumpi Pug"
+		system "Lumpi"
 		fleet
-			names "bashkmul pug"
+			names "pug"
 			variant
 				"Pug Maboro"
 		dialog `You've scanned the Pug ship and gained a list of its outfits. Time to return to <planet> to collect your payment.`
